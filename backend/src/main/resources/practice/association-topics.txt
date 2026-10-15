@@ -1,0 +1,338 @@
+# Association Mapper curated topics. "## Topic" then one line per category: CATEGORY: item | item | item ...
+# Categories: PEOPLE, PLACES, THINGS, PHRASES, FEELINGS.
+
+## Dentist
+PEOPLE: the hygienist who asks questions mid-drill | a kid sobbing in the waiting room | the receptionist who knows you lied about flossing | a dentist with suspiciously perfect teeth | the man who brought his own headphones | an orthodontist with a boat | a student dentist being supervised | a mum filling in forms for four kids | the guy who bites the dentist
+PLACES: waiting room with 2009 magazines | the reclining chair under a ceiling poster | the fish tank in reception | a car park pay machine that only takes coins | the tiny toilet with a sample shelf | the X-ray room with the lead apron | a vending machine full of sweets outside | the lobby of a private clinic with a water feature
+THINGS: the spit sucker | a paper bib on a beaded chain | that pink rinse water | the free toothbrush in a sealed bag | a plaster cast of someone's jaw | the drill whine | mint-flavoured gloves | a sticker for being brave | the light shone directly in your eyes
+PHRASES: this won't hurt a bit | rinse and spit | have you been flossing | just a little scratch | open wider | we'll keep an eye on that one | any plans for the holidays | you might feel some pressure | that'll be 180 pounds
+FEELINGS: fake calm | jaw ache pride | numb lip dribble panic | guilt about last night's chocolate | gripping the armrests with your whole soul | relief that it's only a clean | the betrayal of a sugar-free lolly | the dread of the reminder text | wanting a medal for one filling
+
+## Wedding
+PEOPLE: the uncle who peaks at the disco | a flower girl who refuses to walk | the bridezilla's long-suffering sister | the ex who was somehow invited | a photographer herding 80 cousins | the vicar who does a joke | the plus-one nobody has met | a toddler under the top table | the DJ who plays the Macarena twice
+PLACES: a barn with fairy lights | the church with no heating | the singles table by the toilets | a country house with a moat | the smoking area where all the gossip happens | the hotel bar at 2am | a registry office between a funeral and a parking appeal | the dance floor with three people on it
+THINGS: a five-tier cake nobody eats | sugared almonds in tulle | a hired chocolate fountain | the seating plan on an easel | confetti in your bra for a week | a fascinator stabbed into hair | the guestbook with one rude entry | a mason jar of something | a drone filming the vows
+PHRASES: speak now or forever hold your peace | you may kiss the bride | something old something new | it's the happiest day of your life | where's the free bar | it was a lovely service | is that a real tree | any lawful impediment | they look so happy
+FEELINGS: forced joy in uncomfortable shoes | the hunger of a four-hour gap before dinner | quiet budget panic | tearing up at a stranger's vows | hangover regret at the brunch | jealousy disguised as a compliment | relief when the speeches end | the 11pm second wind | the urge to rank everyone's outfit
+
+## Gym
+PEOPLE: the grunter at the squat rack | a personal trainer selling protein | a pensioner outlifting you | the guy filming himself between sets | the January resolution crowd | a woman reading a novel on the bike | the receptionist who never looks up | the man who never wipes the bench | someone doing yoga in the free weights
+PLACES: the changing room with one tragic shower | the mirror wall | the spin studio with disco lights | the empty corner with the kettlebells | the car park where people drive around for the closest space | a hotel gym with one treadmill | the vending machine that sells 4 pound water | the sauna where men discuss crypto | a boxing ring nobody is brave enough to enter
+THINGS: a gallon water jug | resistance bands | a towel the size of a postage stamp | the membership you can't cancel | a protein shaker that smells of death | the leg press with a sweaty outline | wireless earbuds falling out | a lock with a forgotten code | the timer nobody resets
+PHRASES: are you using this | no pain no gain | never skip leg day | just one more rep | new year new me | it's a lifestyle not a diet | do you even lift | rerack your weights | I'm bulking
+FEELINGS: imposter syndrome in leggings | post-workout smugness | the stairs the next day | hunger that feels personal | guilt about the direct debit | competitive treadmill rage | the shake of a muscle about to quit | pretending to know what that machine does | thinking about pizza mid-squat
+
+## IKEA
+PEOPLE: a couple breaking up over a wardrobe | a dad holding the trolley with no plan | the kids left at the ball pit | a staff member in yellow you can never find | a student buying 40 tealights | the man who refuses to use the arrows | a pensioner just there for the meatballs | the self-appointed flat-pack expert
+PLACES: the showroom maze with no exit | the marketplace floor | the warehouse aisles with numbered bays | the restaurant with a view of the car park | the returns desk queue | the bistro by the tills | a showroom bedroom you secretly want to live in | the shortcut doors nobody trusts
+THINGS: an allen key | the tiny pencil | the blue bag | meatballs with jam | a lamp with an unpronounceable name | the instructions with a sad cartoon man | a spare screw that haunts you | a cardboard box too long for the car | a plant you will kill
+PHRASES: we're just looking | where's the exit | aisle 24 bin 7 | it'll only take ten minutes to build | why is there one screw left | it's cheaper if you do it yourself | let's grab lunch while we're here | it doesn't look that big
+FEELINGS: Scandinavian optimism | flat-pack despair | relationship strain at step 14 | the delight of a 1 pound hot dog | spatial denial in the car park | the smugness of a finished bookcase | wobbly shelf anxiety | buying 30 things you didn't need
+
+## Office party
+PEOPLE: the boss who tries to be cool | the intern who gets wildly drunk | Steve from accounts on the dance floor | the person who brought a plus-one nobody asked for | HR watching from the corner | a secret Santa who bought soap again | the couple everyone knew about | someone who only talks about work
+PLACES: a hired function room above a pub | the boardroom with crisps on the table | the photocopier | the disabled toilet where people cry | the smoking area by the bins | a bowling alley with team shirts | the kebab shop at 1am | the night bus home
+THINGS: paper crowns from crackers | a lanyard still on at midnight | a raffle with a toaster prize | the warm white wine | the secret Santa mug | a group photo someone posts | an awkward card everyone signs | the karaoke machine | a bag for life full of cans
+PHRASES: what happens at the party stays at the party | let's not talk about work | have you met my wife | we should do this more often | who's ordering the taxis | we're like a family here | I'm not usually like this | is the tab still open
+FEELINGS: Monday morning shame | sudden affection for colleagues | the courage of a free bar | fear of saying something to your manager | dread in the group photo | the itch of a work outfit at 11pm | hollow team spirit | relief nobody remembers
+
+## First date
+PEOPLE: a waiter who senses the tension | the friend on standby for the rescue call | someone who looks nothing like their photos | a date who talks about their ex all night | the person at the next table listening in | the date who brings their own sauce | a bartender who's seen it all | an overly chatty taxi driver
+PLACES: a cocktail bar with a speakeasy door | the cinema back row | a crazy golf course | the pub table near the toilets | a museum where you pretend to know art | the bus stop goodbye | a candlelit Italian with paper tablecloths | the park bench you walk to after
+THINGS: a breath mint before you walk in | a phone face down on the table | the bill on a little saucer | the outfit you tried on nine times | a sticky menu | a lipstick mark on a glass | a single rose from a street seller | the screenshot sent to the group chat
+PHRASES: so what do you do | shall we split it | you look just like your pictures | I don't usually do this | I'll text you | it's been really nice | tell me about yourself | I've heard great things about this place
+FEELINGS: nervous sweating through a nice shirt | the awkward hug or kiss dilemma | hope dressed as indifference | overthinking every pause | performance tiredness | the thrill of a shared joke | dread when they order a third course | the walk of anticipation home
+
+## Camping
+PEOPLE: a dad who insists he can pitch it alone | the neighbour with a generator | kids who want to go home on night one | an ex-scout who knows knots | the camp warden with a clipboard | festival goers in fancy dress | the person snoring through canvas | a couple in a luxury yurt
+PLACES: a muddy field in Wales | the shower block with a coin meter | the queue for the toilet at 7am | a lake you swim in once | the campsite shop selling firelighters at 9 pound | a glamping pod with a hot tub | the pub you walk to in the dark | the back seat of the car when the tent floods
+THINGS: a tent with one missing peg | a camping stove that won't light | a head torch | the sleeping bag zip | marshmallows on a stick | a windbreak | a rubber mallet | wet socks | the airbed with a slow puncture
+PHRASES: it's character building | back to basics | it'll be an adventure | is it supposed to look like this | don't touch the tent when it rains | who forgot the tin opener | we'll be fine for one night | let's get the fire going
+FEELINGS: damp everywhere | the cold at 3am | smugness about a good fire | the joy of a hot bacon sandwich | needing the toilet in total darkness | regret folded into a bag | false confidence about the weather | feral freedom
+
+## Airport
+PEOPLE: a businessman on two phones | the hen party at 5am | a security guard with dead eyes | the family sprinting to gate 47 | someone trying to bring jam through security | the person who stands up when the plane lands | a pilot walking through like a celebrity | the toddler kicking your seat
+PLACES: the security queue | duty free perfume aisles | the gate with too few seats | a Wetherspoons at 6am | the baggage carousel | the passport control e-gates | a travelator that ends too soon | the smoking room that looks like an aquarium
+THINGS: a neck pillow | the little plastic liquid bag | a boarding pass on a dying phone | a giant Toblerone | a suitcase wrapped in cling film | a 7 pound bottle of water | the trays at security | a lost shoe in the bin | the departure board
+PHRASES: did you pack this bag yourself | final call for passenger | please remove your belt | gate is now closed | the flight is delayed | do you have anything sharp | enjoy your trip | arms up please
+FEELINGS: pre-holiday excitement | security queue rage | the irrational fear of being arrested | drinking a pint at 7am without guilt | the anxiety of a tight connection | relief your bag came out first | time zone confusion | being a celebrity at duty free for 20 minutes
+
+## Supermarket
+PEOPLE: the person who stops dead in the aisle | a cashier who scans at light speed | a toddler having a meltdown by the sweets | the shopper who opens eggs to check them | a security guard following teenagers | the lady with coupons at the till | a man on the phone asking what kind of milk | the shelf stacker who doesn't know where anything is
+PLACES: the reduced section at 7pm | the frozen aisle | the car park trolley bay | the queue that seems shorter | the bakery with fake bread smell | the world foods aisle | the meal deal fridge | the customer service desk
+THINGS: a trolley with a wonky wheel | the yellow sticker | a bag for life | the plastic divider at the till | a loyalty card | the tannoy | a basket digging into your arm | 14 types of hummus | a single banana in a bag
+PHRASES: do you need any bags | unexpected item in bagging area | clean up on aisle five | is this on offer | can I just squeeze past | cash or card | do you have a loyalty card | we've moved things around
+FEELINGS: hungry shopping recklessness | aisle rage | yellow sticker victory | the shame of a basket of wine and crisps | queue jealousy | the panic of a forgotten PIN | indecision in the cereal aisle | joy at a free sample
+
+## Grandparents
+PEOPLE: a grandad who tells the same war story | a nan who thinks you look thin | the grandparent who learnt emojis | a care home bingo caller | the neighbour they've feuded with since 1974 | a grandad asleep in the armchair | the cousin who is clearly the favourite | a nan who calls every phone a mobile
+PLACES: the conservatory | a garden centre café | a bungalow with plastic on the sofa | the caravan in Skegness | the bowls club | a doctor's waiting room | the spare room full of porcelain | a church hall coffee morning
+THINGS: a tin of biscuits that contains sewing kit | a five pound note in a card | a hostess trolley | the doily | Werther's Originals | a tartan shopping trolley | a landline with a cord | the TV at full volume | a pill organiser
+PHRASES: in my day | you've grown | have you eaten | when are you getting married | we didn't have that | don't tell your mother | have a biscuit | you'll catch your death | they're all on the computer now
+FEELINGS: warmth with a whiff of guilt | being fed past your limit | gentle confusion over technology | the comfort of a cluttered house | hearing a story for the 40th time with love | worry about their driving | nostalgia you didn't live through | feeling seven again
+
+## Cats
+PEOPLE: a cat lady with eleven names on a list | the vet who wears gloves for a reason | a neighbour who feeds your cat in secret | an allergic guest | the cat sitter who sends daily photos | someone who says they're a dog person | a child trying to dress the cat | the man whose cat brings him dead mice
+PLACES: the top of the fridge | a cardboard box from Amazon | the windowsill | the vet's waiting room | the warm laptop keyboard | under the bed at 3am | the neighbour's shed | a cat café
+THINGS: a scratching post they ignore | a laser pointer | the litter tray | a dead bird on the doormat | catnip | a hairball on the carpet | a bell on a collar | the cat flap | an expensive bed beside the box it came in
+PHRASES: if I fits I sits | curiosity killed the cat | they're very independent | he's not usually like this | who's a good boy | cats choose you | she's judging me | he only likes me
+FEELINGS: being ignored by someone you feed | 4am zoomies terror | the honour of a lap visit | betrayal when they sit on the guest | quiet supremacy | sudden affection then attack | the itch of cat hair on black trousers | guilt about the cone
+
+## Dogs
+PEOPLE: a dog owner who talks to strangers' dogs first | the dog walker with nine leads | a man who carries a bag but never uses it | the person who says he's friendly while it lunges | a vet nurse with infinite patience | the neighbour whose dog barks at nothing | dog show judges | a toddler terrified of a chihuahua
+PLACES: the park at 7am | a muddy field after rain | the vet surgery | a dog-friendly pub | the back seat of the car | the beach in winter | the sofa they're not allowed on | a groomer's salon
+THINGS: a tennis ball covered in slobber | poo bags | a chewed shoe | an extendable lead | the squeaky toy at midnight | a dog bed they won't use | treats in your coat pocket forever | a doggy raincoat | the cone of shame
+PHRASES: who's a good boy | walkies | he won't hurt you | drop it | sit | he just wants to say hello | is he friendly | he's a rescue | he's never done that before
+FEELINGS: unconditional adoration | the guilt of leaving for work | joy at the door greeting | the cold horror of a wet nose at 6am | embarrassment at the park | pride when they actually sit | love you can't explain | the panic when they vanish into a bush
+
+## Christmas
+PEOPLE: the relative who brings up politics | a mall Santa with a hangover | the cousin who's too old for presents | a dad wrestling with the fairy lights | the aunt who gives the same gift every year | kids awake at 4am | a vegan at the turkey table | the in-laws who stay a week
+PLACES: the living room floor covered in wrapping | a cramped kitchen with three cooks | the Christmas market with overpriced mulled wine | the queue at the post office | a nativity play in a school hall | a pub on Christmas Eve | the loft where the decorations live | a church at midnight mass | the sofa during the Boxing Day film
+THINGS: a cracker joke | paper hats | a turkey too big for the oven | tangled fairy lights | Brussels sprouts | the remote control | a Quality Street tin with only toffees left | a novelty jumper | the Queen's Speech or King's Speech
+PHRASES: it's the most wonderful time of the year | you shouldn't have | it's the thought that counts | I'll keep the receipt | Merry Christmas | have you been good this year | what did Santa bring | let's play a board game
+FEELINGS: festive overeating | the dread of family arguments | childlike excitement | the post-dinner slump | fake gratitude | the weird week between Christmas and New Year | feeling lonely in a crowd | warm nostalgia
+
+## Moving house
+PEOPLE: removal men who say that's a heavy one | the estate agent who calls it cosy | a friend bribed with pizza | the old neighbours you never spoke to | the new neighbours peering through curtains | a landlord counting scuffs | the solicitor who never answers | a mum wrapping plates in newspaper
+PLACES: the empty house echoing | a van with one seat too few | the storage unit | the new kitchen with no kettle | the stairs the sofa won't go up | the tip on a Sunday | the back of a cupboard you haven't seen in years | the hallway full of boxes
+THINGS: bubble wrap | a box labelled misc | the tape gun | a mattress against a wall | a key that doesn't work | meter readings | the takeaway menu left by the last owners | a sofa missing a leg | a lost cat in a carrier
+PHRASES: it's a fixer-upper | where's the kettle | we'll unpack later | pivot | which box is it in | it'll be worth it | the chain has collapsed | it looked bigger in the pictures
+FEELINGS: exhaustion with a hint of hope | the strange sadness of an empty room | overwhelming box fatigue | the joy of finding the kettle | disorientation at the new light switches | regret over everything you own | first night jumpiness at noises | pride in a new front door
+
+## Job interview
+PEOPLE: an interviewer who reads your CV in front of you | the other candidate in a better suit | the receptionist who offers water | a panel of three people taking notes | an HR person with a laminated question list | the boss who arrives late | a recruiter who calls you mate | the person who got the job
+PLACES: a glass meeting room | the reception sofa | the lift where you meet the interviewer by accident | a Zoom call with a messy background | the coffee shop where you practise answers | the toilet where you check your teeth | the car park where you sit for ten minutes | the corridor walk past staring employees | a hotel lobby for a second interview
+THINGS: a printed CV | a lanyard visitor pass | a borrowed suit | a glass of water you're too scared to drink | a notebook with fake questions | the handshake | a sweaty palm | a LinkedIn profile | the follow-up email
+PHRASES: tell us about yourself | what's your biggest weakness | where do you see yourself in five years | do you have any questions for us | I'm a perfectionist | we'll be in touch | I work well in a team | sell me this pen
+FEELINGS: rehearsed spontaneity | dry-mouth panic | pretending to be passionate about logistics | the slow death of a bad answer | post-interview replaying | false hope | imposter syndrome | relief at the exit door
+
+## Group chat
+PEOPLE: the admin who never posts | the person who sends 47 voice notes | a mum who uses all the wrong emojis | the friend who never replies but reads everything | someone who left and was re-added | the one who replies a week late | a cousin who sends chain messages | the person who starts a poll for everything
+PLACES: the family group chat | a work chat that never sleeps | a stag do planning chat | the school mums WhatsApp | the muted chat with 300 unread | the side chat about the main chat | a neighbourhood watch chat | the five-a-side lads chat | a holiday chat named Ibiza 2019 | a book club chat that never mentions books
+THINGS: a blue tick | the typing dots | a voice note longer than a podcast | a forwarded meme from 2014 | a screenshot of the wrong chat | the mute button | a deleted message notification | an animated GIF of a dancing baby
+PHRASES: who's in | seen | this message was deleted | sorry wrong chat | can someone add Dave | lol | sent from my iPhone | I'm on my way
+FEELINGS: notification overload | FOMO from the side chat | the horror of sending to the wrong chat | passive-aggressive restraint | guilt at muting the family | the silence after a joke falls flat | anticipation as the dots appear | the thrill of a good screenshot
+
+## Hospital waiting room
+PEOPLE: a triage nurse with the patience of a saint | a man holding a tea towel to his head | the drunk singing at 2am | a kid with a saucepan stuck on his foot | the relative who demands to see a doctor | a porter whistling past | someone googling their symptoms aloud | the security guard who's seen it all
+PLACES: plastic chairs bolted together | the vending machine corridor | the A and E reception window | the hospital car park with four-hour charges | a corridor painted calming green | the chapel nobody visits | the hospital shop selling grapes and balloons | the X-ray corridor with the yellow line | the smokers in dressing gowns by the entrance
+THINGS: a ticket number system | a TV stuck on daytime quiz shows | the hand gel dispenser | a paper cup of lukewarm tea | a wristband with your name spelled wrong | the screen showing a five-hour wait | a crisp packet dinner | a sick bowl made of cardboard
+PHRASES: the doctor will see you shortly | on a scale of one to ten | have you taken anything for it | please take a seat | it's busy tonight | we're running a little behind | it's probably nothing | is anyone with you
+FEELINGS: time moving like syrup | the fear of being forgotten | guilt for not being sick enough | jealousy of people called before you | creeping hunger | dark humour bonding with strangers | the boredom of an emergency | relief at a diagnosis
+
+## School reunion
+PEOPLE: the popular kid who peaked at 16 | the nerd who is now a millionaire | a teacher who looks exactly the same | the bully who became a life coach | the person nobody remembers | an old crush now with three kids | the organiser with a laminated name list | the one who brought their old blazer
+PLACES: the school hall with the climbing ropes | a hired function room above a pub | the corner of the playground where everyone smoked | the old classroom that looks tiny | the car park where you sit deciding whether to go in | a Facebook event page | the science lab with burn marks on the desks | the headteacher's office door | the local Harvester afterwards
+THINGS: name badges with yearbook photos | a yearbook full of signatures | old school ties | a slideshow of 1990s haircuts | a reunion committee spreadsheet | the photocopied class photo | warm wine in plastic cups | a business card from someone you used to copy homework from
+PHRASES: you haven't changed a bit | what are you up to now | do you remember Mr Jenkins | where are they now | best days of your life | I always knew you'd do well | are you still in touch with anyone | we should do this again
+FEELINGS: instant regression to age 15 | comparison anxiety | nostalgic warmth | satisfaction seeing the bully go bald | the itch to lie about your job | surprise at who turned out kind | sudden insecurity about your car | quiet triumph
+
+## Diet
+PEOPLE: a friend who swears by intermittent fasting | the colleague bringing in cake on Monday | the influencer selling detox tea | a slimming club leader with a gold star chart | the mum who asks are you sure you're eating | a nutritionist who eats crisps in secret | the partner who eats chips in front of you | a gym bro who eats boiled chicken from a tub
+PLACES: the weigh-in at a church hall | the healthy food aisle | the fridge at midnight | a smoothie bar | the cake table at a birthday | a drive-thru you swore you'd never visit | the gym café selling 6 pound flapjacks | the office biscuit tin | a petrol station at 11pm
+THINGS: a food diary with gaps | rice cakes | a bathroom scale with low battery | celery sticks | protein bars that taste of chalk | a calorie-counting app | a cheat day pizza | portion control plates | sugar-free jelly
+PHRASES: I'm being good | it's my cheat day | everything in moderation | one won't hurt | the diet starts Monday | a moment on the lips | I'm not hungry | you look great have you lost weight
+FEELINGS: hanger | guilt after one biscuit | smug salad energy | the fantasy of fried food | resentful willpower | joy at a loose belt | the bargaining at the fridge | shame-eating a carrot
+
+## Driving test
+PEOPLE: an examiner who never smiles | a driving instructor with a brake pedal | the dad who taught you badly | a cyclist appearing from nowhere | the learner who failed five times | a lollipop lady crossing at the worst moment | the person behind beeping | a bin lorry blocking your lane
+PLACES: the test centre car park | a roundabout with seven exits | the parallel park on a hill | a residential street with speed bumps | the instructor's car with L plates | a quiet industrial estate for practising | the hill start of doom | a narrow lane with a tractor | the dual carriageway slip road
+THINGS: L plates | a clipboard with tick boxes | the mirror you forgot to check | indicators | the handbrake | a pass certificate | the theory test hazard clips | a cone you clipped | a seat that won't go forward
+PHRASES: mirror signal manoeuvre | take the next left | pull over when safe | when you're ready | did you check your blind spot | it's just a minor | we'll do a reverse park now | I'm sorry to tell you
+FEELINGS: sweaty palms | crippling self-awareness | the deafening sound of your own indicator | elation of passing | crushing defeat | robotic over-checking | the freedom of the open road | rage at a pedestrian
+
+## Hairdresser
+PEOPLE: a stylist who asks about your holidays | the junior who sweeps the floor | a client who brings a celebrity photo | the barber who talks politics | a woman under the dryer reading a magazine | the colourist with a tattooed neck | the chatty one when you want silence | a dad and son getting matching cuts
+PLACES: the sink that strangles your neck | the mirror that shows the back of your head | a barbershop with a pool table | a salon with gold mirrors | the till where you decide the tip | the waiting chairs with old magazines | the bathroom where you cut your own fringe | a pop-up barber at a festival | the street outside where you check the window reflection
+THINGS: the gown that makes you look like a ghost | foils | a hair dryer at full blast | clippers | a cape full of itchy hair | a straightening iron | a picture of a celebrity on your phone | the hand mirror shown at the end | a sweet on the counter
+PHRASES: just a trim | what are we doing today | how's the temperature | are you going anywhere nice | do you want product in that | it'll grow back | is that alright for you | I'll just tidy up the ends
+FEELINGS: hair regret | the forced smile at a bad cut | relaxation during the head massage | dread in the mirror reveal | the awkward conversation fatigue | feeling brand new | the itchy neck walk home | silent panic during the fringe trim
+
+## Babies
+PEOPLE: a sleep-deprived new dad | the midwife who's seen everything | a grandparent offering vintage advice | the baby whisperer friend | the stranger who touches the bump | an NCT class know-it-all | the health visitor with a scale | the toddler who wants to hold the baby
+PLACES: the hospital labour ward | the baby changing room in a motorway services | the nursery painted a mysterious grey | a soft play centre | the pram aisle in a department store | the sofa at 3am | a GP surgery | the car seat in the back
+THINGS: a nappy explosion | baby wipes everywhere | a breast pump | the bottle steriliser | a dummy lost under the sofa | baby monitor static | a muslin cloth | the pram that folds like a puzzle | a tiny sock
+PHRASES: sleep when the baby sleeps | enjoy every moment | they grow up so fast | is he a good baby | how much did she weigh | they're not crying they're communicating | let me hold her | who does he look like
+FEELINGS: bone-deep exhaustion | overwhelming love | paranoid listening to breathing | the joy of a first smile | guilt about everything | pride at a successful nappy change | terror at bath time | brain fog
+
+## Online dating
+PEOPLE: a match whose photos are from 2011 | someone holding a fish | the person who opens with hey | a ghost who vanishes after three days | the date who brings a friend | a man who lists his height in bio | the woman who just wants to travel | the catfish
+PLACES: a dating app home screen | a bar chosen by Google reviews | the chat window with no reply | the pub near the station for a quick escape | a coffee shop first meeting | the bathroom where you check the app mid-date | a sofa at 1am in swipe mode | the train where you swipe on fellow passengers | a bowling alley for a quirky second date
+THINGS: a profile prompt answer | a swipe | the read receipt | the selfie with a dog that isn't theirs | a voice note intro | a match notification | the super like | the unmatched screen
+PHRASES: looking for my partner in crime | not here for hookups | just ask | here for a good time | swipe right | let's grab a drink | I'm 6 foot | no drama
+FEELINGS: swiping fatigue | hope with low expectations | confused by mixed signals | the rush of a match | ghosting despair | profile envy | over-analysing emojis | the thrill of meeting in real life
+
+## Barbecue
+PEOPLE: a dad guarding the tongs | the vegetarian with a sad halloumi | an uncle who insists on lighting it with petrol | the neighbour who invites himself | kids running through the sprinkler | the guest who brings only crisps | a mum doing all the actual work | the friend who's an expert on marinades
+PLACES: the back garden with a patio | a park with disposable barbecues | the beach in a windbreak | a balcony too small for it | the shed where the charcoal lives | the kitchen where the real food gets cooked | the garden fence where the smoke drifts next door | a campsite grill area | the patio slab with a grease stain forever
+THINGS: a disposable barbecue burning the grass | burnt sausages | lighter fluid | a pack of buns | paper plates folding under the weight | a cool box | a bottle of ketchup squirting air | a wasp in a can | the gas bottle
+PHRASES: is it cooked through | who wants a burger | the coals need to go white | it's raining again | grab a beer | just a few more minutes | it's all about the marinade | I'll do it
+FEELINGS: carnivorous excitement | the fear of food poisoning | sunburn surprise | smoky pride | the social pressure of the tongs | relaxed summer joy | wasp panic | collective disappointment at rain
+
+## Public transport
+PEOPLE: the man eating an egg sandwich on the train | a bus driver who won't wait | someone playing music without headphones | the commuter who sits on the aisle seat to block | a ticket inspector appearing from nowhere | the person shouting into the phone | a tourist with a giant backpack | the pensioner who knows every route
+PLACES: the bus stop in the rain | a packed tube carriage | the train toilet that won't lock | the station platform with a delay board | the top deck front seat | a ticket barrier that won't open | the quiet coach that isn't quiet | the night bus back seat | a rail replacement bus in a car park
+THINGS: an Oyster card | a crumpled ticket | the stop button | a sticky handrail | the seat with a mysterious stain | the delay announcement | a bus timetable written by a liar | a forgotten umbrella | a free newspaper
+PHRASES: mind the gap | the next station is | please move down inside the bus | we apologise for the delay | this train terminates here | is this seat taken | can you move your bag | signal failure
+FEELINGS: armpit proximity trauma | silent rage at an aisle sitter | the joy of a free seat | commuter numbness | the panic of a missed stop | small victory on a green light | weary resignation | fellowship in a shared sigh
+
+## Holiday abroad
+PEOPLE: a British man in socks and sandals | the rep with a clipboard at the hotel | a waiter speaking five languages | the family that reserves sunbeds at 6am | a sunburnt stag party | the local selling sunglasses on the beach | a tourist shouting louder in English | the couple who argue at the pool
+PLACES: an all-inclusive buffet | the hotel pool with a swim-up bar | a beach with jellyfish | the airport arrivals hall | a tiny local restaurant with no menu | a market selling fake handbags | the hotel balcony with a towel rail | the hotel lobby with the one fast wifi spot | a karaoke bar full of Brits
+THINGS: suncream | a phrasebook | a beach towel on a lounger | a sangria jug | a souvenir fridge magnet | a currency converter app | the travel adaptor | flip-flops | a lilo
+PHRASES: do you speak English | how much in pounds | is it all-inclusive | we're on holiday | let's just try it | is the water safe to drink | it's so cheap here | one more drink
+FEELINGS: sun-drunk bliss | currency confusion | tourist guilt | the panic of a lost passport | sunburnt regret | the end-of-holiday blues | food adventure bravery | relief at an English breakfast
+
+## Laundry
+PEOPLE: a flatmate who leaves wet washing in the machine | the mum who still does your ironing | the laundrette attendant who never speaks | a student who washes once a month | the partner who shrinks your jumper | the neighbour hanging washing in the rain | a dry cleaner who loses your shirt | the teenager who throws clean clothes back in the wash
+PLACES: the laundrette with a broken change machine | a utility room full of baskets | the communal drying rack | a radiator covered in socks | the garden washing line | the airing cupboard | the floor-drobe | the bedroom floor pile system | a boat-sized dryer at the laundrette
+THINGS: a single missing sock | fabric softener | a red sock in a white wash | lint in the filter | an iron that spits | a hamper overflowing | a tissue that exploded | detergent pods | the spin cycle
+PHRASES: separate your colours | who washed this | it's dry clean only | I'll fold it later | it's been in there two days | where's my other sock | why does it smell like that | it's not ironed
+FEELINGS: domestic dread | the satisfaction of clean laundry | disbelief at the missing sock | resentment folding someone else's pants | the warm towel cuddle | guilt at the clothes chair | rage at tissue confetti | despair at the endless pile
+
+## Coffee shop
+PEOPLE: a barista with a man bun | the laptop nomad on one coffee for six hours | a businessman ordering a complicated latte | the person who takes ages to order | the regular who knows the staff | a toddler licking the window | the writer pretending to write | the couple having a breakup
+PLACES: the long queue | a table by the plug socket | the cramped toilet with a code | a window seat | the counter with pastries behind glass | the chain café in a train station | the hipster café with wooden crates | the sofa nobody is allowed to leave | a drive-thru coffee queue at 8am
+THINGS: a flat white | the loyalty card with one stamp left | a misspelled name on the cup | an oat milk carton | a 5 pound croissant | the steaming milk noise | the laptop sticker collection | a cardboard sleeve | a stirring stick
+PHRASES: can I get a | name for the order | any milk alternatives | for here or to take away | it's on the side | that's 4.50 | have a good day | can I get the Wi-Fi code
+FEELINGS: caffeine-fuelled productivity | the guilt of ordering a large | queue impatience | the delight of a perfect foam heart | price shock | the coziness of a corner seat | awkwardness at a shared table | the existential crisis of choosing a pastry
+
+## Retirement
+PEOPLE: a new retiree who joins every club | the spouse who wants their house back | grandparents on babysitting duty | the former boss now on a cruise | a golfing buddy | the ex-colleague who still emails | the bowls club champion | a man with a new shed obsession
+PLACES: the garden centre on a Tuesday | a golf course | the coast in a caravan | the allotment | the doctor's surgery | a pub at lunchtime | the local library | the sofa with daytime telly
+THINGS: a gold carriage clock | a bus pass | a crossword book | a cruise brochure | a mobility scooter catalogue | reading glasses on a chain | a pension statement | slippers | a leaving card
+PHRASES: I don't know how I had time to work | enjoy your well-earned rest | what are you going to do with yourself | I'm busier than ever | we're off on a cruise | it's my retirement fund | life begins at 65 | I've still got it
+FEELINGS: the freedom of a weekday | aimless identity crisis | smugness on a Monday morning | worry about money | the luxury of a nap | boredom by Wednesday | joy at a new hobby | nostalgia for colleagues
+
+## Teenagers
+PEOPLE: a teen who communicates in grunts | the parent who tries to be cool | a best friend who sleeps over every weekend | the first boyfriend nobody likes | a teacher confiscating phones | the older sibling pretending to be grown up | a teenage influencer with 300 followers | a mum knocking on the bedroom door for the fifth time
+PLACES: the bedroom with the door shut | the bus stop after school | a fast food restaurant table | the bathroom for two hours | the back row of the cinema | a shopping centre bench | the school gates | a skate park at dusk | the group chat at 3am
+THINGS: a phone glued to their hand | energy drink cans | a hoodie in summer | the gaming headset | spots | headphones in at dinner | a mountain of trainers | a vape | a lunch money request
+PHRASES: whatever | you don't understand | I'm not hungry | it's not fair | can you give me a lift | it's literally so cringe | I'm not a child anymore | can I have some money
+FEELINGS: eye-rolling contempt | the hormone rollercoaster | crushing embarrassment by parents | intense friendship drama | the sudden need for independence | secret need for a hug | boredom | angst
+
+## Wedding speeches
+PEOPLE: a best man with notes on a beer mat | the father of the bride who cries | the groom who forgets to thank the bridesmaids | a sister who reads a poem | the toastmaster in a red coat | a drunk uncle who wants the microphone | the bride who seizes the mic | a grandma who can't hear
+PLACES: the top table | the microphone stand in the corner | the toilet where the best man rehearses | the marquee with dodgy acoustics | a hotel function room | the bar where people escape | a stage made of pallets in a barn | the dance floor waiting impatiently | the photo booth where the real speeches happen
+THINGS: crumpled cue cards | a projector slideshow | a glass tapped with a spoon | a champagne toast | an embarrassing childhood photo | the microphone feedback | a tissue for the father | a wedding favour
+PHRASES: unaccustomed as I am to public speaking | raise your glasses | to the happy couple | I've known the groom since | he's punching above his weight | I'll keep this short | love is patient love is kind | there's no getting rid of him now
+FEELINGS: public speaking terror | joke-falls-flat cringe | the warmth of a heartfelt story | the urge to leave halfway through | pride in a well-told anecdote | the relief of sitting down | the awkward pause | the tension of an inside joke
+
+## Funerals
+PEOPLE: a vicar who never met the deceased | the cousin who turns up for the will | the friend telling a funny story at the wake | the grieving widow who keeps it together | an aunt who cries the loudest | the undertaker with a solemn face | kids running around the buffet | the stranger who goes to every funeral
+PLACES: the crematorium with the conveyor belt | the church with draughty windows | the pub wake | the graveside in the rain | the family living room after | a car park full of black cars | the buffet table | the cemetery bench | the car behind the hearse
+THINGS: a sausage roll at the wake | the order of service | a slideshow set to Robbie Williams | a coffin with brass handles | a single white rose | the tissue box being passed | flowers spelling out GRANDAD | a black tie borrowed from a neighbour
+PHRASES: he's in a better place | she'd have loved this | sorry for your loss | at least it was quick | he had a good innings | we're here to celebrate a life | he wouldn't want us to be sad | it's what she would have wanted
+FEELINGS: the giggles at the wrong moment | heavy sadness | the urge to make it all lighter | guilt for eating too many sandwiches | gratitude for good memories | awkwardness in the line | numbness | the strange relief of the pub
+
+## Garden centre
+PEOPLE: a retired couple debating a hanging basket | the staff member in a green fleece | a man buying his fourth gnome | toddlers chasing koi carp | the woman who knows the Latin names | a Santa in the grotto from October | a dad carrying compost bags like a trophy | the café queue of pensioners
+PLACES: the café with scones the size of a fist | the aquatics section | the Christmas grotto in September | the outdoor plant aisles in the drizzle | the shed showroom | the gift shop selling scented candles | the car park full of estate cars | the clearance bench of dying plants
+THINGS: a trolley with a flat bed | a garden gnome | a bag of compost | a bird feeder | a cactus in a tiny pot | wellies | a scented candle called Linen Breeze | a water feature that trickles constantly | a plant label you'll lose
+PHRASES: it just needs a bit of sun | are you a member | perennial or annual | we'll just have a quick look | they're half price | let's get a scone | it'll fill out | how often do I water it
+FEELINGS: gentle optimism about plants | the calm of a slow Sunday | guilt about the last plant you killed | joy at a bargain bench | the pull of the café | quiet competition with the neighbours | contentment in the drizzle | browsing paralysis
+
+## Monday morning
+PEOPLE: the colleague who loves Mondays | a commuter with toothpaste on their chin | the manager who calls a 9am meeting | someone who asks how was your weekend | a school run mum in pyjama bottoms | the barista with the hangover | the person who emails at 7am | the cleaner who's been there since 5am
+PLACES: the bathroom mirror | a gridlocked motorway | the train platform packed like sardines | the office kitchen with one clean mug | the bus stop in drizzle | the desk with Friday's mess | the snooze button zone | the queue for the lift | the 9am stand-up huddle
+THINGS: an alarm clock | a cold cup of coffee | the overflowing inbox | a stack of post-it notes | a soggy cereal bowl | the lanyard | the out-of-office reply you forgot to turn off | a phone at 4 percent | odd socks
+PHRASES: case of the Mondays | how was your weekend | let's circle back | did you get my email | just checking in | is it Friday yet | per my last email | new week new goals
+FEELINGS: sleep inertia | dread of the week | grumpy productivity | caffeine dependency | the false hope of a fresh start | low-grade resentment | weekend amnesia | the slow climb to Tuesday
+
+## Self-checkout
+PEOPLE: the assistant who has to approve your wine | a shopper scanning 80 items in the basket lane | the teenager who uses it to avoid conversation | a confused pensioner | the person who shouts at the machine | the security guard watching for avocados | a queue of judgemental onlookers | a child pressing every button
+PLACES: the self-checkout zone | the bagging area | the small shelf for your bags | the card machine | the exit with a receipt checker | the light that flashes red above your head | the one working machine out of eight | the alcohol aisle right next to it
+THINGS: the barcode scanner beep | a bag of loose carrots | a voucher that won't scan | a receipt the length of your arm | the screen frozen on approval needed | a paper bag that splits | an unexpected item | the reusable bag
+PHRASES: unexpected item in bagging area | please wait for assistance | approval needed | have you swiped your loyalty card | place item in bagging area | remove item from bagging area | would you like a receipt | please take your change
+FEELINGS: robot-induced rage | the guilt of looking like a thief | the triumph of a smooth scan | embarrassment at being flagged | technophobia | impatience in the queue | relief at the exit | the existential dread of being a cashier
+
+## Smartphones
+PEOPLE: the person who uses the phone as a torch at a concert | a gran video-calling the ceiling | the teen who types with thumbs at light speed | the friend who still has a flip phone | someone taking selfies at a funeral | the scammer calling about your car accident | a phone repair shop guy | the person who never takes it off silent
+PLACES: the toilet | the bedtime scroll zone | a dinner table with phones face down | the concert crowd of screens | a train with no signal | the Apple Store | a phone shop with a broken screen display | the bed with a face-dropping phone | a festival charging tent
+THINGS: a cracked screen | a phone case with a wallet | the charging cable that's too short | low battery warning | autocorrect fails | a notification ping | the Face ID that doesn't recognise you | a pop socket | screen time reports
+PHRASES: my phone's about to die | can you hear me now | sorry I was on silent | did you see my message | I'll just look it up | have you tried turning it off and on again | it's my phone | where's my phone
+FEELINGS: low battery anxiety | the phantom vibration | the shame of screen time numbers | dopamine hits | separation panic | the blissful silence of airplane mode | annoyance at an update | the deep comfort of a full battery
+
+## Social media
+PEOPLE: an influencer with a ring light | the aunt who comments on everything | someone posting gym selfies daily | the troll in the comments | a friend who overshares about their divorce | the person who posts lunch | the brand account trying to be funny | the follower who is a bot
+PLACES: the comments section | a feed full of strangers | a group of local residents complaining | a dark corner of the internet | the explore page | a filtered holiday photo location | the profile you stalk | the brunch table photographed from above | a sunset everyone is filming
+THINGS: a like button | the filter that gives you dog ears | a viral video | a hashtag | a notification bell | an algorithm | an unflattering photo tag | the block button | an archive of embarrassing posts
+PHRASES: like and subscribe | hit the bell | link in bio | no filter | living my best life | I'm just saying | throwback Thursday | trigger warning
+FEELINGS: validation addiction | FOMO | the creeping envy of other people's holidays | rage at a comment | the cringe of a 2012 post | performance exhaustion | the joy of a viral moment | doom-scrolling numbness
+
+## Book club
+PEOPLE: the host who actually read the book | a member who only comes for wine | the person who reads the last page first | the one who brings a review from the internet | a retired teacher who corrects everyone | the new member who's too eager | someone who hated it but won't say | a husband who joined by mistake
+PLACES: a living room with too many cushions | a quiet corner of a pub | the local library meeting room | a kitchen island with snacks | the bookshop café | a Zoom call where nobody is muted | a garden on the one sunny evening | a wine bar too loud to discuss anything
+THINGS: a dog-eared paperback | a bottle of red | a cheese board | a Kindle | post-it notes marking pages | the discussion questions from the back | a reading list | a coffee ring on the cover | a pile of unread books
+PHRASES: what did everyone think | I didn't finish it | the symbolism was clear | I preferred the film | it really made me think | who's choosing next month | I felt the ending was rushed | more wine anyone
+FEELINGS: literary guilt | pretending to understand | wine-fuelled bravery | the joy of an argument | intellectual superiority | social bonding | the dread of finishing a long book | quiet competition
+
+## Karaoke
+PEOPLE: the confident terrible singer | a shy colleague who is secretly amazing | the person who always picks Bohemian Rhapsody | a karaoke host with a sparkly jacket | the drunk duet partners | the one who reads the lyrics too slowly | an audience member filming everything | the person who refuses to sing
+PLACES: a private booth with a sticky floor | a pub on a Friday night | the stage with a single spotlight | the bar between songs | a Japanese karaoke box | a living room with a games console mic | a wedding disco after midnight | the car on a long motorway drive
+THINGS: a microphone with a sticky foam cover | a lyric screen | a tambourine | the song list folder | a disco ball | the remote control | a pint of liquid courage | a video of the crowd | a wireless mic that cuts out
+PHRASES: give it up for | one more song | don't stop me now | I'm not drunk enough for this | everybody join in | who's next | it's harder than it looks | let's do a duet
+FEELINGS: liquid courage | the terror of the first note | the rush of a crowd cheering | cringe at your own voice | the embarrassment of forgetting the words | joy in a shared chorus | competitive spirit | regret at song choice
+
+## Hotel
+PEOPLE: a receptionist who says your room isn't ready | the guest in a robe in the lobby | a concierge who knows everything | the cleaner knocking at 8am | the family next door with a crying baby | the businessman in the bar alone | the honeymooners | a man who steals all the mini toiletries
+PLACES: the corridor that never ends | the lift that stops at every floor | the breakfast buffet | the pool with too much chlorine | a room with a view of a wall | the mini bar | the hotel bar at midnight | the gym nobody uses
+THINGS: a key card that won't work | the do not disturb sign | the tiny shampoo bottles | the trouser press | a kettle with one teabag | a sewing kit | the robe you can't take | a bible in the drawer | a remote with no batteries
+PHRASES: checkout is at 11am | enjoy your stay | is breakfast included | can I have a late checkout | your room is on the third floor | do you need help with your bags | there's a charge for that | the wifi password is on the card
+FEELINGS: holiday giddiness | the joy of a new bed | the anxiety of the mini bar prices | breakfast gluttony | being a temporary millionaire | the awkwardness of tipping | the struggle with the shower controls | sadness at checkout
+
+## Birthday party
+PEOPLE: a children's entertainer dying inside | the kid who cries at pass the parcel | the parent who stays and judges | a teenager too cool to join in | the guest who forgets a present | the birthday girl having a meltdown | the uncle who does magic tricks badly | a dad on bouncy castle duty
+PLACES: a soft play centre | the village hall with a stage | the back garden with a gazebo | a bowling alley party room | the kitchen where adults drink wine | a laser tag arena | a trampoline park | the bouncy castle
+THINGS: a cake shaped like a number | candles that relight | party bags with a plastic whistle | balloons tied to a chair | a piñata | the sweet table | a bowl of crisps | birthday cards with money | a party hat elastic snapping on your chin
+PHRASES: happy birthday to you | make a wish | blow out the candles | say thank you | did you have a nice time | we need to sing | where's the birthday boy | who wants cake
+FEELINGS: sugar-fuelled chaos | the stress of the host | childlike joy | the pressure to have fun | the agony of a slow present opening | exhaustion at the end | balloon-popping anxiety | warm fuzzy affection
+
+## Neighbours
+PEOPLE: the neighbour who mows the lawn at 7am | a curtain twitcher | a man who parks across your drive | the new couple with loud music | the neighbour who takes your parcels | a retired busybody | the kids kicking a ball into your garden | the lady who leaves notes on the car
+PLACES: the shared fence | the garden over the wall | the street with a neighbourhood watch sign | a front drive with too many cars | the bins on collection day | the cul-de-sac | the communal stairwell | the shared driveway
+THINGS: a passive-aggressive note | a hedge trimmer | a lost cat poster | a loud stereo | a doorbell camera | a recycling bin | a ball that went over the fence | a borrowed ladder never returned | a planning application notice
+PHRASES: good fences make good neighbours | can I have my ball back | did you hear that noise | sorry to bother you | could you keep it down | I'll just pop round | we're having a little get-together | is that your car
+FEELINGS: low-level suspicion | the joy of a friendly wave | quiet resentment | the anxiety of a party | community spirit | gossip excitement | the fear of the doorbell | the awkwardness of eye contact over the fence
+
+## Football fans
+PEOPLE: the man who shouts at the TV | a kid in a shirt three sizes too big | the fan who knows every stat | the angry dad on the touchline | a mascot with a giant head | the away fans singing | a referee hated by everyone | a pundit who never played
+PLACES: the stadium terraces | a pub showing the game | the living room with the curtains closed | the car park after the match | a pie stand at half time | a five-a-side pitch | the queue at the turnstile | a fan zone
+THINGS: a football scarf | a meat pie | a season ticket | a giant foam hand | a cardboard cutout | a referee's whistle | a lucky shirt | a VAR screen | a fantasy football team
+PHRASES: back of the net | it's coming home | he's offside | the ref's blind | we was robbed | it's a game of two halves | what a goal | sack the manager
+FEELINGS: collective joy | despair | tribal loyalty | the thrill of a last-minute goal | rage at a decision | superstitious anxiety | hope against hope | Sunday morning hangover
+
+## Yoga
+PEOPLE: a yoga teacher with a soft voice | the person who's too bendy | the newbie in the back row | a man in shorts too tight | the one who farts in downward dog | the influencer filming herself | a pensioner who outflexes everyone | the instructor who adjusts you
+PLACES: a hot yoga studio smelling of feet | the back of a church hall | a beach at sunrise | the living room with YouTube | a corporate wellness room | a retreat in Bali | the changing room | a park with dog walkers watching
+THINGS: a yoga mat | a foam block | a water bottle | a singing bowl | an essential oil diffuser | yoga leggings | a strap | a blanket for shavasana | a small Buddha statue
+PHRASES: namaste | find your breath | let go of what doesn't serve you | engage your core | just do what feels right | downward dog | come back to your centre | listen to your body
+FEELINGS: zen superiority | wobbly embarrassment | the effort of breathing | the bliss of corpse pose | competitive flexibility | cramp | the awkwardness of eye contact | a strange calm
+
+## Fast food
+PEOPLE: a teenager in a paper hat | the drive-thru voice | the late-night drunk ordering ten nuggets | the kid with a toy | someone ordering a salad | the manager with a headset | the delivery driver on a scooter | a group of teenagers on one table
+PLACES: the drive-thru lane | a booth with a sticky table | the counter with a touch screen | the car park | the soft play area | the toilet with a key | a late-night kebab shop | the motorway services at 2am
+THINGS: a paper bag with grease spots | the free toy | a milkshake that's too thick | soggy chips | ketchup sachets | the burger box | a straw that won't go in | a tray liner | a large fizzy drink
+PHRASES: would you like fries with that | is that everything | do you want to go large | for here or to take away | anything else | pull forward to the window | it'll be five minutes | enjoy your meal
+FEELINGS: guilty pleasure | instant regret | the joy of a hot chip | greasy fingers | the regret of the next morning | fast food euphoria | the anxiety of the drive-thru order | the sadness of a missing item
+
+## Cruise
+PEOPLE: a cruise director with a microphone | the couple who've done 40 cruises | a buffet loiterer | the entertainer singing show tunes | the family with matching T-shirts | the captain on a balcony | the lifeguard by the pool | a passenger who gets seasick
+PLACES: the all-you-can-eat buffet | the pool deck | an inside cabin with no window | the casino | the theatre | the captain's table | the deck at sunset | the shore excursion port
+THINGS: a lanyard key card | a sun lounger | a cocktail with an umbrella | a life jacket | a buffet tray | a souvenir photo | the formal night dress | seasickness tablets | a bingo card
+PHRASES: welcome aboard | land ahoy | all aboard | is it all-inclusive | we're docking at Barcelona | the captain's dinner | don't miss the boat | I'm on a boat
+FEELINGS: buffet greed | seasick nausea | sun-soaked relaxation | the anxiety of missing the boat | claustrophobia in the cabin | entertainment fatigue | holiday romance | relief at land
+
+## Tax return
+PEOPLE: an accountant who sighs | the HMRC call centre worker | the self-employed person filing at 11:59pm | a partner who handles all the paperwork | the friend who says it's easy | an auditor with a clipboard | a tax advisor charging by the minute | a cousin who is basically an accountant
+PLACES: the kitchen table covered in receipts | the HMRC website | an accountant's office | the post office | a shoebox of paperwork | the spare room office | the bank | the bottom drawer of doom
+THINGS: a calculator | receipts in a shoebox | a spreadsheet | a P60 form | a highlighter pen | a stamp | the tax code | the online login password | a coffee stain on a form
+PHRASES: the deadline is January 31st | have you got your UTR number | it's tax deductible | I'll do it next week | it's simple | can I claim this | you owe | you're getting a refund
+FEELINGS: bureaucratic dread | panic | the joy of a refund | confusion | the pain of a penalty | admin exhaustion | procrastination guilt | relief when it's submitted
+
+## Exams
+PEOPLE: an invigilator who walks too loudly | the student who asks for more paper after 10 minutes | a teacher wishing you luck | the friend who says they didn't revise | the pupil sniffing loudly | a parent waiting outside | the clever kid who finishes early | the late arrival
+PLACES: the sports hall with rows of desks | the library during revision season | a bedroom covered in sticky notes | the corridor before the exam | the toilet where people cry | a cafe with revision guides | the car park outside the school | the bus home doing the post-mortem
+THINGS: a clear pencil case | a ticking clock | an exam paper | a calculator | flashcards | a highlighter | a bottle of water | the seat number | the answer sheet
+PHRASES: you may begin | pens down | no talking | you have five minutes left | did you revise | what did you put for question three | it's not about the grade | I've failed
+FEELINGS: pre-exam nausea | brain freeze | the panic of a blank page | the euphoria of finishing | the dread of results day | overthinking every answer | guilt about not revising | relief and exhaustion

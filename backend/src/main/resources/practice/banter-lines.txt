@@ -1,0 +1,576 @@
+# Banter Simulator lines. "@ PERSONA | line" then "TECHNIQUE | example reply" lines; blank line between entries.
+
+@ FRIEND | Ugh, Mondays.
+EXAGGERATION | I've been awake for three hours and I've already aged a full fiscal quarter.
+REVERSAL | Honestly I love Mondays. It's the other six days that really get to me.
+ROLE_PLAY | *in movie trailer voice* In a world... where the weekend lasted two days...
+
+@ FRIEND | I just adopted a cat.
+ESCALATION | Congrats, you now live in the cat's apartment. Rent is due in treats.
+CALLBACK | Adopted? So you're legally its mom now. Does it get your last name?
+UNDERSTATEMENT | So you've chosen to be judged in your own home. Brave.
+ROLE_PLAY | *as the cat* I have reviewed your couch. It will be destroyed by Thursday.
+
+@ FRIEND | I think I'm finally going to start running.
+LITERAL | Running from what? Do you need to talk?
+EXAGGERATION | Great, see you at the marathon. Or in three weeks when the shoes are a doorstop.
+SELF_DEPRECATION | Amazing. I'll support you from the couch, which is my version of a finish line.
+MISDIRECTION | That's huge. Running late counts, right? Because you've been training for years.
+
+@ FRIEND | I can't believe it's already October.
+ESCALATION | Next thing you know it's December and we're pretending we had a plan.
+REVERSAL | I can. September was 400 days long.
+ROLE_PLAY | *as a pumpkin spice latte* I've been waiting all year for this moment.
+UNDERSTATEMENT | Yeah, the year's moving at a brisk, mildly terrifying pace.
+
+@ FRIEND | I just spent forty minutes deciding what to watch and then went to bed.
+EXAGGERATION | Classic. You didn't watch a movie, you watched a trailer marathon of your own indecision.
+SELF_DEPRECATION | Forty? Amateur. I once scrolled so long the subscription renewed.
+CALLBACK | So the real feature film was "Forty Minutes of Scrolling," starring you.
+UNDERSTATEMENT | Sounds like a solid night of browsing. Very cinematic.
+
+@ FRIEND | My mom just learned how to use emojis.
+ESCALATION | Oh no. Prepare for the eggplant used completely innocently about dinner.
+ROLE_PLAY | *as your mom* Good morning sun prayer hands dog birthday cake. Call me. Ambulance. Not urgent. Smiley.
+UNDERSTATEMENT | So every text is now a little bit of a riddle. Fun.
+MISDIRECTION | That's sweet. Mine learned too, and now she only speaks in thumbs-up.
+
+@ FRIEND | I accidentally liked my ex's photo from 2017.
+EXAGGERATION | Pack a bag. You have to leave the country tonight.
+ROLE_PLAY | *news anchor voice* Breaking: local archaeologist uncovers ancient relationship.
+REVERSAL | Honestly, bold move. Commit to it. Like the next 200.
+UNDERSTATEMENT | So, a quiet little message that says "I've been thinking about you, deeply, for years."
+
+@ FRIEND | I'm thinking about getting bangs.
+ROLE_PLAY | *as your future self* Don't. Call me. We need to talk.
+REVERSAL | Do it. Every great reinvention starts with a mild regret.
+ESCALATION | Bangs, then a leather jacket, then you're moving to Berlin to "find yourself."
+LITERAL | Bangs? Like fireworks? Bit loud for a haircut.
+
+@ FRIEND | I finally cleaned my apartment.
+EXAGGERATION | Congratulations, the floor is a color again.
+CALLBACK | Finally? So the apartment's been waiting like a dog at the window.
+SELF_DEPRECATION | Inspiring. I just moved my mess into a different, nicer-looking pile.
+UNDERSTATEMENT | Big day. Did you find anything you thought you'd lost forever? Like a chair?
+
+@ FRIEND | I've been on hold with the bank for an hour.
+ESCALATION | At this point you're not a customer, you're a hostage. Ask for a pizza.
+ROLE_PLAY | *hold music voice* Your call is important to us. Just not, like, today.
+REVERSAL | An hour? Lucky. Some people never get to hear the full hold music album.
+UNDERSTATEMENT | So you've got a new favorite song now, at least.
+
+@ FRIEND | My plant died. It was a cactus.
+EXAGGERATION | You killed the one plant designed to survive the desert. That takes effort.
+SELF_DEPRECATION | Don't feel bad. I once killed a fake plant. Don't ask how.
+ROLE_PLAY | *as the cactus* I survived droughts. I could not survive you.
+UNDERSTATEMENT | So, not a green thumb then. More of a beige thumb.
+
+@ FRIEND | I'm going to start meal prepping this week.
+ESCALATION | Love it. By Wednesday you'll be eating sad chicken from container number four.
+REVERSAL | Bold. I prefer meal panicking, but go off.
+MISDIRECTION | Great idea. I meal prep too. I prep the delivery app on my phone.
+CALLBACK | "This week." Like last week's "this week"?
+
+@ FRIEND | I just got a parking ticket.
+EXAGGERATION | The city sends its regards and its invoice.
+ROLE_PLAY | *as the meter maid* I've been waiting for you, my old friend.
+UNDERSTATEMENT | So, a very expensive parking spot then.
+SELF_DEPRECATION | Welcome to the club. I'm basically funding road repair at this point.
+
+@ FRIEND | I think my neighbor is learning the trumpet.
+ESCALATION | Give it a month and he'll have a whole marching band in there.
+REVERSAL | Free concerts. Some people pay good money for that.
+LITERAL | "Learning" is generous. It sounds like the trumpet is learning him.
+UNDERSTATEMENT | So, a lively building then.
+
+@ FRIEND | Do you want to get brunch on Sunday?
+ROLE_PLAY | *posh voice* Darling, I thought you'd never ask. Bottomless or nothing.
+EXAGGERATION | I have been waiting my entire life for someone to say those exact words.
+MISDIRECTION | I can't on Sunday, I have a prior commitment. To brunch. With you. Yes.
+UNDERSTATEMENT | I could perhaps be persuaded to eat eggs at eleven.
+
+@ FRIEND | I told myself I'd only have one cookie.
+CALLBACK | And technically you did. One cookie, eight times.
+ESCALATION | And now you're on the floor surrounded by wrappers like a crime scene.
+REVERSAL | Moderation is overrated. The cookies wanted to be together.
+SELF_DEPRECATION | I tell myself that too. Me and myself don't really listen to each other.
+
+@ FRIEND | I've watched this show three times already.
+EXAGGERATION | At this point you could play every character in a community theater version.
+REVERSAL | Three? Rookie numbers. You don't even know the boom mic operator's name yet.
+CALLBACK | Three times? The show should be watching you at this point.
+UNDERSTATEMENT | So you've got a mild interest in it.
+
+@ FRIEND | My phone is at 2 percent and I'm nowhere near home.
+ROLE_PLAY | *dramatic war movie voice* Tell my contacts... I loved them.
+ESCALATION | Time to start navigating by the stars and asking strangers about the year.
+LITERAL | 2 percent? That's practically a full charge if you just don't use it.
+UNDERSTATEMENT | So it's going to be a real analog evening.
+
+@ FRIEND | I signed up for a pottery class.
+ROLE_PLAY | *whispering* I'll be your Patrick Swayze if you need one.
+ESCALATION | First a bowl, then a vase, then you're selling mugs at a farmers market under a fake name.
+SELF_DEPRECATION | Incredible. Last time I touched clay it was a Play-Doh incident.
+CALLBACK | So everyone's getting lopsided bowls for Christmas.
+
+@ FRIEND | I just found twenty dollars in my old jacket.
+EXAGGERATION | That's it, you're retired. Buy a boat.
+ROLE_PLAY | *as your past self* You're welcome. Don't spend it on fries. You'll spend it on fries.
+UNDERSTATEMENT | So, a pretty good day in the economy.
+REVERSAL | Weird. I found a jacket in my old twenty dollars.
+
+@ FRIEND | I accidentally said "you too" when the waiter said enjoy your meal.
+SELF_DEPRECATION | Welcome. I once said "love you" to a pharmacist.
+ESCALATION | Now you have to leave the country and start a new life under a new name.
+REVERSAL | Honestly, kind. Waiters deserve to enjoy meals too.
+UNDERSTATEMENT | So, a mildly awkward exchange of well-wishes.
+
+@ FRIEND | I'm so tired I could sleep for a week.
+LITERAL | Do it. I'll tell everyone you're on a silent retreat.
+ESCALATION | A week? Hibernate. Wake up in spring like a bear with a fresh perspective.
+REVERSAL | Funny, I've slept for a week and I still feel like that.
+UNDERSTATEMENT | Sounds like you're a touch drowsy.
+
+@ FRIEND | My landlord finally fixed the sink.
+EXAGGERATION | A miracle. Alert the Vatican.
+UNDERSTATEMENT | Only took, what, one geological era?
+ROLE_PLAY | *as the landlord* I'll be back to fix the shower in 2031.
+CALLBACK | Finally? Did the sink have to file a formal complaint?
+
+@ FRIEND | I'm trying to drink more water.
+EXAGGERATION | Great. You'll be the most hydrated person to ever visit every bathroom in town.
+ROLE_PLAY | *as your water bottle* Hi. It's me again. You left me in the car for three days.
+MISDIRECTION | Me too. I just drink it in coffee form.
+REVERSAL | Bold. I'm trying to let water drink more of me.
+
+@ FRIEND | I almost waved at someone who wasn't waving at me.
+SELF_DEPRECATION | I fully did it once. Then had to pretend I was fixing my hair.
+ROLE_PLAY | *nature documentary voice* The human, sensing danger, converts the wave into a stretch.
+ESCALATION | Next time commit. Run over and hug them. Become their friend.
+UNDERSTATEMENT | Sounds like a high-stakes moment.
+
+@ FRIEND | I bought a fancy candle and I'm too scared to light it.
+LITERAL | It's fine. Just admire it. It's a decorative wax investment.
+EXAGGERATION | That candle's going to outlive both of us. It's a family heirloom now.
+ROLE_PLAY | *as the candle* I was made for this. Light me. Let me live.
+REVERSAL | Smart. The moment you light it, it's just a regular candle with a past.
+
+@ FRIEND | I've had this song stuck in my head all day.
+ESCALATION | Next you'll be humming it in your sleep and your roommate will learn it too.
+SELF_DEPRECATION | Lucky. My head's mostly just the Windows startup sound.
+ROLE_PLAY | *as the song* I live here now. I pay no rent.
+UNDERSTATEMENT | So it's a pretty catchy tune then.
+
+@ FRIEND | I tried to make sourdough and it came out like a brick.
+CALLBACK | Great, so now you can build a little house out of your sourdough bricks.
+EXAGGERATION | That's not bread, that's a home defense system.
+REVERSAL | Honestly, you nailed it. A brick is just bread with commitment.
+SELF_DEPRECATION | Mine came out like soup. Bread soup. Which isn't a thing.
+
+@ FRIEND | I got a new job!
+EXAGGERATION | Incredible. Do you need an assistant? I'll work for snacks.
+ROLE_PLAY | *as your old boss* What do you mean you're leaving? Who will refill the printer?
+ESCALATION | Today a new job, tomorrow CEO, next week you own the building.
+UNDERSTATEMENT | Okay, mildly impressive. Drinks are on you, obviously.
+
+@ FRIEND | My little brother just started college.
+ROLE_PLAY | *as your brother* Hi, can I borrow sixty dollars for a textbook? It's for... a textbook.
+EXAGGERATION | So he's officially living on ramen and confidence now.
+SELF_DEPRECATION | Tell him I peaked at freshman orientation. Learn from my mistakes.
+UNDERSTATEMENT | So your mom's handling it with total calm, I'm sure.
+
+@ FRIEND | I can't decide between pizza or tacos tonight.
+REVERSAL | Get both. You're an adult, nobody can stop you.
+ESCALATION | Pizza with tacos on top. It's called fusion now.
+ROLE_PLAY | *game show host voice* And behind door number one... carbs!
+MISDIRECTION | Tough call. Have you considered a salad? I'm joking. Pizza.
+
+@ FRIEND | I went to bed at 9 last night. I'm so old.
+REVERSAL | That's not old, that's elite. Nine is the new midnight.
+EXAGGERATION | Next you'll be complaining about the weather and buying a sweater vest.
+SELF_DEPRECATION | Nine? I was asleep by eight in my clothes. Proudly.
+UNDERSTATEMENT | So, a pretty wild Friday then.
+
+@ COWORKER | Did you see the email about the new printer?
+EXAGGERATION | I did. Eleven paragraphs. I think it's a love letter.
+ROLE_PLAY | *as the printer* PC LOAD LETTER. I don't know what it means either.
+REVERSAL | Finally, a printer I can be disappointed by in a whole new way.
+UNDERSTATEMENT | I skimmed it. Seems like a big day for paper.
+
+@ COWORKER | Is this meeting going to be another one that could've been an email?
+ESCALATION | This one could've been a sticky note. Maybe a sigh.
+ROLE_PLAY | *as the meeting* I'm sorry, I didn't choose to be scheduled for an hour.
+REVERSAL | Honestly, I hope it's long. My inbox is scarier.
+SELF_DEPRECATION | I'll be there, nodding like I've read the deck.
+
+@ COWORKER | You're on mute.
+ROLE_PLAY | *frantic clicking* ...and that's why we should all get a raise. Anyway.
+SELF_DEPRECATION | Honestly that's my best work. Everyone loves me on mute.
+LITERAL | I know. I was saying the smart stuff privately.
+EXAGGERATION | How long? Did I just give a twenty-minute speech to nobody?
+
+@ COWORKER | Someone stole my lunch from the fridge again.
+ROLE_PLAY | *detective voice* The thief knew you. They knew you'd bring the good leftovers.
+ESCALATION | Time for a hidden camera, a decoy sandwich and a team-wide interrogation.
+REVERSAL | Honestly, take it as a compliment. Your cooking has fans.
+UNDERSTATEMENT | Bold of them. Very rude to your sandwich.
+
+@ COWORKER | My camera's off because I'm still in my pajamas.
+REVERSAL | Respect. I'm in a shirt and tie on top and pajamas down below. Business mullet.
+EXAGGERATION | Some of us haven't worn real pants since 2020.
+ROLE_PLAY | *as HR* We'll allow it, but the dinosaur slippers stay off-screen.
+SELF_DEPRECATION | Same. Though mine are also my day clothes. And my going-out clothes.
+
+@ COWORKER | The coffee machine is broken again.
+EXAGGERATION | We need to evacuate. This is a productivity emergency.
+ROLE_PLAY | *as the coffee machine* I need a vacation too, okay?
+UNDERSTATEMENT | So, the office is going to be a little quieter today. And grumpier.
+ESCALATION | Next thing the Wi-Fi goes and we're forming tribes by the vending machine.
+
+@ COWORKER | Happy Friday!
+REVERSAL | Don't jinx it. Someone's going to schedule a 4:55 call.
+ESCALATION | Happy Friday, and soon happy weekend, and then sad Monday. The circle of life.
+ROLE_PLAY | *as the weekend* I'm almost there. Hold on.
+UNDERSTATEMENT | I'm cautiously optimistic about it.
+
+@ COWORKER | I have back-to-back meetings all day.
+EXAGGERATION | So you'll get your actual work done at 9pm, like nature intended.
+LITERAL | Back-to-back? Do you at least face each other? Seems rude otherwise.
+SELF_DEPRECATION | I envy you. Nobody invites me to meetings. I just show up.
+UNDERSTATEMENT | So, lunch is more of a concept today.
+
+@ COWORKER | Did you finish that report yet?
+MISDIRECTION | Yes. Well, I finished thinking about starting it. That's like half.
+ROLE_PLAY | *as the report* He opened me once. Just once. Then he left.
+EXAGGERATION | It's in progress, and by progress I mean it has a title.
+REVERSAL | Did the report finish me? That's the real question.
+
+@ COWORKER | I just replied-all by accident.
+EXAGGERATION | Congratulations, you're famous now. The whole company knows your typo.
+ROLE_PLAY | *as IT* Please stop replying to say "please stop replying all."
+ESCALATION | Wait for the chain. Someone's going to reply-all asking to be removed.
+SELF_DEPRECATION | I once replied-all with "lol who sent this." I sent it.
+
+@ COWORKER | The Wi-Fi keeps cutting out.
+ROLE_PLAY | *frozen face* You're... break... ing... up...
+EXAGGERATION | Great, so we're back to carrier pigeons.
+REVERSAL | Honestly, a feature. Best excuse to leave a meeting.
+UNDERSTATEMENT | Bit of a challenge for a remote job.
+
+@ COWORKER | Who keeps setting the thermostat to arctic?
+ROLE_PLAY | *as a penguin* That would be me. I'm the new hire.
+EXAGGERATION | I brought a parka. I'm considering an ice fishing hole by my desk.
+REVERSAL | Honestly, it keeps us awake. Shivering is basically cardio.
+UNDERSTATEMENT | It's a little brisk, sure. My fingers just turned blue.
+
+@ COWORKER | I'm going to need another coffee to survive this afternoon.
+ESCALATION | Another? At this point you're not drinking coffee, you're coffee wearing a person.
+SELF_DEPRECATION | I'm on my fourth. I can hear colors now.
+UNDERSTATEMENT | It's a cup-heavy kind of day.
+REVERSAL | Coffee to survive? I need a nap to survive the coffee.
+
+@ COWORKER | We're having a team-building event next week.
+ROLE_PLAY | *as the facilitator* Now everyone share one fun fact about themselves!
+EXAGGERATION | Great. Trust falls and forced fun. I'll prepare emotionally.
+REVERSAL | Love it. Finally a chance to see who's secretly competitive at bowling.
+MISDIRECTION | Can't wait. I've been building my excuse since Monday.
+
+@ COWORKER | Can you hop on a quick call?
+LITERAL | Sure. Where's the call? I'll do my best hop.
+EXAGGERATION | "Quick." So, ninety minutes. I'll pack snacks.
+ROLE_PLAY | *as your calendar* Oh, so now we're just making things up?
+UNDERSTATEMENT | Quick, as in, I'll see you in an hour?
+
+@ COWORKER | I just got assigned to the new project.
+ESCALATION | Congrats. Now you'll be "aligning" and "circling back" until 2028.
+ROLE_PLAY | *as your manager* Great news, it's a stretch opportunity. Also it's due tomorrow.
+SELF_DEPRECATION | I'm jealous. My last project was making the fridge sign.
+UNDERSTATEMENT | So, a light week then.
+
+@ COWORKER | My laptop just decided to update in the middle of my presentation.
+ROLE_PLAY | *as the laptop* I saw an opportunity, and I took it.
+EXAGGERATION | Classic. Windows doesn't care about your career goals.
+UNDERSTATEMENT | Great timing. Very dramatic pause.
+REVERSAL | Honestly, best presentation ever. Everyone loves a progress bar.
+
+@ COWORKER | Anyone else feel like this week has lasted a month?
+ESCALATION | A month? I've started growing a beard and I'm not sure who I am anymore.
+REVERSAL | Weird, I feel like it's lasted fifteen minutes. Every one of them painful.
+UNDERSTATEMENT | It's been a bit of a long one, sure.
+ROLE_PLAY | *as Wednesday* I'm doing my best, okay?
+
+@ COWORKER | I accidentally called my manager "mom."
+SELF_DEPRECATION | I called mine "babe." Only once. I think about it every day.
+ESCALATION | Next you'll ask her for a ride home and twenty dollars for the movies.
+ROLE_PLAY | *as your manager* I'm proud of you, sweetie. Now finish the spreadsheet.
+UNDERSTATEMENT | So, a pretty close working relationship.
+
+@ COWORKER | They're bringing donuts to the morning meeting.
+EXAGGERATION | This is the most exciting thing to happen in this building since the fire drill.
+ROLE_PLAY | *as the donuts* We are a bribe. Please do not question us.
+MISDIRECTION | Great, I'll be there. For the meeting. Obviously.
+REVERSAL | Uh oh. Free donuts means bad news. What are they announcing?
+
+@ COWORKER | My code finally works and I don't know why.
+ROLE_PLAY | *whispering* Don't touch it. Don't even look at it.
+EXAGGERATION | That's not code anymore, that's a religious artifact.
+REVERSAL | Perfect. Understanding it would only ruin it.
+SELF_DEPRECATION | Same. My whole career is code I'm scared to breathe on.
+
+@ COWORKER | I've been staring at this spreadsheet for an hour.
+ESCALATION | Soon the spreadsheet will start staring back, then it's game over.
+LITERAL | Have you tried blinking? It helps the eyes.
+ROLE_PLAY | *as the spreadsheet* #REF! You're welcome.
+UNDERSTATEMENT | So it's going really well, I take it.
+
+@ COWORKER | Do you know who left the passive-aggressive note in the kitchen?
+ROLE_PLAY | *reading the note* "Some of us have to wash OUR OWN mugs. Thanks!!!!"
+ESCALATION | Give it a day. Someone will reply on a sticky note and it'll be a full war.
+SELF_DEPRECATION | I hope it wasn't me. I sleepwalk sometimes.
+UNDERSTATEMENT | Somebody really cares about mugs.
+
+@ COWORKER | The client wants changes. Again.
+ROLE_PLAY | *as the client* Love it, can we make it pop more? And also completely different?
+EXAGGERATION | At this point we should put the client on payroll.
+REVERSAL | Great, I was getting bored of the version they approved yesterday.
+UNDERSTATEMENT | So, they're very engaged.
+
+@ COWORKER | I'm working from a coffee shop today.
+ESCALATION | Next week a beach, then a mountain, then you're a full digital nomad in Bali.
+ROLE_PLAY | *as the barista* Will you be ordering anything else, or just using the outlet all day?
+MISDIRECTION | Nice. Very productive. Also very caffeinated. Mostly caffeinated.
+SELF_DEPRECATION | Brave. I tried that once and spent four hours people-watching.
+
+@ COWORKER | My calendar says I have a meeting with myself at 3.
+LITERAL | Be on time. You hate it when you're late.
+ROLE_PLAY | *as you, to you* Thanks for joining. Let's start with the overdue tasks.
+REVERSAL | Finally, a meeting where everyone agrees with you.
+ESCALATION | Bring snacks. And an agenda. And a performance review.
+
+@ COWORKER | I think I'm getting a cold.
+ROLE_PLAY | *as the office* Please stay home. We beg.
+EXAGGERATION | Uh oh. Don't breathe on the stapler. That's how the whole floor goes down.
+UNDERSTATEMENT | So, a very soupy weekend ahead.
+REVERSAL | Lucky. A sick day without having to fake it.
+
+@ COWORKER | We're switching to a new project management tool.
+ESCALATION | Great, the fifth one this year. Next we'll just use carrier pigeons and string.
+ROLE_PLAY | *as the old tool* After all we've been through? Typical.
+UNDERSTATEMENT | So, a fun two weeks of nobody knowing where anything is.
+SELF_DEPRECATION | I still haven't figured out the last one. I've just been dragging cards around.
+
+@ COWORKER | Are you going to the office party?
+ROLE_PLAY | *as the karaoke machine* Please. I've been waiting all year.
+MISDIRECTION | Absolutely. I'll be there for at least eleven minutes.
+EXAGGERATION | I've been rehearsing small talk since July.
+REVERSAL | Only if they let me leave before it gets fun.
+
+@ COWORKER | I forgot my badge and had to be let in by security.
+ROLE_PLAY | *as security* Name? Purpose of visit? Do you even work here?
+ESCALATION | Next time they'll make you sign in like a visitor and wear a sticker.
+SELF_DEPRECATION | I've done that so often the guard just waves now. We're friends.
+UNDERSTATEMENT | So, a dramatic entrance.
+
+@ COWORKER | I just spent ten minutes looking for the pen that was in my hand.
+SELF_DEPRECATION | Classic. I once looked for my glasses while wearing them.
+EXAGGERATION | Next time call search and rescue. They're very good.
+ROLE_PLAY | *as the pen* I was right here the whole time. I'm hurt.
+UNDERSTATEMENT | Productive morning, then.
+
+@ COWORKER | Our manager said we need to "synergize" more.
+ROLE_PLAY | *manager voice* Let's circle back and leverage our core competencies, team.
+LITERAL | Great. I'll stand closer to everyone and hum.
+ESCALATION | Next week it'll be "ideate," and by Friday we're "pivoting our paradigms."
+UNDERSTATEMENT | Sounds like a very clear instruction.
+
+@ DATE | So, what do you do for fun?
+SELF_DEPRECATION | Mostly I reorganize my spice rack and call it a hobby.
+MISDIRECTION | I'm big into extreme sports. Like extreme napping.
+ROLE_PLAY | *job interview voice* Great question. I'd say my biggest weakness is having too much fun.
+REVERSAL | Honestly, this. I'm doing it right now. Check back in an hour.
+
+@ DATE | I'm a little nervous, I haven't done this in a while.
+SELF_DEPRECATION | Me too. I practiced my "hi" in the mirror. Twice.
+UNDERSTATEMENT | Same. I'm only sweating a medium amount.
+REVERSAL | Good, then we're both bad at it. Very even playing field.
+ROLE_PLAY | *as a sports coach* Breathe. Shake it out. You've got this.
+
+@ DATE | Do you have any pets?
+SELF_DEPRECATION | Just a houseplant that's clinging to life. It's a complicated relationship.
+EXAGGERATION | Not yet. I'm still working up to a goldfish. It's a big commitment.
+MISDIRECTION | I have a dog. Well, my neighbor has a dog. I'm emotionally involved.
+ROLE_PLAY | *as a dog* He won't get one. I've been asking for years.
+
+@ DATE | I always order the same thing at restaurants.
+REVERSAL | That's not boring, that's loyalty. The pasta appreciates you.
+ESCALATION | So the chef knows you, the waiter knows you, and they've named a dish after you.
+SELF_DEPRECATION | Same. I've had the same sandwich since 2015. We're very close.
+LITERAL | Even at new restaurants? That's impressive. How do they know to make it?
+
+@ DATE | I'm terrible at picking restaurants, so I'm glad you chose.
+SELF_DEPRECATION | Honestly I just picked the one with the best-looking bread on Instagram.
+ROLE_PLAY | *as a food critic* Indeed, I have exquisite taste. Also it was near my house.
+UNDERSTATEMENT | No pressure, but if the food's bad, I'll be moving out of town.
+REVERSAL | Great, so if it's bad, it's my fault. Love that for me.
+
+@ DATE | So how many siblings do you have?
+EXAGGERATION | Two. One's the golden child, one's the wild child, and I'm the one who brings the dip.
+ROLE_PLAY | *as my mom* He's my favorite. Don't tell the others.
+MISDIRECTION | One. Well, technically one. My sister says I'm the extra one.
+SELF_DEPRECATION | One brother. He's better at everything. It's fine. Really.
+
+@ DATE | I love traveling. Where's the last place you went?
+SELF_DEPRECATION | The grocery store across town. Very exotic. Had a great time.
+EXAGGERATION | Lisbon. I ate so many custard tarts I think I'm partly pastry now.
+MISDIRECTION | Paris. Well, a restaurant called Paris. In Ohio.
+ROLE_PLAY | *as a travel vlogger* Hey guys, welcome back to my channel.
+
+@ DATE | I have to warn you, I'm really competitive.
+ESCALATION | Great. So whoever finishes their drink first wins this date?
+REVERSAL | Good, I'm famously bad at everything. You'll love it.
+ROLE_PLAY | *sports commentator voice* And we have an early lead in the conversation, folks.
+UNDERSTATEMENT | Noted. I'll avoid challenging you to a board game for at least three dates.
+
+@ DATE | I can't believe how cold it is tonight.
+EXAGGERATION | My eyelashes are frozen. I'm basically a snowman with a reservation.
+SELF_DEPRECATION | I'm wearing three layers and I still look like I'm vibrating.
+REVERSAL | Honestly, perfect excuse for hot chocolate after this.
+LITERAL | We could share a scarf. It's a big one. It was my grandpa's.
+
+@ DATE | What kind of music are you into?
+SELF_DEPRECATION | Mostly sad songs I sing in the shower. Loudly. Badly.
+MISDIRECTION | Classic rock, jazz and, honestly, whatever's in the grocery store.
+ROLE_PLAY | *as Spotify* Your top song this year was the same one 900 times.
+REVERSAL | Depends. Which answer makes me seem cooler?
+
+@ DATE | I've never had sushi before.
+EXAGGERATION | Then tonight is a historic occasion. I'll alert the press.
+ROLE_PLAY | *as a sushi chef* Welcome. Your new life starts now.
+REVERSAL | Honestly, I envy you. Getting to try it for the first time.
+SELF_DEPRECATION | Great, then you won't notice I still can't use chopsticks.
+
+@ DATE | You look different from your photos.
+SELF_DEPRECATION | Yeah, in person I come with fewer filters and more nervous laughter.
+ROLE_PLAY | *as my photo* I'm sorry. He's doing his best.
+REVERSAL | Good different, I hope. Otherwise, my twin's going to be furious.
+UNDERSTATEMENT | Better lighting in the photos, I think.
+
+@ DATE | I'm a huge coffee person.
+ESCALATION | So you're basically coffee with legs and an opinion on oat milk.
+SELF_DEPRECATION | Me too. Well, I drink it, then I stare at walls for six hours.
+ROLE_PLAY | *as a barista* I already know your order. It's very long.
+REVERSAL | Thank goodness. I don't trust tea people.
+
+@ DATE | I'm pretty bad at small talk.
+REVERSAL | Great, let's skip it. What's your deepest fear?
+SELF_DEPRECATION | Same. My best line is "Wow, it's Tuesday."
+UNDERSTATEMENT | You're doing fine. That's already the best small talk I've had this week.
+ROLE_PLAY | *as a weather man* Cloudy with a chance of awkward silence.
+
+@ DATE | I love cooking, but I'm a disaster in the kitchen.
+EXAGGERATION | So the fire department knows you by name?
+CALLBACK | A cooking disaster. Sounds like a great reality show.
+SELF_DEPRECATION | Same. My signature dish is cereal. I nail the milk ratio.
+REVERSAL | That's the best kind of cook. All passion, no consequences.
+
+@ DATE | Do you believe in astrology?
+ROLE_PLAY | *mystical voice* The stars say you're about to order dessert.
+MISDIRECTION | Absolutely not. Which is exactly what a Capricorn would say.
+SELF_DEPRECATION | Only when it says something nice about me.
+REVERSAL | Not really, but I believe in the people who believe in it.
+
+@ DATE | I almost cancelled tonight because I was so tired.
+SELF_DEPRECATION | Me too. I had the text drafted. Then I remembered I'd paid for parking.
+REVERSAL | Glad you didn't. I'd be home talking to my houseplant.
+ESCALATION | And now you're here, fully committed, already eyeing the dessert menu.
+UNDERSTATEMENT | So, a pretty enthusiastic yes, then.
+
+@ DATE | So what are you looking for?
+MISDIRECTION | Honestly? Someone who laughs at my jokes. And the bathroom. Where is it?
+SELF_DEPRECATION | Someone who'll tolerate my podcast opinions.
+ROLE_PLAY | *as a real estate agent* Two bedrooms, good light, and someone who shares fries.
+REVERSAL | Depends. What are you offering?
+
+@ DATE | I've been to this bar before, actually.
+ROLE_PLAY | *bartender voice* The usual?
+EXAGGERATION | So you're basically a local legend here. Should I ask for an autograph?
+CALLBACK | Before? Was it a date? Should I be worried? Was it better?
+UNDERSTATEMENT | So I didn't exactly pick a hidden gem.
+
+@ DATE | I'm a really picky eater.
+ESCALATION | So you'll be ordering water and the decorative lemon?
+SELF_DEPRECATION | Great, I'm the opposite. I'll eat anything that stays still.
+REVERSAL | Love that. Means you have standards. Hopefully not for dates.
+ROLE_PLAY | *as the chef* Plain pasta? No sauce? A bold artistic choice.
+
+@ DATE | My friends made me go on this app.
+ROLE_PLAY | *as your friends* We did it for your own good. You're welcome.
+REVERSAL | Mine too. Let's send them both a thank-you note. Or a complaint.
+SELF_DEPRECATION | Mine didn't make me. I did it voluntarily. Very bravely.
+UNDERSTATEMENT | So, your friends are very supportive. And pushy.
+
+@ DATE | I'm kind of a morning person.
+ESCALATION | So you're up at six doing yoga and journaling about gratitude?
+SELF_DEPRECATION | I'm more of a mourning person. I mourn mornings.
+REVERSAL | Respect. I've only seen a sunrise by accident.
+ROLE_PLAY | *as a rooster* Finally, someone who gets me.
+
+@ DATE | This is the best pasta I've had in years.
+EXAGGERATION | Should we just move into the kitchen? Live here?
+ROLE_PLAY | *as the pasta* I'm blushing. Also, I'm al dente.
+REVERSAL | Uh oh. That means I'm the second-best thing about tonight.
+UNDERSTATEMENT | It's a decent noodle, I'll admit.
+
+@ DATE | Do you want to split dessert?
+MISDIRECTION | Absolutely. You get a spoon, I get the rest. Kidding. Mostly.
+ESCALATION | Split one? Let's get three and do a tasting.
+ROLE_PLAY | *as the dessert* Choose wisely. I can only make one of you happy.
+REVERSAL | I don't usually share dessert. But for you I'll make an exception.
+
+@ DATE | I'm trying to learn Spanish.
+ROLE_PLAY | *as Duolingo owl* Don't forget your lesson today. I'm watching.
+SELF_DEPRECATION | I took four years in school. I can confidently ask where the library is.
+ESCALATION | So, next date in Madrid? I'll be your translator. Badly.
+UNDERSTATEMENT | Muy bien. That's about all I've got.
+
+@ DATE | I have a confession: I've never seen Star Wars.
+EXAGGERATION | Oh no. I need to sit down. This changes everything.
+ROLE_PLAY | *breathing like Darth Vader* I find your lack of viewing disturbing.
+REVERSAL | Honestly, refreshing. I've been looking for someone to explain it to me.
+UNDERSTATEMENT | Well, that's a little surprising. Nothing major.
+
+@ DATE | I'm a terrible dancer, just so you know.
+SELF_DEPRECATION | Perfect, I dance like an inflatable tube man at a car wash.
+ESCALATION | Great, let's go dancing now. We'll clear the floor. Nobody will stay.
+REVERSAL | Good dancers are overrated. Enthusiastic dancers are where it's at.
+ROLE_PLAY | *as a dance instructor* And five, six, seven, eight... no, the other left.
+
+@ DATE | I think the waiter has forgotten about us.
+ROLE_PLAY | *as the waiter* I'm giving you two some space. Too much space.
+ESCALATION | Should we start foraging? There's bread on that table over there.
+REVERSAL | Good, more time for me to come up with interesting things to say.
+UNDERSTATEMENT | We're having a very slow-paced dinner.
+
+@ DATE | I love board games.
+ESCALATION | So you're the person who reads all the rules out loud and wins everything.
+SELF_DEPRECATION | Great. I'm the one who flips the Monopoly board. Gently.
+ROLE_PLAY | *game night voice* You've drawn a card. It says... second date.
+REVERSAL | Uh oh. I'm terrible at them. You'll have to go easy on me.
+
+@ DATE | So, do you come here often?
+ROLE_PLAY | *as a cheesy guy* Only when I know you'll be here.
+REVERSAL | Wait, isn't that my line?
+MISDIRECTION | Every night. I'm the guy who fixes the jukebox.
+UNDERSTATEMENT | Only once. Tonight. It's going okay so far.
+
+@ DATE | I'm a bit of a neat freak.
+ESCALATION | So you've already noticed my napkin is folded wrong. I can feel it.
+SELF_DEPRECATION | Great, my apartment would give you a panic attack.
+ROLE_PLAY | *as a messy roommate* So, we're definitely not moving in together.
+REVERSAL | Thank goodness. I need someone to organize my life.
+
+@ DATE | I had a really great time tonight.
+REVERSAL | Me too. Next time I'm picking the worst restaurant just to keep you humble.
+ROLE_PLAY | *as the movie narrator* And so began the greatest second date of all time.
+UNDERSTATEMENT | It was... fine. I'm kidding. It was great.
+ESCALATION | Great enough for a sequel? I hear sequels are usually better.

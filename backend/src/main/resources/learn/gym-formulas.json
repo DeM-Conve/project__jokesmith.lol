@@ -1,0 +1,146 @@
+[
+  {
+    "key": "MISDIRECTION",
+    "label": "Misdirection",
+    "oneLiner": "Get them picturing one story, then show them a second story that fits the same facts.",
+    "howItWorks": "Greg Dean's model: the setup creates a target assumption (the obvious reading), and a connector (a word or phrase that can be read two ways) lets the punch reveal a reinterpretation. Write the punch first, then build a setup that hides it.",
+    "exampleSetup": "I finally got my mum to stop texting me during work.",
+    "examplePunchline": "Now she calls.",
+    "templateSetup": "I've finally {{something that sounds like an achievement}}.",
+    "templatePunchline": "{{the detail that shows it's not what they pictured}}.",
+    "tips": [
+      "Start from the punch. Find the surprising truth, then write the most innocent-sounding way to lead up to it.",
+      "Find the connector: the word the audience reads one way and you mean another (\"a night\", \"religiously\", \"marathon\").",
+      "Keep the setup boringly believable. The more ordinary the assumption, the harder it breaks."
+    ],
+    "stretch": "Write a second punch for the same setup that reinterprets a different word."
+  },
+  {
+    "key": "RULE_OF_THREE",
+    "label": "Rule of three",
+    "oneLiner": "Two items set a pattern; the third breaks it.",
+    "howItWorks": "Two is the shortest pattern a brain recognises, and three is the fastest way to break one. Make items one and two genuinely normal and in the same category, then make item three the same shape but from a different world. The odd one goes last, and so does the punch word.",
+    "exampleSetup": "A good team needs three things:",
+    "examplePunchline": "trust, communication and someone to blame.",
+    "templateSetup": "{{the topic}} comes down to three things:",
+    "templatePunchline": "{{a normal item}}, {{another normal item}} and {{the item that breaks the pattern}}.",
+    "tips": [
+      "Items one and two must be boringly correct. If they're already jokes, the third has nothing to break.",
+      "Keep all three grammatically parallel (all nouns, or all \"-ing\" phrases) so the rhythm carries the surprise.",
+      "Make the third item a little longer than the others. The extra beat sounds like a drum fill."
+    ],
+    "stretch": "Rewrite it so the third item is a callback to the first."
+  },
+  {
+    "key": "EXAGGERATION",
+    "label": "Exaggeration",
+    "oneLiner": "Take a true feeling and inflate it to a specific, impossible size.",
+    "howItWorks": "Start with a real frustration (the bus is late, the flat is small). Ask \"how late?\" and keep answering with consequences that would only happen if it were impossibly true. The laugh comes from the size, and the nod comes from the truth underneath. The more specific and picturable the consequence, the better.",
+    "exampleSetup": "My commute is so long,",
+    "examplePunchline": "I've started getting post on the train.",
+    "templateSetup": "{{the topic}} is so {{the quality you're complaining about}},",
+    "templatePunchline": "{{an impossible but specific consequence}}.",
+    "tips": [
+      "Don't exaggerate the quality (\"SO SO long\"). Exaggerate the consequence (\"I get post on the train\").",
+      "Specific beats big: \"the milk expired twice\" beats \"forever\".",
+      "Pick a consequence from a different world (post office, NASA, archaeology) for extra surprise."
+    ],
+    "stretch": "Write three escalating consequences and keep only the strongest."
+  },
+  {
+    "key": "COMPARISON",
+    "label": "Comparison",
+    "oneLiner": "Link two things from far-apart worlds that share one painfully accurate detail.",
+    "howItWorks": "List the specific qualities of your topic (who's in it, what's annoying, what it smells like). Then find something from a completely different world with one of those same qualities. The further apart the two worlds, the bigger the laugh, but the shared detail must be instantly obvious. Say the comparison in the setup and prove it in the punch.",
+    "exampleSetup": "My inbox is like a hydra.",
+    "examplePunchline": "Answer one email and two more grow back.",
+    "templateSetup": "{{the topic}} is basically {{something from a completely different world}}.",
+    "templatePunchline": "{{the one specific detail they share}}.",
+    "tips": [
+      "\"X is like Y\" is the setup, not the joke. The punch is the proof: the detail that makes it true.",
+      "Far worlds work best: an office and a zoo, coffee and a phone battery, a teenager and a cat.",
+      "Make sure the audience knows world two. Obscure references kill comparisons."
+    ],
+    "stretch": "Find a second shared detail and use it as a tag line."
+  },
+  {
+    "key": "LITERAL",
+    "label": "Literal interpretation",
+    "oneLiner": "Take a figure of speech, instruction or sign completely at its word.",
+    "howItWorks": "Everyday language is full of phrases nobody hears literally: \"follow your dreams\", \"keep an eye on it\", \"treat it like your own home\". Put one in the setup, said by someone with authority, and have the punch obey the exact words. This is reinterpretation where the connector is the whole phrase.",
+    "exampleSetup": "The recipe said to let it sit for an hour,",
+    "examplePunchline": "so I gave it my chair and stood.",
+    "templateSetup": "{{someone with authority}} told me to {{an idiom or instruction}}.",
+    "templatePunchline": "So now I {{do exactly what the words say}}.",
+    "tips": [
+      "Hunt for phrases: signs, labels, doctors' orders, parents' advice, corporate jargon.",
+      "Act it out precisely. The more faithfully the punch obeys the words, the funnier.",
+      "Have someone credible say the phrase, so the misunderstanding feels earned."
+    ],
+    "stretch": "Find a second idiom on the same topic and stack them as a tag."
+  },
+  {
+    "key": "WORDPLAY",
+    "label": "Wordplay",
+    "oneLiner": "One word does two jobs: the setup uses one meaning, and the punch cashes in the other.",
+    "howItWorks": "List words connected to your topic that have a second meaning (minutes, standing, interest, list). Write a setup that firmly establishes meaning one, then a punch where meaning two is the only one that makes sense. The best puns hide the double meaning until the last word, so they feel clever rather than corny.",
+    "exampleSetup": "My accountant takes a lot of interest in me.",
+    "examplePunchline": "Mostly compound.",
+    "templateSetup": "{{a sentence using a word in its normal meaning}}.",
+    "templatePunchline": "{{a sentence where that word suddenly means something else}}.",
+    "tips": [
+      "Don't announce the pun. If the audience sees it coming, the groan arrives before the laugh.",
+      "Put the double-meaning word (or its payoff) as the very last word.",
+      "Use phrases as well as single words: \"standing ovation\", \"in touch with nature\"."
+    ],
+    "stretch": "Rewrite it with the double-meaning word appearing only once."
+  },
+  {
+    "key": "REVERSAL",
+    "label": "Reversal",
+    "oneLiner": "Set up the normal direction of things, then flip roles, cause or effect.",
+    "howItWorks": "Every situation has a direction: parents teach kids, pets obey owners, security protects you. Establish it, then flip it in the punch. The teacher Googles the answer, the cat interviews the mice, the restaurant gets the small-tip concept. A reversal often reuses words from the setup in a new order.",
+    "exampleSetup": "I hired a personal trainer to keep me motivated.",
+    "examplePunchline": "Three weeks in, he's the one cancelling.",
+    "templateSetup": "I {{did something to get a normal result}}.",
+    "templatePunchline": "Now {{the roles have swapped}}.",
+    "tips": [
+      "Name the normal direction clearly in the setup so the flip is visible.",
+      "Reuse the setup's exact words when you flip them (\"small plate concept\" becomes \"small tip concept\").",
+      "Flip power: the weak one wins, the expert fails, the tool uses you."
+    ],
+    "stretch": "Flip it twice: add a tag that flips it back."
+  },
+  {
+    "key": "MASHUP",
+    "label": "Mash-up",
+    "oneLiner": "Run one world by the rules of another.",
+    "howItWorks": "Pick your topic and a second world with strong, well-known rules (a cooking show, a hospital, a courtroom, online reviews). Ask: \"If my topic were run like that world, what would someone say?\" Write the line someone from world two would actually say, applied to world one. The specific jargon of world two does the work.",
+    "exampleSetup": "If my cat were a landlord:",
+    "examplePunchline": "\"You can stay, but the sofa is mine and rent is due at 5am.\"",
+    "templateSetup": "If {{the topic}} were {{a world with strong rules}},",
+    "templatePunchline": "{{a line someone from that world would really say}}.",
+    "tips": [
+      "Pick world two for its jargon: reviews, sports commentary, airline announcements, cooking-show judges.",
+      "Write in world two's voice. Exact phrasing (\"Meets expectations\", \"One star\") sells it.",
+      "The best mash-ups reveal something true about world one."
+    ],
+    "stretch": "Keep world two and write two more lines in its voice: instant run of tags."
+  },
+  {
+    "key": "ATTITUDE",
+    "label": "Attitude",
+    "oneLiner": "State how it makes you feel (weird, stupid, scary or hard), then prove it.",
+    "howItWorks": "Judy Carter's method: a topic alone isn't funny, but your attitude about it is. Start with \"What's weird/stupid/scary/hard about X is...\", then name the specific detail that justifies the feeling. The attitude gives the audience a point of view to agree with, and the detail makes them laugh in recognition.",
+    "exampleSetup": "Self-service car washes are scary.",
+    "examplePunchline": "I paid four pounds to stand inside a hurricane I can't control.",
+    "templateSetup": "You know what's {{weird / stupid / scary / hard}} about {{the topic}}?",
+    "templatePunchline": "{{the specific detail that proves it}}.",
+    "tips": [
+      "Pick a genuine feeling. Fake outrage reads as fake.",
+      "The proof must be specific: a moment, an object, a sentence someone said.",
+      "Quiet people are great at this. You've been noticing things for years; now say them."
+    ],
+    "stretch": "Swap the attitude (weird to scary) and write a new punch for the same topic."
+  }
+]

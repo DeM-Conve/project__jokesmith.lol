@@ -1,0 +1,167 @@
+/* learn feature styles. Colors are tokens only; spacing uses the Mantine scale. */
+
+.stage {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: var(--mantine-radius-lg);
+  background:
+    radial-gradient(ellipse 70% 120% at 50% -30%, var(--accent-soft), transparent 70%),
+    var(--surface);
+  padding: var(--mantine-spacing-xl);
+}
+
+@media (max-width: $mantine-breakpoint-sm) {
+  .stage { padding: var(--mantine-spacing-md); }
+}
+
+.jokeSetup {
+  font-family: var(--font-display);
+  font-weight: 500;
+  color: var(--text-muted);
+  line-height: 1.3;
+}
+
+.jokePunch {
+  font-family: var(--font-display);
+  font-weight: 800;
+  color: var(--text);
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+.punchWord {
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+/* ---- Curriculum path ---- */
+
+.path {
+  position: relative;
+  padding-left: var(--mantine-spacing-2xl);
+}
+
+.path::before {
+  content: '';
+  position: absolute;
+  left: calc(var(--mantine-spacing-md) + 2px);
+  top: var(--mantine-spacing-lg);
+  bottom: var(--mantine-spacing-lg);
+  width: 2px;
+  background: linear-gradient(var(--accent), var(--border) 60%);
+  opacity: 0.6;
+}
+
+.node {
+  position: absolute;
+  left: calc(-1 * var(--mantine-spacing-2xl) + 2px);
+  top: var(--mantine-spacing-lg);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: var(--mantine-font-size-sm);
+  background: var(--surface-2);
+  border: 2px solid var(--border-strong);
+  color: var(--text-muted);
+  z-index: 1;
+}
+
+.nodeDone {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-ink);
+}
+
+.nodeNext {
+  border-color: var(--accent);
+  color: var(--accent);
+  box-shadow: 0 0 0 6px var(--accent-soft);
+}
+
+.lessonCard {
+  position: relative;
+  display: block;
+  border: 1px solid var(--border);
+  border-radius: var(--mantine-radius-lg);
+  background: var(--surface);
+  padding: var(--mantine-spacing-md) var(--mantine-spacing-lg);
+  transition: border-color 120ms ease, transform 120ms ease, background 120ms ease;
+}
+
+.lessonCard:hover {
+  border-color: var(--border-strong);
+  background: var(--surface-2);
+  transform: translateX(2px);
+}
+
+.lessonCardNext {
+  border-color: var(--accent);
+  background:
+    radial-gradient(ellipse 60% 140% at 0% 0%, var(--accent-soft), transparent 70%),
+    var(--surface);
+}
+
+/* ---- Word picker ---- */
+
+.word {
+  font-family: var(--font-display);
+  font-weight: 700;
+  border-radius: var(--mantine-radius-sm);
+  padding: var(--mantine-spacing-5xs) var(--mantine-spacing-4xs);
+  border: 1px dashed transparent;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  transition: background 100ms ease, border-color 100ms ease;
+}
+
+.word:hover { border-color: var(--border-strong); background: var(--surface-3); }
+.word:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.wordSelected { background: var(--accent); color: var(--accent-ink); }
+.wordSelected:hover { background: var(--accent); }
+.wordPunch { color: var(--text); }
+.wordSetup { color: var(--text-muted); }
+.wordCorrect { background: var(--good); color: var(--accent-ink); }
+.wordWrong { background: var(--mic-soft); border-color: var(--bad); }
+
+/* ---- Breakdown steps ---- */
+
+.steps {
+  counter-reset: step;
+}
+
+.step {
+  border-left: 2px solid var(--border);
+  padding-left: var(--mantine-spacing-md);
+  padding-bottom: var(--mantine-spacing-xs);
+}
+
+.step:last-child { border-left-color: var(--accent); }
+
+.gridCard {
+  border: 1px solid var(--border);
+  border-radius: var(--mantine-radius-md);
+  background: var(--surface);
+  padding: var(--mantine-spacing-md);
+  text-align: left;
+  height: 100%;
+  transition: border-color 120ms ease, background 120ms ease;
+}
+
+.gridCard:hover { border-color: var(--border-strong); background: var(--surface-2); }
+.gridCardActive { border-color: var(--accent); background: var(--surface-2); }
+
+.blank {
+  display: inline-block;
+  min-width: 10ch;
+  border-bottom: 2px dashed var(--accent);
+  color: var(--accent);
+  font-style: italic;
+}

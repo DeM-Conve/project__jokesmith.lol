@@ -1,0 +1,30 @@
+server:
+  port: ${SERVER_PORT:48200}
+  compression:
+    enabled: true
+    mime-types: application/json,application/problem+json,text/plain
+
+app:
+  frontend-url: ${FRONTEND_URL:http://localhost:5200}
+  ai:
+    # No key -> AiClient.available() is false and every feature uses its offline fallback.
+    api-key: ${ANTHROPIC_API_KEY:}
+    model: ${AI_MODEL:claude-sonnet-5-5}
+    base-url: ${AI_BASE_URL:https://api.anthropic.com}
+
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5433/punchline}
+    username: ${DB_USER:punchline}
+    password: ${DB_PASSWORD:punchline}
+  mvc:
+    problemdetails:
+      enabled: true
+  jpa:
+    open-in-view: false
+    hibernate:
+      # Flyway owns the schema (src/main/resources/db/migration); Hibernate only checks it.
+      ddl-auto: validate
+  flyway:
+    # Each feature owns a version range (see CLAUDE.md), so they can land in any order.
+    out-of-order: true
