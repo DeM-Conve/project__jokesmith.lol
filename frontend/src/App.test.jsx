@@ -3,7 +3,7 @@ import { http } from './test/http.js'
 import App from './App.jsx'
 import { renderWithProviders } from './test/render.jsx'
 
-http.get('/me', { id: 'u1', handle: 'DryOtter42', aiAvailable: false })
+http.get('/me', { id: 'u1', handle: 'DryOtter42' })
 
 test('shell renders every nav section', async () => {
   renderWithProviders(<App />)

@@ -10,24 +10,22 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/api/me")
 public class MeController {
-  public record MeDto(UUID id, String handle, boolean aiAvailable) {}
+  public record MeDto(UUID id, String handle) {}
   public record RenameRequest(@NotBlank @Size(min = 2, max = 32) @Pattern(regexp = "[\\p{L}\\p{N}_ .-]+") String handle) {}
 
   private final UserService users;
-  private final app.punchline.ai.AiClient ai;
 
-  public MeController(UserService users, app.punchline.ai.AiClient ai) {
+  public MeController(UserService users) {
     this.users = users;
-    this.ai = ai;
   }
 
   @GetMapping
   public MeDto me(@CurrentUser UUID userId) {
-    return new MeDto(userId, users.getOrCreate(userId).getHandle(), ai.available());
+    return new MeDto(userId, users.getOrCreate(userId).getHandle());
   }
 
   @PutMapping
   public MeDto rename(@CurrentUser UUID userId, @Valid @RequestBody RenameRequest body) {
-    return new MeDto(userId, users.rename(userId, body.handle()).getHandle(), ai.available());
+    return new MeDto(userId, users.rename(userId, body.handle()).getHandle());
   }
 }

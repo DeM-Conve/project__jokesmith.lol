@@ -35,7 +35,7 @@ const map = {
 
 beforeEach(() => {
   http.reset()
-  http.get('/me', { id: 'u1', handle: 'DryOtter42', aiAvailable: false })
+  http.get('/me', { id: 'u1', handle: 'DryOtter42' })
   http.get('/practice/associate/topics', { topics: ['Dentist'], categories, tips: ['Be specific.'] })
 })
 

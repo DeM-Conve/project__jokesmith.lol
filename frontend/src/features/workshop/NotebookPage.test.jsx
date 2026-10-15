@@ -1,4 +1,3 @@
-import './testPolyfills.js'
 import { fireEvent, screen, waitFor, within } from '@testing-library/react'
 import { api } from '../../api/client.js'
 import { http } from '../../test/http.js'

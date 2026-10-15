@@ -3,7 +3,7 @@ import { api } from './client.js'
 
 export const meKey = ['me']
 
-/** { id, handle, aiAvailable } - the anonymous-first identity (pid cookie). */
+/** { id, handle } - the anonymous-first identity (pid cookie). */
 export function useMeQuery() {
   return useQuery({ queryKey: meKey, queryFn: () => api.get('/me').then((r) => r.data), staleTime: Infinity })
 }

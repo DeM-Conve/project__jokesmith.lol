@@ -9,7 +9,7 @@ const base = { date: today, number: 288, setup: 'My landlord just texted "we nee
 
 beforeEach(() => {
   http.reset()
-  http.get('/me', { id: 'u1', handle: 'DryOtter42', aiAvailable: false })
+  http.get('/me', { id: 'u1', handle: 'DryOtter42' })
 })
 
 test('riff flow: start, add punchlines with Enter, finish, pick best, see peers', async () => {

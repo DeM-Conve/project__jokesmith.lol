@@ -39,7 +39,7 @@ const result = {
 
 beforeEach(() => {
   http.reset()
-  http.get('/me', { id: 'u1', handle: 'DryOtter42', aiAvailable: false })
+  http.get('/me', { id: 'u1', handle: 'DryOtter42' })
   http.get('/practice/banter/setup', setup)
 })
 

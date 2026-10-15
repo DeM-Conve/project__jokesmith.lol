@@ -6,11 +6,6 @@ server:
 
 app:
   frontend-url: ${FRONTEND_URL:http://localhost:5200}
-  ai:
-    # No key -> AiClient.available() is false and every feature uses its offline fallback.
-    api-key: ${ANTHROPIC_API_KEY:}
-    model: ${AI_MODEL:claude-sonnet-5-5}
-    base-url: ${AI_BASE_URL:https://api.anthropic.com}
 
 spring:
   datasource:
