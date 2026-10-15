@@ -11,11 +11,11 @@
     <relativePath/>
   </parent>
 
-  <groupId>app.punchline</groupId>
-  <artifactId>punchline-backend</artifactId>
+  <groupId>app.jokesmith</groupId>
+  <artifactId>jokesmith-backend</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>punchline-backend</name>
-  <description>Backend for punchl.in - learn and practise comedy writing</description>
+  <name>jokesmith-backend</name>
+  <description>Backend for jokesmith.lol - learn and practise comedy writing</description>
 
   <properties>
     <java.version>21</java.version>

@@ -1,4 +1,4 @@
-# punchl.in frontend: build the Vite app, serve it from nginx (which proxies /api).
+# jokesmith.lol frontend: build the Vite app, serve it from nginx (which proxies /api).
 FROM node:22-alpine AS build
 WORKDIR /src
 COPY package.json package-lock.json ./

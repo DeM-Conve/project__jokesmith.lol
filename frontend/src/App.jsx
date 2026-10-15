@@ -10,7 +10,7 @@ import { ROUTES } from './routes.jsx'
 function Logo() {
   return (
     <Text ff="var(--font-display)" fw={800} fz="xl" lts={-0.5}>
-      punchl<span style={{ color: 'var(--accent)' }}>.in</span>
+      jokesmith<span style={{ color: 'var(--accent)' }}>.lol</span>
     </Text>
   )
 }

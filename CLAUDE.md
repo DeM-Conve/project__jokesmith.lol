@@ -1,4 +1,4 @@
-# punchl.in
+# jokesmith.lol
 
 A gym for comedy writing: **learn** the mechanics of a joke (curriculum, joke X-ray,
 formula drills), **practise** daily (riffs, association maps, timed banter), **workshop**
@@ -12,7 +12,7 @@ every screen teaches by doing, not by reading.
   one component library, **TanStack Query** for all server state, **axios** as the
   transport (`src/api/client.js`'s `api`), `lucide-react` icons, `react-router-dom` 7.
   Tests: Vitest + Testing Library (`npm test`), lint `npx oxlint`, build `npx vite build`.
-- **Backend** `backend/`: Spring Boot 3.3 (Java 21, Maven), package `app.punchline`.
+- **Backend** `backend/`: Spring Boot 3.3 (Java 21, Maven), package `app.jokesmith`.
   Tests: `mvn test` (Testcontainers Postgres - Docker is required).
 - **Database**: Postgres 17, Spring Data JPA, schema owned by **Flyway**
   (`backend/src/main/resources/db/migration`). Hibernate `ddl-auto: validate` only.
@@ -38,7 +38,7 @@ every screen teaches by doing, not by reading.
   Validate with Bean Validation; errors are RFC 9457 ProblemDetail (already enabled).
 - **Identity**: anonymous-first. A controller takes `@CurrentUser UUID userId`
   (`pid` cookie, user auto-created). `GET/PUT /api/me` returns `{id, handle}`.
-- **Shared core** (`app.punchline.core`, migration `V1__core.sql`) - use, don't fork:
+- **Shared core** (`app.jokesmith.core`, migration `V1__core.sql`) - use, don't fork:
   - `JokeBank.save(userId, setup, punchline, JokeSource, promptRef)` - every joke a user
     writes anywhere goes in the `joke` table so the Notebook and Arena can see it.
   - `ActivityLog.record(userId, ComedySkill, xp)` - call once per completed rep.
@@ -72,10 +72,10 @@ unavoidable, and then only additively.
 
 | Feature | Frontend | Backend package | Migrations | Routes |
 |---|---|---|---|---|
-| learn | `features/learn/` | `app.punchline.learn` | `V100`-`V199` | `/learn`, `/learn/:skill`, `/xray`, `/gym` |
-| practice | `features/practice/` | `app.punchline.practice` | `V200`-`V299` | `/riff`, `/associate`, `/banter` |
-| workshop | `features/workshop/` | `app.punchline.workshop` | `V300`-`V399` | `/punchup`, `/arena`, `/notebook` |
-| progress | `features/progress/` | `app.punchline.progress` | `V400`-`V499` | `/`, `/progress`, `/delivery` |
+| learn | `features/learn/` | `app.jokesmith.learn` | `V100`-`V199` | `/learn`, `/learn/:skill`, `/xray`, `/gym` |
+| practice | `features/practice/` | `app.jokesmith.practice` | `V200`-`V299` | `/riff`, `/associate`, `/banter` |
+| workshop | `features/workshop/` | `app.jokesmith.workshop` | `V300`-`V399` | `/punchup`, `/arena`, `/notebook` |
+| progress | `features/progress/` | `app.jokesmith.progress` | `V400`-`V499` | `/`, `/progress`, `/delivery` |
 
 API paths are prefixed by feature: `/api/learn/**`, `/api/practice/**`,
 `/api/workshop/**`, `/api/progress/**`.
@@ -88,5 +88,5 @@ cd backend && mvn spring-boot:run            # :48200
 cd frontend && npm run dev                   # :5200, proxies /api -> :48200
 ```
 
-Side-by-side dev backends: `SERVER_PORT`, `DB_URL` (one of the `punchline_<feature>`
+Side-by-side dev backends: `SERVER_PORT`, `DB_URL` (one of the `jokesmith_<feature>`
 scratch databases), and on the frontend `VITE_PORT` / `VITE_API_PORT`.

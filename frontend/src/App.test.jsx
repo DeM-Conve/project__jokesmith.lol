@@ -10,5 +10,7 @@ test('shell renders every nav section', async () => {
   for (const label of ['Curriculum', 'Daily Riff', 'Joke Arena', 'Funny Radar']) {
     expect(screen.getByText(label)).toBeInTheDocument()
   }
+  expect(screen.getByText('jokesmith')).toBeInTheDocument()
+  expect(screen.getByText('.lol')).toBeInTheDocument()
   expect(await screen.findByText('DryOtter42')).toBeInTheDocument()
 })

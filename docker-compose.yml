@@ -1,21 +1,21 @@
 # Full stack: `docker compose up --build` -> http://localhost:8200
 # Dev database only: `docker compose up -d db` (Postgres on 127.0.0.1:5433)
-name: punchline
+name: jokesmith
 
 services:
   db:
     image: postgres:17-alpine
     environment:
-      POSTGRES_DB: punchline
-      POSTGRES_USER: punchline
-      POSTGRES_PASSWORD: punchline
+      POSTGRES_DB: jokesmith
+      POSTGRES_USER: jokesmith
+      POSTGRES_PASSWORD: jokesmith
     ports:
       - "127.0.0.1:5433:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
       - ./scripts/init-dev-dbs.sql:/docker-entrypoint-initdb.d/init-dev-dbs.sql:ro
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U punchline -d punchline"]
+      test: ["CMD-SHELL", "pg_isready -U jokesmith -d jokesmith"]
       interval: 3s
       timeout: 3s
       retries: 20
@@ -23,9 +23,9 @@ services:
   backend:
     build: ./backend
     environment:
-      DB_URL: jdbc:postgresql://db:5432/punchline
-      DB_USER: punchline
-      DB_PASSWORD: punchline
+      DB_URL: jdbc:postgresql://db:5432/jokesmith
+      DB_USER: jokesmith
+      DB_PASSWORD: jokesmith
       SERVER_PORT: "48200"
       FRONTEND_URL: http://localhost:8200
     depends_on:

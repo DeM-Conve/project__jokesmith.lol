@@ -1,9 +1,9 @@
-# punchl.in
+# jokesmith.lol
 
 **A gym for comedy writing, built for people who say "I'm not funny."**
 
 Being funny isn't a personality trait you either have or don't. It's a craft, with a
-handful of learnable mechanics and a lot of reps. punchl.in teaches those mechanics by
+handful of learnable mechanics and a lot of reps. jokesmith.lol teaches those mechanics by
 making you *do* them: every screen is an exercise, not an article. You learn how a joke
 works, practise every day, workshop your jokes until they land, then step up to a
 microphone and nail the timing. Along the way you watch a skill radar grow.
@@ -112,8 +112,8 @@ Backend (environment variables):
 | Variable | Default | Purpose |
 |---|---|---|
 | `SERVER_PORT` | `48200` | HTTP port |
-| `DB_URL` | `jdbc:postgresql://localhost:5433/punchline` | JDBC URL |
-| `DB_USER` / `DB_PASSWORD` | `punchline` / `punchline` | Database credentials |
+| `DB_URL` | `jdbc:postgresql://localhost:5433/jokesmith` | JDBC URL |
+| `DB_USER` / `DB_PASSWORD` | `jokesmith` / `jokesmith` | Database credentials |
 | `FRONTEND_URL` | `http://localhost:5200` | Allowed CORS origin for `/api/**` |
 
 Frontend dev server:
@@ -123,8 +123,8 @@ Frontend dev server:
 | `VITE_PORT` | `5200` | Dev server port |
 | `VITE_API_PORT` | `48200` | Backend port that `/api` is proxied to |
 
-The dev database container also creates scratch databases (`punchline_learn`,
-`punchline_practice`, `punchline_workshop`, `punchline_progress`) so several backends can
+The dev database container also creates scratch databases (`jokesmith_learn`,
+`jokesmith_practice`, `jokesmith_workshop`, `jokesmith_progress`) so several backends can
 run side by side: point each at one with `DB_URL` and give it its own `SERVER_PORT`.
 
 ## Stack
