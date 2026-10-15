@@ -160,7 +160,7 @@ export const POINT_OF_VIEW = {
     },
     {
       title: 'Topic + attitude + premise',
-      body: '\"Dentists\" is a topic. \"Dentists are scary\" is an attitude. \"The scariest thing at the dentist is being asked questions with their hands in your mouth\" is a **premise**: a specific, arguable observation. Jokes come from premises, not topics.',
+      body: '"Dentists" is a topic. "Dentists are scary" is an attitude. "The scariest thing at the dentist is being asked questions with their hands in your mouth" is a **premise**: a specific, arguable observation. Jokes come from premises, not topics.',
     },
     {
       title: 'Prove it with a specific',

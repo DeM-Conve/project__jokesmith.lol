@@ -61,7 +61,8 @@ public class GymService {
 
     String setup = req.setup() == null ? "" : req.setup().strip();
     String punch = req.punchline().strip();
-    List<Check> checks = checklist.check(req.formula(), premise.text(), setup, punch);
+    List<Check> checks = checklist.check(req.formula(), premise.text(),
+        premise.keywords() == null ? List.of() : premise.keywords(), setup, punch);
     int passed = (int) checks.stream().filter(Check::passed).count();
 
     Joke joke = bank.save(userId, setup, punch, JokeSource.FORMULA_GYM, "gym:" + req.formula().name() + ":" + premise.id());

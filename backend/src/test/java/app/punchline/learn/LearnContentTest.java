@@ -15,7 +15,8 @@ class LearnContentTest {
   @Test
   void hasACourseWorthOfContent() {
     assertThat(content.formulas()).hasSizeGreaterThanOrEqualTo(8);
-    assertThat(content.premises()).hasSizeGreaterThanOrEqualTo(60);
+    assertThat(content.premises()).hasSizeGreaterThanOrEqualTo(60)
+        .allSatisfy(p -> assertThat(p.keywords()).as(p.id()).isNotEmpty());
     assertThat(content.gallery()).hasSizeGreaterThanOrEqualTo(40);
     var drilled = content.formulas().stream().map(LearnDtos.GymFormula::key).collect(Collectors.toSet());
     var answered = content.modelAnswers().stream().map(LearnDtos.ModelAnswer::formula).collect(Collectors.toSet());
@@ -29,10 +30,10 @@ class LearnContentTest {
   void everyModelAnswerEndsOnItsPunchWordAndUsesItsFormula() {
     var problems = new java.util.ArrayList<String>();
     for (var a : content.modelAnswers()) {
-      var premise = content.premise(a.premiseId()).orElseThrow().text();
-      var checks = checklist.check(a.formula(), premise, a.setup(), a.punchline());
+      var premise = content.premise(a.premiseId()).orElseThrow();
+      var checks = checklist.check(a.formula(), premise.text(), premise.keywords(), a.setup(), a.punchline());
       var failed = checks.stream().filter(c -> !c.passed()).map(LearnDtos.Check::key)
-          .filter(k -> java.util.Set.of("punch-last", "economy", "no-explaining", "setup").contains(k)).toList();
+          .filter(k -> java.util.Set.of("punch-last", "economy", "no-explaining", "setup", "on-premise").contains(k)).toList();
       if (!failed.isEmpty()) problems.add(a.premiseId() + " " + a.formula() + " " + failed + ": " + a.punchline());
     }
     assertThat(problems).isEmpty();

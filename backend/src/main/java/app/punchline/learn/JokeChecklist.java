@@ -14,6 +14,11 @@ import org.springframework.stereotype.Component;
 @Component
 public class JokeChecklist {
   static final int MAX_WORDS = 45;
+  private static final java.util.regex.Pattern VAGUE = java.util.regex.Pattern.compile(
+      "\\b(?:forever|ages|so so|really really|very very|a lot|loads|tons|super|insanely|crazy|totally|extremely)\\b",
+      java.util.regex.Pattern.CASE_INSENSITIVE);
+  private static final Set<String> VAGUE_ENDINGS = Set.of(
+      "long", "big", "old", "late", "bad", "much", "lot", "ages", "forever", "slow", "small", "expensive", "annoying");
   static final int MAX_PUNCH_WORDS = 15;
 
   /**
@@ -21,6 +26,11 @@ public class JokeChecklist {
    * @param premise the premise text it should stay on, or null
    */
   public List<Check> check(JokeFormula formula, String premise, String setupIn, String punchIn) {
+    return check(formula, premise, List.of(), setupIn, punchIn);
+  }
+
+  /** @param keywords extra curated words that count as staying on the premise */
+  public List<Check> check(JokeFormula formula, String premise, List<String> keywords, String setupIn, String punchIn) {
     String setup = JokeText.clean(setupIn);
     String punch = JokeText.clean(punchIn);
     if (setup.isBlank()) {
@@ -63,7 +73,10 @@ public class JokeChecklist {
 
     if (premise != null && !premise.isBlank()) {
       Set<String> premiseStems = JokeText.contentStems(premise);
-      boolean on = JokeText.contentStems(all).stream().anyMatch(premiseStems::contains);
+      for (String k : keywords) premiseStems.addAll(JokeText.contentStems(k));
+      String flatAll = " " + JokeText.flat(all) + " ";
+      boolean on = JokeText.contentStems(all).stream().anyMatch(premiseStems::contains)
+          || keywords.stream().anyMatch(k -> flatAll.contains(" " + JokeText.flat(k) + " "));
       checks.add(new Check("on-premise", "It stays on the premise", on,
           "I can't find the premise's words in your joke. Name the topic so the audience knows what we're talking about."));
     }
@@ -91,8 +104,11 @@ public class JokeChecklist {
         boolean ext = FormulaCues.EXTREME.matcher(all).find();
         out.add(new Check("inflated", "It inflates something past reality", num || ext,
             "Push it further. Go from \"really long\" to \"long enough that the milk expired twice\"."));
-        out.add(new Check("specific-size", "The size is specific (a number or a picture)", num || FormulaCues.COMPARISON.matcher(all).find(),
-            "\"Very big\" is vague. Give a number or a picture: \"big enough to have its own postcode\"."));
+        String pw = JokeText.norm(JokeText.punchWord(punch));
+        boolean vague = VAGUE.matcher(punch).find() || VAGUE_ENDINGS.contains(pw);
+        out.add(new Check("specific-size", "The size is a picture, not just \"really X\"",
+            num || FormulaCues.COMPARISON.matcher(all).find() || !vague,
+            "\"Forever\" and \"so so long\" are vague. Show the consequence: a number or an image, like \"big enough to have its own postcode\"."));
       }
       case COMPARISON -> out.add(new Check("compare", "There's a comparison (like / as … as / than / basically)",
           FormulaCues.COMPARISON.matcher(all).find(),

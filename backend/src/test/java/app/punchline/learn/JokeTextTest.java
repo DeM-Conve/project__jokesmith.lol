@@ -45,6 +45,8 @@ class JokeTextTest {
         .isEqualTo(JokeFormula.ATTITUDE);
     assertThat(analyzer.analyse("My commute is so long I've started getting 300 letters a week on the train.").formula())
         .isEqualTo(JokeFormula.EXAGGERATION);
+    assertThat(analyzer.analyse("Our office printer is so old, it prints in Latin.").formula())
+        .isEqualTo(JokeFormula.EXAGGERATION);
     assertThat(analyzer.analyse("I sang at karaoke and got a standing ovation. Everyone stood up to leave.").formula())
         .isIn(JokeFormula.WORDPLAY, JokeFormula.MISDIRECTION);
   }
@@ -70,5 +72,9 @@ class JokeTextTest {
     var strong = checklist.check(JokeFormula.RULE_OF_THREE, "Yoga classes",
         "Yoga has taught me balance, patience", "and the exact location of the clock.");
     assertThat(strong).allMatch(LearnDtos.Check::passed);
+    // Curated premise keywords: a bus joke is on the "Public transport" premise.
+    var bus = checklist.check(JokeFormula.EXAGGERATION, "Public transport", java.util.List.of("bus", "timetable"),
+        "My bus is so late these days,", "I have started paying it rent.");
+    assertThat(bus).allMatch(LearnDtos.Check::passed);
   }
 }

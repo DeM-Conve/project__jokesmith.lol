@@ -29,7 +29,7 @@ final class FormulaCues {
       "\\b\\d[\\d,.]*\\b|\\b(?:hundred|hundreds|thousand|thousands|million|millions|billion|trillion|dozen|forty|fifty|sixty|seventy|eighty|ninety)\\b",
       Pattern.CASE_INSENSITIVE);
   static final Pattern EXTREME = Pattern.compile(
-      "\\bso\\s+\\w+\\s+(?:that|i|my|the|it|even|they|you|he|she)\\b|\\bevery single\\b|\\bentire\\b|\\bthe whole\\b|\\bnever once\\b"
+      "\\bso\\s+\\w+(?:\\s+\\w+){0,2},?\\s+(?:that|i|i've|i'm|my|the|it|its|it's|even|they|you|he|she|we|our)\\b|\\bevery single\\b|\\bentire\\b|\\bthe whole\\b|\\bnever once\\b"
           + "|\\bforever\\b|\\bcenturies\\b|\\bdecades\\b|\\bthe size of\\b|\\bthe most\\b|\\bthe only\\b|\\bat least\\b|\\bstill\\b"
           + "|\\bnasa\\b|\\bscientists\\b|\\bgeologically\\b|\\bvisible from\\b|\\bspace\\b|\\buniverse\\b",
       Pattern.CASE_INSENSITIVE);

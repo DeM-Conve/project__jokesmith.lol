@@ -97,7 +97,8 @@ public final class LearnDtos {
   public record GymFormula(JokeFormula key, String label, String oneLiner, String howItWorks, String exampleSetup,
       String examplePunchline, String templateSetup, String templatePunchline, List<String> tips, String stretch) {}
 
-  public record Premise(String id, String text, String category) {}
+  /** {@code keywords}: curated words that count as "on the premise" (bus for public transport). */
+  public record Premise(String id, String text, String category, List<String> keywords) {}
 
   public record ModelAnswer(JokeFormula formula, String premiseId, String setup, String punchline, String note) {}
 

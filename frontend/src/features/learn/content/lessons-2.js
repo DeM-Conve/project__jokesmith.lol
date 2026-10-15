@@ -381,7 +381,7 @@ export const HEIGHTENING = {
       kind: 'word',
       prompt: 'Tap the callback word in this punch.',
       joke: { setup: 'Earlier: my "self-cleaning" oven has never cleaned itself. Later: my teenager says he\'s on his room.', punchline: "Turns out he's also self-cleaning." },
-      answer: 'cleaning',
+      answer: 'self-cleaning',
       explain: '"self-cleaning" is the planted phrase coming back with a new target.',
     },
   ],
