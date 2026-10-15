@@ -8,6 +8,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
     <title>punchl.in</title>
+    <script>
+      // Apply the saved scheme (ThemeToggle, via Mantine's localStorage manager)
+      // before first paint, so a light-mode reload never flashes the dark stage.
+      try {
+        var s = localStorage.getItem('mantine-color-scheme-value') || 'auto'
+        if (s === 'auto') s = matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark'
+        document.documentElement.setAttribute('data-mantine-color-scheme', s)
+      } catch (e) {}
+    </script>
   </head>
   <body>
     <div id="root"></div>

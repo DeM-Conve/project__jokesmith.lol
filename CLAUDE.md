@@ -47,8 +47,11 @@ every screen teaches by doing, not by reading.
 - **Frontend**
   - No raw `fetch`/axios in components: each feature has `features/<f>/api.js` with
     TanStack Query hooks (query keys prefixed with the feature name, e.g. `['riff', ...]`).
-  - **Every color is a token** in `src/themes.js` `TOKENS` (`var(--accent)`, `var(--surface-2)`,
-    ...) or a Mantine color prop. Never a hex literal in a component.
+  - **Every color is a token** in `src/themes.js` `SCHEMES` (`var(--accent)`, `var(--surface-2)`,
+    ...) or a Mantine color prop. Never a hex literal in a component. There are two
+    schemes, **dark** (default) and **light** (`components/ThemeToggle.jsx`: Light / Dark /
+    System, per device in localStorage); a new token needs a value in both, and never
+    `c="white"`/`color="dark"` - they break one scheme.
   - Spacing/font sizes are the scale keys in `themes.js` (`gap="2xs"`, `fz="sm"`), never raw px
     (exempt: icon sizes, intrinsic widths/heights, geometry).
   - Every page starts with `components/PageHeader.jsx` (eyebrow = the skill it trains).
@@ -56,7 +59,8 @@ every screen teaches by doing, not by reading.
     secondary `variant="default"`; quiet `variant="subtle" color="gray"`; danger
     `variant="light" color="red"`. Primary last (rightmost).
   - Tests stub HTTP with `src/test/http.js` and render with `src/test/render.jsx`.
-  - Design feel: a comedy club after hours - warm near-black stage, one amber spotlight.
+  - Design feel: a comedy club after hours (dark) / the matinee (light: warm paper, deep
+    amber ink) - one amber spotlight either way.
     Big confident display type (Bricolage Grotesque) for prompts and punchlines; the
     joke text is the hero of every screen. Keyboard-first (Enter submits, timers visible).
 

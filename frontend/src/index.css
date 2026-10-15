@@ -1,4 +1,5 @@
-/* Fallbacks only - the real values come from themes.js TOKENS. */
+/* Fallbacks only (the instant before Mantine injects themes.js SCHEMES):
+   the dark set here, the light basics below. */
 :root {
   --bg: #110f0c;
   --surface: #1a1713;
@@ -12,6 +13,7 @@
   --accent: #ffb547;
   --accent-ink: #1a1206;
   --accent-soft: rgba(255, 181, 71, 0.12);
+  --accent-hover: #ffc566;
   --mic: #e5533d;
   --mic-soft: rgba(229, 83, 61, 0.14);
   --good: #7bc47f;
@@ -19,6 +21,13 @@
   --bad: #e5533d;
   --shadow: 0 8px 30px rgba(0, 0, 0, 0.45);
   --font-display: 'Bricolage Grotesque', Inter, system-ui, sans-serif;
+}
+
+:root[data-mantine-color-scheme='light'] {
+  --bg: #fbf7f0;
+  --surface: #ffffff;
+  --text: #1d1813;
+  --accent: #9a5800;
 }
 
 html, body, #root { min-height: 100%; }

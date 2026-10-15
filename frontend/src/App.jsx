@@ -3,6 +3,7 @@ import { useDisclosure } from '@mantine/hooks'
 import { Suspense } from 'react'
 import { NavLink as RouterLink, Route, Routes, useLocation } from 'react-router-dom'
 import { useMeQuery } from './api/me.js'
+import ThemeToggle from './components/ThemeToggle.jsx'
 import { NAV } from './nav.js'
 import { ROUTES } from './routes.jsx'
 
@@ -68,9 +69,12 @@ export default function App() {
       }}
     >
       <AppShell.Header px="md">
-        <Group h="100%" gap="sm">
-          <Burger opened={opened} onClick={toggle} hiddenFrom="sm" size="sm" />
-          <Logo />
+        <Group h="100%" justify="space-between" wrap="nowrap">
+          <Group gap="sm" wrap="nowrap">
+            <Burger opened={opened} onClick={toggle} hiddenFrom="sm" size="sm" />
+            <Logo />
+          </Group>
+          <ThemeToggle />
         </Group>
       </AppShell.Header>
       <AppShell.Navbar p="sm">
