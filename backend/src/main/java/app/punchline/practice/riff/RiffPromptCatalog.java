@@ -52,6 +52,12 @@ public class RiffPromptCatalog {
     return ChronoUnit.DAYS.between(LAUNCH, date) + 1;
   }
 
+  /** The prompt at a stored index ({@link RiffDayPins}); out of range only if a file was cut. */
+  public RiffPrompt get(int index) {
+    return prompts.get(Math.floorMod(index, prompts.size()));
+  }
+
+  /** The computed pick for a date. Use {@link RiffDayPins#promptFor} - it pins the pick. */
   public RiffPrompt forDate(LocalDate date) {
     long day = ChronoUnit.DAYS.between(LAUNCH, date);
     int index = (int) Math.floorMod(day * STRIDE + 17, (long) prompts.size());

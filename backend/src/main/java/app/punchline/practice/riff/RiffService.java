@@ -31,16 +31,16 @@ public class RiffService {
   static final int MAX_XP = 50;
   private static final int PEER_LIMIT = 50;
 
-  private final RiffPromptCatalog catalog;
+  private final RiffDayPins days;
   private final RiffSessionRepository sessions;
   private final RiffBestPickRepository picks;
   private final JokeBank bank;
   private final JokeRepository jokes;
   private final ActivityLog activity;
 
-  public RiffService(RiffPromptCatalog catalog, RiffSessionRepository sessions, RiffBestPickRepository picks,
+  public RiffService(RiffDayPins days, RiffSessionRepository sessions, RiffBestPickRepository picks,
       JokeBank bank, JokeRepository jokes, ActivityLog activity) {
-    this.catalog = catalog;
+    this.days = days;
     this.sessions = sessions;
     this.picks = picks;
     this.bank = bank;
@@ -68,7 +68,7 @@ public class RiffService {
   @Transactional(readOnly = true)
   public RiffDayDto day(UUID userId, LocalDate date) {
     checkPlayable(date);
-    RiffPrompt prompt = catalog.forDate(date);
+    RiffPrompt prompt = days.promptFor(date);
     int count = sessions.findByUserIdAndPromptDate(userId, date).size();
     List<PunchlineDto> mine = myPunchlines(userId, date);
     Long best = picks.findByUserIdAndPromptDate(userId, date).map(RiffBestPick::getJokeId).orElse(null);
@@ -79,7 +79,7 @@ public class RiffService {
   @Transactional
   public RiffResultDto submit(UUID userId, LocalDate date, SubmitRiffRequest req) {
     checkPlayable(date);
-    String setup = catalog.forDate(date).setup();
+    String setup = days.promptFor(date).setup();
     List<String> clean = req.punchlines().stream().map(String::strip).filter(s -> !s.isEmpty()).toList();
     if (clean.isEmpty()) throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Write at least one punchline");
     for (String p : clean) bank.save(userId, setup, p, JokeSource.DAILY_RIFF, date.toString());
@@ -121,7 +121,7 @@ public class RiffService {
     sessions.findByUserIdAndPromptDateBetween(userId, from, today).forEach(s -> riffed.add(s.getPromptDate()));
     List<ArchiveDayDto> out = new ArrayList<>();
     for (LocalDate d = today.minusDays(1); !d.isBefore(from); d = d.minusDays(1)) {
-      out.add(new ArchiveDayDto(d, RiffPromptCatalog.dayNumber(d), catalog.forDate(d).setup(), riffed.contains(d)));
+      out.add(new ArchiveDayDto(d, RiffPromptCatalog.dayNumber(d), days.promptFor(d).setup(), riffed.contains(d)));
     }
     return out;
   }
