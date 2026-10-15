@@ -4,8 +4,14 @@
     "label": "Misdirection",
     "oneLiner": "Get them picturing one story, then show them a second story that fits the same facts.",
     "howItWorks": "Greg Dean's model: the setup creates a target assumption (the obvious reading), and a connector (a word or phrase that can be read two ways) lets the punch reveal a reinterpretation. Write the punch first, then build a setup that hides it.",
-    "exampleSetup": "I finally got my mum to stop texting me during work.",
-    "examplePunchline": "Now she calls.",
+    "exampleSetup": "I was raised as an only child,",
+    "examplePunchline": "which really annoyed my sister.",
+    "exampleCredit": {
+      "comedian": "Will Marsh",
+      "source": "Dave Funniest Joke of the Fringe, top 10 2012",
+      "sourceUrl": "https://www.chortle.co.uk/news/2012/08/20/15987/stewart_francis_has_joke_of_the_fringe",
+      "translation": null
+    },
     "templateSetup": "I've finally {{something that sounds like an achievement}}.",
     "templatePunchline": "{{the detail that shows it's not what they pictured}}.",
     "tips": [
@@ -20,8 +26,14 @@
     "label": "Rule of three",
     "oneLiner": "Two items set a pattern; the third breaks it.",
     "howItWorks": "Two is the shortest pattern a brain recognises, and three is the fastest way to break one. Make items one and two genuinely normal and in the same category, then make item three the same shape but from a different world. The odd one goes last, and so does the punch word.",
-    "exampleSetup": "A good team needs three things:",
-    "examplePunchline": "trust, communication and someone to blame.",
+    "exampleSetup": "The bird, the bee,",
+    "examplePunchline": "the running child are all the same to the sliding glass door.",
+    "exampleCredit": {
+      "comedian": "Demetri Martin",
+      "source": "This Is a Book (2011)",
+      "sourceUrl": "https://text.npr.org/135989582",
+      "translation": null
+    },
     "templateSetup": "{{the topic}} comes down to three things:",
     "templatePunchline": "{{a normal item}}, {{another normal item}} and {{the item that breaks the pattern}}.",
     "tips": [
@@ -36,8 +48,14 @@
     "label": "Exaggeration",
     "oneLiner": "Take a true feeling and inflate it to a specific, impossible size.",
     "howItWorks": "Start with a real frustration (the bus is late, the flat is small). Ask \"how late?\" and keep answering with consequences that would only happen if it were impossibly true. The laugh comes from the size, and the nod comes from the truth underneath. The more specific and picturable the consequence, the better.",
-    "exampleSetup": "My commute is so long,",
-    "examplePunchline": "I've started getting post on the train.",
+    "exampleSetup": "I was so ugly",
+    "examplePunchline": "my own Ouija board told me to go to hell.",
+    "exampleCredit": {
+      "comedian": "Phyllis Diller",
+      "source": "stage material, quoted in her NPR obituary (2012)",
+      "sourceUrl": "https://text.npr.org/154540372",
+      "translation": null
+    },
     "templateSetup": "{{the topic}} is so {{the quality you're complaining about}},",
     "templatePunchline": "{{an impossible but specific consequence}}.",
     "tips": [
@@ -52,8 +70,14 @@
     "label": "Comparison",
     "oneLiner": "Link two things from far-apart worlds that share one painfully accurate detail.",
     "howItWorks": "List the specific qualities of your topic (who's in it, what's annoying, what it smells like). Then find something from a completely different world with one of those same qualities. The further apart the two worlds, the bigger the laugh, but the shared detail must be instantly obvious. Say the comparison in the setup and prove it in the punch.",
-    "exampleSetup": "My inbox is like a hydra.",
-    "examplePunchline": "Answer one email and two more grow back.",
+    "exampleSetup": "I think love is like central heating.",
+    "examplePunchline": "You turn it on before guests arrive and pretend it's like this all the time.",
+    "exampleCredit": {
+      "comedian": "Laura Lexx",
+      "source": "Dave Funniest Joke of the Fringe, top 10 2018",
+      "sourceUrl": "https://www.chortle.co.uk/news/2018/08/19/40950/adam_rowe_wins_daves_joke_of_the_fringe",
+      "translation": null
+    },
     "templateSetup": "{{the topic}} is basically {{something from a completely different world}}.",
     "templatePunchline": "{{the one specific detail they share}}.",
     "tips": [
@@ -68,8 +92,14 @@
     "label": "Literal interpretation",
     "oneLiner": "Take a figure of speech, instruction or sign completely at its word.",
     "howItWorks": "Everyday language is full of phrases nobody hears literally: \"follow your dreams\", \"keep an eye on it\", \"treat it like your own home\". Put one in the setup, said by someone with authority, and have the punch obey the exact words. This is reinterpretation where the connector is the whole phrase.",
-    "exampleSetup": "The recipe said to let it sit for an hour,",
-    "examplePunchline": "so I gave it my chair and stood.",
+    "exampleSetup": "I needed a password with eight characters",
+    "examplePunchline": "– so I picked Snow White and the Seven Dwarves.",
+    "exampleCredit": {
+      "comedian": "Nick Helm",
+      "source": "Dave Funniest Joke of the Fringe, winner 2011",
+      "sourceUrl": "https://www.chortle.co.uk/news/2011/08/24/13850/nick_helm_scoops_joke_of_the_fringe",
+      "translation": null
+    },
     "templateSetup": "{{someone with authority}} told me to {{an idiom or instruction}}.",
     "templatePunchline": "So now I {{do exactly what the words say}}.",
     "tips": [
@@ -84,8 +114,14 @@
     "label": "Wordplay",
     "oneLiner": "One word does two jobs: the setup uses one meaning, and the punch cashes in the other.",
     "howItWorks": "List words connected to your topic that have a second meaning (minutes, standing, interest, list). Write a setup that firmly establishes meaning one, then a punch where meaning two is the only one that makes sense. The best puns hide the double meaning until the last word, so they feel clever rather than corny.",
-    "exampleSetup": "My accountant takes a lot of interest in me.",
-    "examplePunchline": "Mostly compound.",
+    "exampleSetup": "I saw a documentary on how ships are kept together.",
+    "examplePunchline": "Riveting.",
+    "exampleCredit": {
+      "comedian": "Stewart Francis",
+      "source": "Dave Funniest Joke of the Fringe, top 10 2012",
+      "sourceUrl": "https://www.chortle.co.uk/news/2012/08/20/15987/stewart_francis_has_joke_of_the_fringe",
+      "translation": null
+    },
     "templateSetup": "{{a sentence using a word in its normal meaning}}.",
     "templatePunchline": "{{a sentence where that word suddenly means something else}}.",
     "tips": [
@@ -100,8 +136,14 @@
     "label": "Reversal",
     "oneLiner": "Set up the normal direction of things, then flip roles, cause or effect.",
     "howItWorks": "Every situation has a direction: parents teach kids, pets obey owners, security protects you. Establish it, then flip it in the punch. The teacher Googles the answer, the cat interviews the mice, the restaurant gets the small-tip concept. A reversal often reuses words from the setup in a new order.",
-    "exampleSetup": "I hired a personal trainer to keep me motivated.",
-    "examplePunchline": "Three weeks in, he's the one cancelling.",
+    "exampleSetup": "I've given up asking rhetorical questions.",
+    "examplePunchline": "What's the point?",
+    "exampleCredit": {
+      "comedian": "Alexei Sayle",
+      "source": "Dave Funniest Joke of the Fringe, top 10 2017",
+      "sourceUrl": "https://www.independent.co.uk/arts-entertainment/comedy/news/edinburgh-fringe-festival-2017-best-jokes-comedy-ken-cheng-frankie-boyle-tim-vine-pound-coin-trump-a7905136.html",
+      "translation": null
+    },
     "templateSetup": "I {{did something to get a normal result}}.",
     "templatePunchline": "Now {{the roles have swapped}}.",
     "tips": [
@@ -116,8 +158,14 @@
     "label": "Mash-up",
     "oneLiner": "Run one world by the rules of another.",
     "howItWorks": "Pick your topic and a second world with strong, well-known rules (a cooking show, a hospital, a courtroom, online reviews). Ask: \"If my topic were run like that world, what would someone say?\" Write the line someone from world two would actually say, applied to world one. The specific jargon of world two does the work.",
-    "exampleSetup": "If my cat were a landlord:",
-    "examplePunchline": "\"You can stay, but the sofa is mine and rent is due at 5am.\"",
+    "exampleSetup": "Jesus fed 5,000 people with two fishes and a loaf of bread. That's not a miracle.",
+    "examplePunchline": "That's tapas",
+    "exampleCredit": {
+      "comedian": "Mark Nelson",
+      "source": "Dave Funniest Joke of the Fringe, top 10 2015",
+      "sourceUrl": "https://www.chortle.co.uk/news/2015/08/24/23103/and_the_joke_of_the_fringe_is...",
+      "translation": null
+    },
     "templateSetup": "If {{the topic}} were {{a world with strong rules}},",
     "templatePunchline": "{{a line someone from that world would really say}}.",
     "tips": [
@@ -132,8 +180,14 @@
     "label": "Attitude",
     "oneLiner": "State how it makes you feel (weird, stupid, scary or hard), then prove it.",
     "howItWorks": "Judy Carter's method: a topic alone isn't funny, but your attitude about it is. Start with \"What's weird/stupid/scary/hard about X is...\", then name the specific detail that justifies the feeling. The attitude gives the audience a point of view to agree with, and the detail makes them laugh in recognition.",
-    "exampleSetup": "Self-service car washes are scary.",
-    "examplePunchline": "I paid four pounds to stand inside a hurricane I can't control.",
+    "exampleSetup": "People say, \"I'm taking it one day at a time.\" You know what? So is everybody.",
+    "examplePunchline": "That's how time works.",
+    "exampleCredit": {
+      "comedian": "Hannibal Buress",
+      "source": "Dave Funniest Joke of the Fringe, top 10 2011",
+      "sourceUrl": "https://www.chortle.co.uk/news/2011/08/24/13850/nick_helm_scoops_joke_of_the_fringe",
+      "translation": null
+    },
     "templateSetup": "You know what's {{weird / stupid / scary / hard}} about {{the topic}}?",
     "templatePunchline": "{{the specific detail that proves it}}.",
     "tips": [

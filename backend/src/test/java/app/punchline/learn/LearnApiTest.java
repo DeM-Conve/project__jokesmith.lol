@@ -106,25 +106,27 @@ class LearnApiTest extends PostgresTestBase {
         .andExpect(status().isOk())
         .andExpect(jsonPath("$.length()").value(org.hamcrest.Matchers.greaterThanOrEqualTo(40)))
         .andExpect(jsonPath("$[0].xray.source").value("HAND_ANNOTATED"))
-        .andExpect(jsonPath("$[0].xray.punchWord").value("week"));
+        .andExpect(jsonPath("$[0].xray.punchWord").value("again"))
+        .andExpect(jsonPath("$[0].credit.comedian").value("Tim Vine"))
+        .andExpect(jsonPath("$[0].xray.credit.sourceUrl").value(org.hamcrest.Matchers.startsWith("https://")));
   }
 
   @Test
   void selfAnnotationIsComparedWithTheHandAnnotation() throws Exception {
     mvc.perform(json(post("/api/learn/xray/annotate"), """
-        {"galleryRef": "g01", "punchline": "Spread across the week.", "punchWord": "week",
-         "formula": "MISDIRECTION", "assumption": "You think it's eight hours every night"}"""))
+        {"galleryRef": "g01", "punchline": "I'll tell you what, never again.", "punchWord": "again",
+         "formula": "MISDIRECTION", "assumption": "You think it was a dream trip of a lifetime"}"""))
         .andExpect(status().isOk())
         .andExpect(jsonPath("$.passed").value(4))
         .andExpect(jsonPath("$.comparedWith").value("HAND_ANNOTATED"));
 
     mvc.perform(json(post("/api/learn/xray/annotate"), """
-        {"galleryRef": "g01", "punchline": "across the week.", "punchWord": "spread",
+        {"galleryRef": "g01", "punchline": "never again.", "punchWord": "holiday",
          "formula": "RULE_OF_THREE", "assumption": ""}"""))
         .andExpect(status().isOk())
         .andExpect(jsonPath("$.checks[?(@.key=='punch-word')].passed").value(false))
         .andExpect(jsonPath("$.checks[?(@.key=='formula')].passed").value(false))
-        .andExpect(jsonPath("$.expected.punchWord").value("week"));
+        .andExpect(jsonPath("$.expected.punchWord").value("again"));
 
     mvc.perform(json(post("/api/learn/xray/annotate"), """
         {"text": "My dad told me to follow my dreams. So I went back to bed.", "punchline": "So I went back to bed.",
