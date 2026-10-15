@@ -22,6 +22,21 @@ test.each(LESSONS.map((l) => [l.skill, l]))('%s is a real lesson, not filler', (
   for (const ex of l.examples) {
     expect(ex.steps.length).toBeGreaterThanOrEqual(4)
     expect(bare(ex.punchline)).toContain(bare(ex.punchWord))
+    // Every worked example is a real, credited joke with the page that verifies its wording.
+    expect(ex.comedian?.trim()).toBeTruthy()
+    expect(ex.source?.trim()).toBeTruthy()
+    expect(ex.sourceUrl).toMatch(/^https:\/\//)
+  }
+  expect(l.masters.length).toBeGreaterThanOrEqual(2)
+  expect(l.masters.length).toBeLessThanOrEqual(3)
+  for (const m of l.masters) {
+    expect(m.comedian?.trim()).toBeTruthy()
+    expect(m.title?.trim()).toBeTruthy()
+    expect(m.url).toMatch(/^https:\/\/(www\.)?(youtube\.com|youtu\.be)\//)
+    expect(m.channel?.trim()).toBeTruthy()
+    expect(m.lines?.length ?? 0).toBeLessThanOrEqual(2)
+    expect(m.notice.length).toBeGreaterThanOrEqual(2)
+    expect(m.notice.length).toBeLessThanOrEqual(3)
   }
   expect(l.mistakes.length).toBeGreaterThanOrEqual(3)
   expect(l.quiz.length).toBeGreaterThanOrEqual(3)
@@ -37,4 +52,10 @@ test.each(LESSONS.map((l) => [l.skill, l]))('%s is a real lesson, not filler', (
   expect(l.exercise.prompt).toBeTruthy()
   expect(l.exercise.modelAnswers.length).toBeGreaterThanOrEqual(1)
   expect(ROUTES).toContain(l.drill.to)
+})
+
+test('masters cover several comics, with Indian comedians across the course', () => {
+  const masters = LESSONS.flatMap((l) => l.masters)
+  expect(new Set(masters.map((m) => m.url)).size).toBe(masters.length)
+  expect(masters.filter((m) => m.indian).length).toBeGreaterThanOrEqual(LESSONS.length)
 })

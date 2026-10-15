@@ -4,6 +4,7 @@ import { useState } from 'react'
 import PageHeader from '../../components/PageHeader.jsx'
 import { useGymAttemptMutation, useGymQuery, useGymStatsQuery, usePremiseQuery } from './api.js'
 import Checklist from './components/Checklist.jsx'
+import Credit from './components/Credit.jsx'
 import JokeLines from './components/JokeLines.jsx'
 import ModelAnswers from './components/ModelAnswers.jsx'
 import Stage, { Eyebrow } from './components/Stage.jsx'
@@ -127,7 +128,10 @@ function Drill({ formula, premiseCount }) {
         </Stack>
         <Stack gap="sm" className={classes.gridCard}>
           <Eyebrow c="var(--text-muted)">Example</Eyebrow>
-          <JokeLines setup={formula.exampleSetup} punchline={formula.examplePunchline} size="sm" />
+          <Stack gap="4xs">
+            <JokeLines setup={formula.exampleSetup} punchline={formula.examplePunchline} size="sm" />
+            <Credit credit={formula.exampleCredit} size="xs" />
+          </Stack>
           <List size="sm" c="dimmed" spacing="4xs" icon={<Check size={14} color="var(--accent)" />}>
             {formula.tips.map((t) => (
               <List.Item key={t}>{t}</List.Item>

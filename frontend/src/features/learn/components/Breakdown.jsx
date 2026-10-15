@@ -1,5 +1,6 @@
 import { Button, Group, Stack, Text } from '@mantine/core'
 import { useState } from 'react'
+import Credit from './Credit.jsx'
 import JokeLines from './JokeLines.jsx'
 import Stage, { Eyebrow } from './Stage.jsx'
 import classes from '../learn.module.css'
@@ -22,7 +23,10 @@ export default function Breakdown({ example, index, total }) {
             {shown}/{steps.length} steps
           </Text>
         </Group>
-        <JokeLines setup={example.setup} punchline={example.punchline} punchWord={shown >= steps.length ? example.punchWord : null} />
+        <Stack gap="xs">
+          <JokeLines setup={example.setup} punchline={example.punchline} punchWord={shown >= steps.length ? example.punchWord : null} />
+          <Credit credit={example} />
+        </Stack>
         {shown > 0 && (
           <Stack gap={0} className={classes.steps}>
             {steps.slice(0, shown).map((s) => (

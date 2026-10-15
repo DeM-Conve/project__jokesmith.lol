@@ -120,6 +120,6 @@ public class XRayAnalyzer {
     String confidence = strong && last && !setup.isBlank() ? "medium" : "low";
 
     return new XRay(setup, punch, assumption, connector, reinterpretation, punchWord, last, formula, formula.label(),
-        also, why, ev.cues(), tips, words, "ESTIMATE", confidence);
+        also, why, ev.cues(), tips, words, "ESTIMATE", confidence, null);
   }
 }

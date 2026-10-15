@@ -1,5 +1,6 @@
 package app.punchline.learn;
 
+import app.punchline.learn.LearnDtos.Credit;
 import app.punchline.learn.LearnDtos.GymFormula;
 import app.punchline.learn.LearnDtos.ModelAnswer;
 import app.punchline.learn.LearnDtos.Premise;
@@ -26,10 +27,19 @@ import org.springframework.stereotype.Component;
 @Component
 public class LearnContent {
 
-  /** Raw gallery entry as written in xray-gallery.json. */
-  public record GalleryEntry(String id, String difficulty, List<String> tags, JokeFormula formula,
-      List<JokeFormula> alsoAccept, String setup, String punchline, String punchWord, String targetAssumption,
-      String connector, String reinterpretation, String whyItWorks) {}
+  /**
+   * Raw gallery entry as written in xray-gallery.json: a famous joke, credited to its comedian,
+   * with the page that verifies its wording ({@code sourceUrl}) and an optional English
+   * {@code translation} for lines performed in Hindi or Hinglish.
+   */
+  public record GalleryEntry(String id, String difficulty, List<String> tags, String comedian, String source,
+      String sourceUrl, String translation, JokeFormula formula, List<JokeFormula> alsoAccept, String setup,
+      String punchline, String punchWord, String targetAssumption, String connector, String reinterpretation,
+      String whyItWorks) {
+    public Credit credit() {
+      return new Credit(comedian, source, sourceUrl, translation);
+    }
+  }
 
   private final List<GymFormula> formulas;
   private final Map<JokeFormula, GymFormula> formulaByKey;

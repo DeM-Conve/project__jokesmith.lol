@@ -1,5 +1,6 @@
 import { Badge, Group, List, SimpleGrid, Stack, Text } from '@mantine/core'
 import { Info } from 'lucide-react'
+import Credit from './Credit.jsx'
 import JokeLines from './JokeLines.jsx'
 import Stage, { Eyebrow } from './Stage.jsx'
 import { FORMULA_LABELS } from '../lib/words.js'
@@ -49,7 +50,10 @@ export default function XRayResult({ xray, title }) {
           </Group>
         </Group>
 
-        <JokeLines setup={xray.setup} punchline={xray.punchline} punchWord={xray.punchWord} />
+        <Stack gap="xs">
+          <JokeLines setup={xray.setup} punchline={xray.punchline} punchWord={xray.punchWord} />
+          <Credit credit={xray.credit} />
+        </Stack>
 
         <SimpleGrid cols={{ base: 1, sm: 2 }} spacing="md" verticalSpacing="md">
           <Part n="1" label="Setup" hint={`${xray.wordCount} words in the whole joke`}>

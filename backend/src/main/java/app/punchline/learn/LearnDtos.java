@@ -64,10 +64,19 @@ public final class LearnDtos {
       /** HAND_ANNOTATED (gallery) or ESTIMATE (the analyser). */
       String source,
       /** "high" for hand annotations, "medium"/"low" for estimates. */
-      String confidence) {}
+      String confidence,
+      /** Who wrote the joke and where it was verified; null for the analyser's estimates. */
+      Credit credit) {}
+
+  /**
+   * Attribution for a famous joke quoted for study: the comedian, where it was performed
+   * (special, show or festival and year), the page that verifies the wording, and an English
+   * translation when the line was performed in Hindi or Hinglish.
+   */
+  public record Credit(String comedian, String source, String sourceUrl, String translation) {}
 
   public record GalleryJoke(String id, String setup, String punchline, String difficulty, List<String> tags,
-      XRay xray) {}
+      Credit credit, XRay xray) {}
 
   public record AnnotateRequest(
       @Size(max = 64) String galleryRef,
@@ -94,8 +103,10 @@ public final class LearnDtos {
 
   // ---- Formula Gym ----
 
+  /** {@code exampleCredit}: the famous joke shown as the formula's example (model answers stay original). */
   public record GymFormula(JokeFormula key, String label, String oneLiner, String howItWorks, String exampleSetup,
-      String examplePunchline, String templateSetup, String templatePunchline, List<String> tips, String stretch) {}
+      String examplePunchline, Credit exampleCredit, String templateSetup, String templatePunchline, List<String> tips,
+      String stretch) {}
 
   /** {@code keywords}: curated words that count as "on the premise" (bus for public transport). */
   public record Premise(String id, String text, String category, List<String> keywords) {}

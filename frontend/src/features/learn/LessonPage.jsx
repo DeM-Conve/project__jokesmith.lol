@@ -6,6 +6,7 @@ import PageHeader from '../../components/PageHeader.jsx'
 import { useCompleteLessonMutation, useLearnProgressQuery } from './api.js'
 import Breakdown from './components/Breakdown.jsx'
 import Checklist from './components/Checklist.jsx'
+import Masters from './components/Masters.jsx'
 import ModelAnswers from './components/ModelAnswers.jsx'
 import Quiz from './components/Quiz.jsx'
 import Rich from './components/Rich.jsx'
@@ -226,14 +227,24 @@ export default function LessonPage() {
 
       <Section n="2" title="Worked examples">
         <Text c="dimmed" fz="md">
-          Before each step appears, guess what it'll say. Guessing first is what makes it stick.
+          Real jokes from working comedians, taken apart. Before each step appears, guess what it'll say. Guessing
+          first is what makes it stick.
         </Text>
         {lesson.examples.map((ex, i) => (
           <Breakdown key={i} example={ex} index={i} total={lesson.examples.length} />
         ))}
       </Section>
 
-      <Section n="3" title="Common mistakes">
+      {lesson.masters?.length > 0 && (
+        <Section n="3" title="Watch the masters">
+          <Text c="dimmed" fz="md">
+            Official clips from working comedians. Watch for the skill this lesson trains, not just the laugh.
+          </Text>
+          <Masters masters={lesson.masters} />
+        </Section>
+      )}
+
+      <Section n="4" title="Common mistakes">
         <Stack gap="sm">
           {lesson.mistakes.map((m) => (
             <Group key={m.mistake} gap="md" align="flex-start" wrap="nowrap" className={classes.gridCard}>
@@ -251,13 +262,13 @@ export default function LessonPage() {
         </Stack>
       </Section>
 
-      <Section n="4" title="Check yourself">
+      <Section n="5" title="Check yourself">
         <Stage>
           <Quiz questions={lesson.quiz} onDone={(correct, total) => setQuiz({ correct, total })} />
         </Stage>
       </Section>
 
-      <Section n="5" title="Your turn">
+      <Section n="6" title="Your turn">
         <YourTurn lesson={lesson} quiz={quiz} status={status} />
       </Section>
 

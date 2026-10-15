@@ -47,7 +47,7 @@ public class XRayService {
   }
 
   static GalleryJoke toGalleryJoke(GalleryEntry e) {
-    return new GalleryJoke(e.id(), e.setup(), e.punchline(), e.difficulty(), e.tags(), handXRay(e));
+    return new GalleryJoke(e.id(), e.setup(), e.punchline(), e.difficulty(), e.tags(), e.credit(), handXRay(e));
   }
 
   static XRay handXRay(GalleryEntry e) {
@@ -55,7 +55,7 @@ public class XRayService {
     boolean last = JokeText.flat(e.punchline()).endsWith(JokeText.flat(e.punchWord()));
     return new XRay(e.setup(), e.punchline(), e.targetAssumption(), e.connector(), e.reinterpretation(), e.punchWord(),
         last, e.formula(), e.formula().label(), e.alsoAccept(), e.whyItWorks(), List.of(), List.of(),
-        JokeText.wordCount(full), "HAND_ANNOTATED", "high");
+        JokeText.wordCount(full), "HAND_ANNOTATED", "high", e.credit());
   }
 
   /** Compare the user's own annotation with the hand annotation (gallery) or the analyser's estimate. */

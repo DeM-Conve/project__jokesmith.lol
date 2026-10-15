@@ -4,6 +4,7 @@ import { useMemo, useRef, useState } from 'react'
 import PageHeader from '../../components/PageHeader.jsx'
 import { useGalleryQuery, useXRayHistoryQuery, useXRayMutation } from './api.js'
 import Annotator from './components/Annotator.jsx'
+import Credit, { creditLabel } from './components/Credit.jsx'
 import Stage, { Eyebrow } from './components/Stage.jsx'
 import XRayResult from './components/XRayResult.jsx'
 import { FORMULA_LABELS } from './lib/words.js'
@@ -16,7 +17,7 @@ function GalleryCard({ joke, active, onSelect }) {
     <UnstyledButton
       onClick={() => onSelect(joke)}
       className={`${classes.gridCard} ${active ? classes.gridCardActive : ''}`}
-      aria-label={`Gallery joke: ${joke.setup} ${joke.punchline}`}
+      aria-label={`Gallery joke: ${joke.setup} ${joke.punchline}${joke.credit?.comedian ? ` (${joke.credit.comedian})` : ''}`}
     >
       <Stack gap="xs" justify="space-between" h="100%">
         <Stack gap="4xs">
@@ -26,6 +27,11 @@ function GalleryCard({ joke, active, onSelect }) {
           <Text className={classes.jokePunch} fz="md" lineClamp={2}>
             {joke.punchline}
           </Text>
+          {joke.credit?.comedian && (
+            <Text fz="xs" c="var(--text-muted)" lineClamp={1}>
+              — {creditLabel(joke.credit)}
+            </Text>
+          )}
         </Stack>
         <Group gap="4xs">
           <Badge size="xs" variant="default" color="gray">
@@ -73,6 +79,7 @@ function GalleryStudy({ joke, onClear }) {
           <Text className={classes.jokePunch} fz="2xl">
             {joke.punchline}
           </Text>
+          <Credit credit={joke.credit} />
         </Stack>
         <Text c="dimmed" fz="sm">
           Try finding the parts yourself first. You'll learn twice as much from comparing as from reading.
@@ -183,8 +190,10 @@ export default function XRayPage() {
               The gallery
             </Text>
             <Text fz="sm" c="dimmed">
-              {gallery.data ? `${gallery.data.length} jokes, each hand-annotated.` : 'Hand-annotated jokes.'} Pick
-              one, find the parts, then compare.
+              {gallery.data
+                ? `${gallery.data.length} jokes from working comedians, each credited and hand-annotated.`
+                : 'Credited, hand-annotated jokes from working comedians.'}{' '}
+              Pick one, find the parts, then compare.
             </Text>
           </Stack>
         </Group>
