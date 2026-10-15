@@ -115,6 +115,8 @@ class NotebookApiTest extends WorkshopApiTestBase {
     long fridges = note(me, "My mom has two fridges.", "One is just for her plastic bags.");
     long bags = note(me, "I keep a bag of bags.", "It's not storage, it's a nesting doll.");
     note(me, "I joined a gym.", "So far I've lost forty dollars a month.");
+    // A second draft of the same joke is not a callback.
+    note(me, "I bought a smart fridge.", "Now it judges me every time I open it.");
 
     JsonNode forFridge = get(me, "/api/workshop/callbacks?jokeId=" + fridge);
     assertThat(forFridge).hasSize(1);
@@ -123,7 +125,9 @@ class NotebookApiTest extends WorkshopApiTestBase {
     assertThat(forFridge.get(0).get("hint").asText()).contains("fridge");
 
     JsonNode all = get(me, "/api/workshop/callbacks");
-    assertThat(all).hasSize(2);
+    // fridges pairs with each fridge draft, and with the bags joke; the two drafts never pair up.
+    assertThat(all).hasSize(3);
+    for (JsonNode c : all) assertThat(c.get("sharedWords").get(0).asText()).isIn("fridge", "bag");
     assertThat(all.findValues("sharedWords").stream().map(JsonNode::toString).toList())
         .anyMatch(s -> s.contains("bag"));
     assertThat(bags).isPositive();

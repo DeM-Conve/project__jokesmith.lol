@@ -30,7 +30,13 @@ public final class CallbackFinder {
       "entire", "real", "sure", "right", "wrong", "old", "young", "long", "short", "high", "low", "full", "half",
       "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "hundred", "thousand", "year",
       "week", "month", "minute", "hour", "today", "tonight", "yesterday", "tomorrow", "nothing", "everything",
-      "anything", "everyone", "anyone", "nobody", "somehow", "something", "thing", "stuff");
+      "anything", "everyone", "anyone", "nobody", "somehow", "something", "thing", "stuff", "buy", "bought",
+      "open", "opened", "close", "closed", "smart", "watched", "play", "played", "love", "loved", "hate",
+      "hated", "stop", "stopped", "happen", "happened", "leave", "left", "live", "lived", "talk",
+      "talked", "trying", "making", "going", "getting", "doing", "saying", "thinking");
+
+  /** Above this word overlap two jokes are drafts of one joke (e.g. punch-up versions), not a callback. */
+  static final double SAME_JOKE_OVERLAP = 0.6;
 
   /** Key nouns of a joke: stem -> first spelling seen. */
   static Map<String, String> keyWords(Text t) {
@@ -80,6 +86,8 @@ public final class CallbackFinder {
             score += Math.log((n + 1.0) / df.get(e.getKey())) + 0.5;
           }
         }
+        int union = words.get(a.id()).size() + wb.size() - shared.size();
+        if (union > 0 && (double) shared.size() / union >= SAME_JOKE_OVERLAP) continue;
         if (!shared.isEmpty()) out.add(new Match(a, b, shared, Math.round(score * 100) / 100.0));
       }
     }

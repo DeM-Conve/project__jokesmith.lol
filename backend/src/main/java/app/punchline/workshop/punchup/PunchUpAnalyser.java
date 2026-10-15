@@ -383,6 +383,7 @@ public class PunchUpAnalyser {
     int ds = ma.score() - mb.score();
     String verdict;
     if (a.flags().isEmpty()) verdict = "Clean. No flags left. Send it to the Arena and find out what strangers think.";
+    else if (ds > 0 && dw > 0) verdict = "Sharper, but longer. Now cut whatever you added that doesn't earn its place.";
     else if (ds >= 15) verdict = "Much tighter. Now look at what's still open.";
     else if (ds > 0) verdict = "Better. Keep going: one more pass on what's still flagged.";
     else if (ds == 0) verdict = "Different, but not tighter yet. Pick one flag and fix only that.";
