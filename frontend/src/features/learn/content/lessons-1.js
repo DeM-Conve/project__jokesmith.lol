@@ -1,5 +1,7 @@
 // The curriculum, part 1: Anatomy, Point of view, Association.
-// Every joke here is original. Frameworks credited in `lineage`.
+// Worked examples are real jokes by working comedians, each credited with the page that
+// verifies its wording (`sourceUrl`). "Watch the masters" cards link to official clips only.
+// Quizzes and model answers are our own. Frameworks credited in `lineage`.
 
 export const ANATOMY = {
   skill: 'ANATOMY',
@@ -36,53 +38,149 @@ export const ANATOMY = {
   ],
   examples: [
     {
-      setup: "I've finally started getting eight hours of sleep a night.",
-      punchline: 'Spread across the week.',
-      punchWord: 'week',
-      steps: [
-        { label: 'Setup', text: 'Sounds like a wellness brag. Nothing funny yet, and that\'s correct.' },
-        { label: 'Target assumption', text: 'Eight hours, every night. A healthy person.' },
-        { label: 'Connector', text: '"eight hours … a night". The number is attached to a unit we assume is fixed.' },
-        { label: 'Reinterpretation', text: 'The eight hours are a weekly total: about one hour a night.' },
-        { label: 'Punch word', text: '"week", the last word, so the swap and the silence arrive together.' },
-      ],
+      "setup": "I've just been on a once-in-a-lifetime holiday.",
+      "punchline": "I'll tell you what, never again.",
+      "punchWord": "again",
+      "comedian": "Tim Vine",
+      "source": "Dave Funniest Joke of the Fringe, winner 2010",
+      "sourceUrl": "https://www.comedy.co.uk/fringe/2010/features/tim_vine_joke_of_the_year/",
+      "steps": [
+        {
+          "label": "Setup",
+          "text": "Sounds like a holiday brag. Nothing funny yet, and that's correct."
+        },
+        {
+          "label": "Target assumption",
+          "text": "The trip of a lifetime: the best holiday he will ever have."
+        },
+        {
+          "label": "Connector",
+          "text": "\"once-in-a-lifetime\". It can mean \"so good it only happens once\" or \"so bad I'll only do it once\"."
+        },
+        {
+          "label": "Reinterpretation",
+          "text": "It was awful, and he will never go again."
+        },
+        {
+          "label": "Punch word",
+          "text": "\"again\", the last word, so the swap and the silence arrive together. \"I'll tell you what\" is the stall that makes you wait for it."
+        }
+      ]
     },
     {
-      setup: 'People always tell me I\'m a great listener.',
-      punchline: "I'm not listening. I'm buffering.",
-      punchWord: 'buffering',
-      steps: [
-        { label: 'Setup', text: 'A compliment. The audience pictures a warm, attentive person.' },
-        { label: 'Target assumption', text: 'Quiet means engaged.' },
-        { label: 'Connector', text: '"great listener". What does the listening look like from the outside? Silence.' },
-        { label: 'Reinterpretation', text: 'Same silence, opposite cause: a brain stuck on a loading screen.' },
-        { label: 'Punch word', text: '"buffering" brings in a whole new image from a different world (video streaming), in one word.' },
-      ],
+      "setup": "I'm sure wherever my dad is; he's looking down on us.",
+      "punchline": "He's not dead, just very condescending.",
+      "punchWord": "condescending",
+      "comedian": "Jack Whitehall",
+      "source": "Dave Funniest Joke of the Fringe, top 10 2009",
+      "sourceUrl": "https://www.chortle.co.uk/news/2009/08/24/9487/revealed:_the_funniest_joke_on_the_fringe",
+      "steps": [
+        {
+          "label": "Setup",
+          "text": "A tender line about a dad who has died. The audience goes quiet and respectful."
+        },
+        {
+          "label": "Target assumption",
+          "text": "Dad is in heaven, watching over the family."
+        },
+        {
+          "label": "Connector",
+          "text": "\"looking down on us\": watching over us, or looking down his nose at us."
+        },
+        {
+          "label": "Reinterpretation",
+          "text": "Dad is alive and a snob."
+        },
+        {
+          "label": "Punch word",
+          "text": "\"condescending\". \"He's not dead\" clears the old picture away first, so the new word lands alone at the end."
+        }
+      ]
     },
     {
-      setup: 'My job interview went brilliantly. The panel laughed at every single answer I gave.',
-      punchline: 'I was applying to be a pilot.',
-      punchWord: 'pilot',
-      steps: [
-        { label: 'Setup', text: 'Builds a success story with a supporting detail.' },
-        { label: 'Target assumption', text: "Laughter means rapport. They liked you." },
-        { label: 'Connector', text: '"laughed": we hear warmth, but laughter is also how people react to the absurd.' },
-        { label: 'Reinterpretation', text: 'They laughed because the idea of you flying a plane is ridiculous.' },
-        { label: 'Punch word', text: "\"pilot\". One noun reframes every sentence before it." },
-      ],
+      "setup": "As a kid I was made to walk the plank.",
+      "punchline": "We couldn't afford a dog.",
+      "punchWord": "dog",
+      "comedian": "Gary Delaney",
+      "source": "Dave Funniest Joke of the Fringe, top 10 2010",
+      "sourceUrl": "https://www.chortle.co.uk/news/2010/08/23/11592/",
+      "steps": [
+        {
+          "label": "Setup",
+          "text": "A pirate image from childhood."
+        },
+        {
+          "label": "Target assumption",
+          "text": "Walking the plank is a punishment on a pirate ship."
+        },
+        {
+          "label": "Connector",
+          "text": "\"walk\": you walk a plank, and you walk a dog."
+        },
+        {
+          "label": "Reinterpretation",
+          "text": "The family couldn't afford a pet, so the child took a plank for walks."
+        },
+        {
+          "label": "Punch word",
+          "text": "\"dog\". The punch never mentions walking again: the audience builds the picture themselves, which is why the laugh comes a beat late and big."
+        }
+      ]
     },
     {
-      setup: 'My flatmate asked me to keep an eye on her soup.',
-      punchline: 'It burned, but I watched every second.',
-      punchWord: 'second',
-      steps: [
-        { label: 'Setup', text: 'An everyday request.' },
-        { label: 'Target assumption', text: '"Keep an eye on" means take care of it.' },
-        { label: 'Connector', text: 'The idiom "keep an eye on" can be read literally.' },
-        { label: 'Reinterpretation', text: 'They only watched it, faithfully, as it burned.' },
-        { label: 'Punch word', text: '"second" ends on the defensive detail that makes the character.' },
-      ],
+      "setup": "One morning, I shot an elephant in my pajamas.",
+      "punchline": "How he got in my pajamas, I don't know.",
+      "punchWord": "pajamas",
+      "comedian": "Groucho Marx",
+      "source": "Animal Crackers (1930)",
+      "sourceUrl": "https://time.com/4049402/groucho-marx-125/",
+      "steps": [
+        {
+          "label": "Setup",
+          "text": "A hunting boast from Captain Spaulding, the explorer Groucho plays in Animal Crackers."
+        },
+        {
+          "label": "Target assumption",
+          "text": "He was wearing his pajamas when he shot the elephant."
+        },
+        {
+          "label": "Connector",
+          "text": "\"in my pajamas\" can attach to \"I\" or to \"an elephant\". Grammar gives you both."
+        },
+        {
+          "label": "Reinterpretation",
+          "text": "The elephant was in his pajamas."
+        },
+        {
+          "label": "Punch word",
+          "text": "\"pajamas\", which is NOT last. Groucho adds \"I don't know\" as a shrug for his character. A rule broken on purpose by a master: you're allowed once you know why."
+        }
+      ]
+    }
+  ],
+  masters: [
+    {
+      "comedian": "Tim Vine",
+      "title": "Three minutes of one-liners",
+      "url": "https://www.youtube.com/watch?v=V6bdLiEFoYE",
+      "channel": "Live at the Apollo (BBC)",
+      "notice": [
+        "Count how many words come after each punch word.",
+        "Find the connector in each one before he reaches the punch.",
+        "Notice how fast he moves on: no explaining, no waiting for approval."
+      ]
     },
+    {
+      "comedian": "Kanan Gill",
+      "title": "How Indians do timepass (Yours Sincerely, Kanan Gill)",
+      "url": "https://www.youtube.com/watch?v=P6aPg3YBvBQ",
+      "channel": "Netflix India",
+      "indian": true,
+      "notice": [
+        "The bit hangs on two near-identical words, \"pastime\" and \"timepass\". Listen for how he makes you hear both.",
+        "Watch how long the setup is compared with each payoff."
+      ]
+    }
   ],
   mistakes: [
     { mistake: 'Making the setup funny too.', fix: 'A jokey setup warns the audience. Keep it plain and believable so the assumption forms.' },
@@ -108,7 +206,7 @@ export const ANATOMY = {
         'He hates his job.',
       ],
       answer: 0,
-      explain: 'That\'s the normal reading. The punch ("Since March, he\'s been between the sofa cushions") reinterprets "between".',
+      explain: 'That\'s the normal reading, and the one a punch would break: "between" could just as easily mean between the sofa cushions.',
     },
     {
       kind: 'choice',
@@ -173,41 +271,129 @@ export const POINT_OF_VIEW = {
   ],
   examples: [
     {
-      setup: "It's weird being the quiet one. Say one thing,",
-      punchline: 'and the whole room turns round like the furniture spoke.',
-      punchWord: 'spoke',
-      steps: [
-        { label: 'Topic', text: 'Being the quiet person.' },
-        { label: 'Attitude', text: 'Weird, stated in the first three words.' },
-        { label: 'Premise', text: "When a quiet person speaks, people react as if something impossible happened." },
-        { label: 'Proof', text: 'A comparison: the furniture speaking. Specific, visual, and kind to yourself.' },
-        { label: 'Punch word', text: '"spoke". The image completes on the last word.' },
-      ],
+      "setup": "People say, \"I'm taking it one day at a time.\" You know what? So is everybody.",
+      "punchline": "That's how time works.",
+      "punchWord": "works",
+      "comedian": "Hannibal Buress",
+      "source": "Dave Funniest Joke of the Fringe, top 10 2011",
+      "sourceUrl": "https://www.chortle.co.uk/news/2011/08/24/13850/nick_helm_scoops_joke_of_the_fringe",
+      "steps": [
+        {
+          "label": "Topic",
+          "text": "Things people say when life is hard."
+        },
+        {
+          "label": "Attitude",
+          "text": "Stupid. \"You know what?\" is the sound of someone who has heard this phrase once too often."
+        },
+        {
+          "label": "Premise",
+          "text": "\"One day at a time\" is presented as wisdom, but it's a description of how time works for everybody."
+        },
+        {
+          "label": "Proof",
+          "text": "\"So is everybody.\" No example needed: the audience checks it against their own day."
+        },
+        {
+          "label": "Punch word",
+          "text": "\"works\": the flattest, most factual ending possible. The deadpan IS the attitude."
+        }
+      ]
     },
     {
-      setup: 'Car alarms are stupid. When one goes off, nobody thinks "theft".',
-      punchline: 'Everyone thinks "Steve\'s sat on his keys."',
-      punchWord: 'keys',
-      steps: [
-        { label: 'Topic', text: 'Car alarms.' },
-        { label: 'Attitude', text: 'Stupid.' },
-        { label: 'Premise', text: 'A device built to signal crime has only ever signalled clumsiness.' },
-        { label: 'Proof', text: "Acting out everyone's real inner voice, with a named neighbour." },
-        { label: 'Punch word', text: '"keys", the specific, innocent cause.' },
-      ],
+      "setup": "When women gossip we get called bitchy;",
+      "punchline": "but when men do it's called a podcast.",
+      "punchWord": "podcast",
+      "comedian": "Sikisa",
+      "source": "Dave Funniest Joke of the Fringe, top 10 2023",
+      "sourceUrl": "https://www.chortle.co.uk/news/2023/08/21/53955/lorna_rose_treen_wins_joke_of_the_fringe",
+      "steps": [
+        {
+          "label": "Topic",
+          "text": "Gossip."
+        },
+        {
+          "label": "Attitude",
+          "text": "Unfair: it's a double standard, which is a version of \"stupid\"."
+        },
+        {
+          "label": "Premise",
+          "text": "The same behaviour gets an insult for women and a product for men."
+        },
+        {
+          "label": "Proof",
+          "text": "One specific, modern example everyone recognises: the podcast."
+        },
+        {
+          "label": "Punch word",
+          "text": "\"podcast\", last, and the whole argument in one word."
+        }
+      ]
     },
     {
-      setup: 'Being an adult is hard.',
-      punchline: 'Nobody gives you a sticker for eating a vegetable.',
-      punchWord: 'vegetable',
-      steps: [
-        { label: 'Topic', text: 'Adulthood.' },
-        { label: 'Attitude', text: 'Hard.' },
-        { label: 'Premise', text: "It's hard not because of the big stuff but because the tiny wins go unrewarded." },
-        { label: 'Proof', text: 'A childhood reward system (stickers) applied to the smallest adult task.' },
-        { label: 'Punch word', text: '"vegetable". The tinier the achievement, the bigger the laugh.' },
-      ],
+      "setup": "A spa hotel? It's like a normal hotel,",
+      "punchline": "only in reception there's a picture of a pebble.",
+      "punchWord": "pebble",
+      "comedian": "Rhod Gilbert",
+      "source": "Dave Funniest Joke of the Fringe, top 10 2009",
+      "sourceUrl": "https://www.chortle.co.uk/news/2009/08/24/9487/revealed:_the_funniest_joke_on_the_fringe",
+      "steps": [
+        {
+          "label": "Topic",
+          "text": "Spa hotels."
+        },
+        {
+          "label": "Attitude",
+          "text": "Stupid, delivered as an exasperated question: \"A spa hotel?\""
+        },
+        {
+          "label": "Premise",
+          "text": "A spa hotel is an ordinary hotel with a price rise and some decoration."
+        },
+        {
+          "label": "Proof",
+          "text": "The most specific, smallest difference he can find: a picture of a pebble in reception."
+        },
+        {
+          "label": "Punch word",
+          "text": "\"pebble\". A topic becomes a joke when the proof is that precise."
+        }
+      ]
+    }
+  ],
+  masters: [
+    {
+      "comedian": "Vir Das",
+      "title": "On being both Indian and Western (Landing)",
+      "url": "https://www.youtube.com/watch?v=_nAm1U0jj_0",
+      "channel": "Netflix Is A Joke",
+      "indian": true,
+      "notice": [
+        "Notice that the topic is himself: two identities that don't quite fit together.",
+        "Listen for the attitude word in each line. Is it weird, stupid, scary or hard?"
+      ]
     },
+    {
+      "comedian": "Hasan Minhaj",
+      "title": "How Indian parents make you tougher (Homecoming King)",
+      "url": "https://www.youtube.com/watch?v=30cYjy7_DDg",
+      "channel": "Netflix Is A Joke",
+      "indian": true,
+      "notice": [
+        "A big, arguable claim (why Indian kids win spelling bees and become doctors), proved with his own family.",
+        "Notice the claim is specific enough to argue with. That makes it a premise, not just a topic."
+      ]
+    },
+    {
+      "comedian": "Bill Burr",
+      "title": "The population problem (I'm Sorry You Feel That Way)",
+      "url": "https://www.youtube.com/watch?v=a9WowBxdhTQ",
+      "channel": "Netflix Is A Joke",
+      "notice": [
+        "A deliberately outrageous point of view, argued step by step as if it's reasonable.",
+        "Watch how he commits: no hedging, no apology."
+      ]
+    }
   ],
   mistakes: [
     { mistake: 'Writing about a topic with no feeling ("Airports. Right?").', fix: 'Pick an attitude and say it out loud: weird, stupid, scary or hard.' },
@@ -298,41 +484,119 @@ export const ASSOCIATION = {
   ],
   examples: [
     {
-      setup: "My neighbour's kitchen renovation has now lasted",
-      punchline: 'longer than most celebrity marriages.',
-      punchWord: 'marriages',
-      steps: [
-        { label: 'Handles', text: 'neighbour · renovation · kitchen' },
-        { label: 'List: renovation', text: 'drills at 8am, dust, "two more weeks", skips, builders\' radio, it never ends' },
-        { label: 'List: things that are short', text: 'mayflies, a fringe, a celebrity marriage, my attention span' },
-        { label: 'Collision', text: '"never ends" × "famously short" makes a durations comparison.' },
-        { label: 'Why that pick', text: 'Celebrity marriages are a universal reference with a built-in attitude.' },
-      ],
+      "setup": "Guy from Cuba, woman from Iceland –",
+      "punchline": "little \"ice cubes\".",
+      "punchWord": "cubes",
+      "comedian": "Russell Peters",
+      "source": "stand-up, on mixing ethnicities",
+      "sourceUrl": "https://www.timeout.com/singapore/comedy/all-time-classics-from-russell-peters",
+      "steps": [
+        {
+          "label": "Handles",
+          "text": "Mixed-heritage couples · their children."
+        },
+        {
+          "label": "List: countries",
+          "text": "Jamaica, Italy, India, Israel, the Philippines, Holland, Cuba, Iceland…"
+        },
+        {
+          "label": "List: words hiding in them",
+          "text": "Rasta, pasta, Hindu, Jew, holla, Cuba, ice…"
+        },
+        {
+          "label": "Collision",
+          "text": "Find two country names whose pieces make an everyday word: Cuba + Iceland = ice cubes."
+        },
+        {
+          "label": "Why that pick",
+          "text": "It ends the run (after \"pasta-farians\", \"hin-jews\" and \"holla-pinos\") on the most ordinary object, which makes it the biggest laugh."
+        }
+      ]
     },
     {
-      setup: 'Texts from my grandma read like ransom notes.',
-      punchline: 'All caps, no punctuation and a mysterious photo of a cat.',
-      punchWord: 'cat',
-      steps: [
-        { label: 'Handles', text: 'grandma · texting' },
-        { label: 'List: grandma texts', text: 'ALL CAPS, signs her name, no punctuation, random photos, "Is this working"' },
-        { label: 'List: other all-caps messages', text: 'ransom notes, telegrams, a shouty boss, protest signs' },
-        { label: 'Collision', text: 'Ransom notes share three traits with grandma texts.' },
-        { label: 'Why that pick', text: 'Sweet grandma vs criminal note: maximum distance between the worlds.' },
-      ],
+      "setup": "Jesus fed 5,000 people with two fishes and a loaf of bread. That's not a miracle.",
+      "punchline": "That's tapas",
+      "punchWord": "tapas",
+      "comedian": "Mark Nelson",
+      "source": "Dave Funniest Joke of the Fringe, top 10 2015",
+      "sourceUrl": "https://www.chortle.co.uk/news/2015/08/24/23103/and_the_joke_of_the_fringe_is...",
+      "steps": [
+        {
+          "label": "Handles",
+          "text": "Jesus · feeding the 5,000 · fish and bread."
+        },
+        {
+          "label": "List: the miracle",
+          "text": "crowds, loaves, fishes, baskets of leftovers, sharing"
+        },
+        {
+          "label": "List: modern eating",
+          "text": "small plates, sharing platters, bottomless brunch, tapas"
+        },
+        {
+          "label": "Collision",
+          "text": "Tiny portions shared among lots of people = tapas."
+        },
+        {
+          "label": "Why that pick",
+          "text": "\"Tapas\" is instantly familiar and drags a sacred story into a Spanish bar in one word."
+        }
+      ]
     },
     {
-      setup: 'A toddler is basically a tiny drunk boss.',
-      punchline: 'Falls over, shouts orders and fires you at bedtime.',
-      punchWord: 'bedtime',
-      steps: [
-        { label: 'Handle', text: 'toddler' },
-        { label: 'List', text: 'falls over, shouts, sticky, naps, refuses food, demands, unpredictable' },
-        { label: 'Second world', text: 'Who else falls over and shouts orders? A drunk. Who gives orders? A boss.' },
-        { label: 'Collision', text: 'Drunk + boss = a person who falls over AND gives orders.' },
-        { label: 'Why that pick', text: 'Every item in the list now does double duty.' },
-      ],
+      "setup": "I needed a password with eight characters",
+      "punchline": "– so I picked Snow White and the Seven Dwarves.",
+      "punchWord": "Dwarves",
+      "comedian": "Nick Helm",
+      "source": "Dave Funniest Joke of the Fringe, winner 2011",
+      "sourceUrl": "https://www.chortle.co.uk/news/2011/08/24/13850/nick_helm_scoops_joke_of_the_fringe",
+      "steps": [
+        {
+          "label": "Handles",
+          "text": "password · eight characters"
+        },
+        {
+          "label": "List: password rules",
+          "text": "eight characters, a capital letter, a number, a symbol, not your pet's name"
+        },
+        {
+          "label": "List: \"characters\"",
+          "text": "letters, symbols, people in a story, famous groups of characters"
+        },
+        {
+          "label": "Collision",
+          "text": "A story with exactly eight characters: Snow White and the Seven Dwarves."
+        },
+        {
+          "label": "Why that pick",
+          "text": "The count is correct, so the joke feels clever rather than random."
+        }
+      ]
+    }
+  ],
+  masters: [
+    {
+      "comedian": "Michael McIntyre",
+      "title": "The man drawer (Live and Laughing)",
+      "url": "https://www.youtube.com/watch?v=wgrmB8M0sgU",
+      "channel": "Michael McIntyre",
+      "notice": [
+        "The whole bit is an association list: everything that ends up in one drawer.",
+        "Each object is specific and picturable. Count how many he names.",
+        "Notice which item he saves for last."
+      ]
     },
+    {
+      "comedian": "Kenny Sebastian",
+      "title": "Middle-class restaurant problems (Insides Out)",
+      "url": "https://www.youtube.com/watch?v=TZgyeEE2hx4",
+      "channel": "Kenny Sebastian",
+      "indian": true,
+      "notice": [
+        "One handle (\"Indian restaurant\") becomes a list: the parents ordering, the waiters, the mysterious manager.",
+        "Each item on the list becomes its own little scene."
+      ]
+    }
   ],
   mistakes: [
     { mistake: 'Stopping at five associations.', fix: 'The first ideas are everyone\'s ideas. Push past 15. The weird ones are the useful ones.' },

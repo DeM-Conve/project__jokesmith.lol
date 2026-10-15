@@ -35,53 +35,158 @@ export const FORMULAS = {
   ],
   examples: [
     {
-      setup: 'Christmas with my family means three things:',
-      punchline: 'turkey, presents and a hostage situation.',
-      punchWord: 'situation',
-      steps: [
-        { label: 'Formula', text: 'Rule of three.' },
-        { label: 'Items 1 and 2', text: '"turkey, presents" are cosy, correct and the same category.' },
-        { label: 'Item 3', text: '"a hostage situation" has the same grammatical shape but comes from a crime drama.' },
-        { label: 'Why it\'s true', text: 'Everyone who\'s been trapped at a family Christmas recognises it.' },
-        { label: 'Punch word', text: '"situation" ends on the phrase that names the new world.' },
-      ],
+      "setup": "The bird, the bee,",
+      "punchline": "the running child are all the same to the sliding glass door.",
+      "punchWord": "door",
+      "comedian": "Demetri Martin",
+      "source": "This Is a Book (2011)",
+      "sourceUrl": "https://text.npr.org/135989582",
+      "steps": [
+        {
+          "label": "Formula",
+          "text": "Rule of three."
+        },
+        {
+          "label": "Items 1 and 2",
+          "text": "\"The bird, the bee\": a nature pair everyone knows, so the pattern is \"things that fly\"."
+        },
+        {
+          "label": "Item 3",
+          "text": "\"the running child\": the same shape, from a completely different category."
+        },
+        {
+          "label": "The reveal",
+          "text": "What they really share: all three crash into glass doors."
+        },
+        {
+          "label": "Punch word",
+          "text": "\"door\", pushed to the very end."
+        }
+      ]
     },
     {
-      setup: 'Traffic was so slow this morning,',
-      punchline: 'I aged out of my car insurance discount.',
-      punchWord: 'discount',
-      steps: [
-        { label: 'Formula', text: 'Exaggeration.' },
-        { label: 'True feeling', text: 'Traffic made the commute feel endless.' },
-        { label: 'Inflate the consequence', text: 'Not "it took ages" but a real-world system (insurance age brackets) triggered by it.' },
-        { label: 'Specific', text: 'A bureaucratic detail makes the absurd feel measured.' },
-        { label: 'Punch word', text: '"discount" is last.' },
-      ],
+      "setup": "I was so ugly",
+      "punchline": "my own Ouija board told me to go to hell.",
+      "punchWord": "hell",
+      "comedian": "Phyllis Diller",
+      "source": "stage material, quoted in her NPR obituary (2012)",
+      "sourceUrl": "https://text.npr.org/154540372",
+      "steps": [
+        {
+          "label": "Formula",
+          "text": "Exaggeration."
+        },
+        {
+          "label": "True feeling",
+          "text": "\"I was so ugly\": an old-school self-roast."
+        },
+        {
+          "label": "Inflate the consequence",
+          "text": "Not \"very ugly\" but a consequence: even the spirit world insults her."
+        },
+        {
+          "label": "Specific",
+          "text": "\"my own Ouija board\" is a picture, and it speaks."
+        },
+        {
+          "label": "Punch word",
+          "text": "\"hell\" is last, and it's a double hit: an insult and a destination."
+        }
+      ]
     },
     {
-      setup: 'If my cat were a landlord:',
-      punchline: '"You can stay, but the sofa is mine and rent is due at 5am."',
-      punchWord: '5am',
-      steps: [
-        { label: 'Formula', text: 'Mash-up.' },
-        { label: 'World 1', text: 'Cats: claim furniture, wake you at dawn for food.' },
-        { label: 'World 2', text: 'Landlords: terms, rent, ownership.' },
-        { label: 'The line', text: 'Written in the landlord\'s voice, built from cat behaviour.' },
-        { label: 'Punch word', text: '"5am" is the cat\'s feeding time, re-labelled as rent.' },
-      ],
+      "setup": "I think love is like central heating.",
+      "punchline": "You turn it on before guests arrive and pretend it's like this all the time.",
+      "punchWord": "time",
+      "comedian": "Laura Lexx",
+      "source": "Dave Funniest Joke of the Fringe, top 10 2018",
+      "sourceUrl": "https://www.chortle.co.uk/news/2018/08/19/40950/adam_rowe_wins_daves_joke_of_the_fringe",
+      "steps": [
+        {
+          "label": "Formula",
+          "text": "Comparison."
+        },
+        {
+          "label": "World 1",
+          "text": "Love."
+        },
+        {
+          "label": "World 2",
+          "text": "Central heating."
+        },
+        {
+          "label": "Shared detail",
+          "text": "Both get switched on when guests come round, to look warmer than usual."
+        },
+        {
+          "label": "Punch word",
+          "text": "\"time\". The comparison is the setup; the shared detail is the joke."
+        }
+      ]
     },
     {
-      setup: 'The fancy restaurant served me three peas and called it "a small plate concept."',
-      punchline: 'So I left them a small tip concept.',
-      punchWord: 'concept',
-      steps: [
-        { label: 'Formula', text: 'Reversal.' },
-        { label: 'Normal direction', text: 'The restaurant sets the terms; the customer pays.' },
-        { label: 'The flip', text: 'The customer uses the restaurant\'s jargon against it.' },
-        { label: 'Echo', text: 'Reusing "small … concept" makes the reversal audible.' },
-        { label: 'Punch word', text: '"concept", the word they hid behind.' },
-      ],
+      "setup": "Cloquet hated reality but realized",
+      "punchline": "it was still the only place to get a good steak.",
+      "punchWord": "steak",
+      "comedian": "Woody Allen",
+      "source": "short story \"The Condemned\", The New Yorker (1977)",
+      "sourceUrl": "https://quoteinvestigator.com/2015/10/18/steak/",
+      "steps": [
+        {
+          "label": "Formula",
+          "text": "Mash-up."
+        },
+        {
+          "label": "World 1",
+          "text": "Philosophy: hating reality, existential despair."
+        },
+        {
+          "label": "World 2",
+          "text": "A restaurant review."
+        },
+        {
+          "label": "The line",
+          "text": "Reality gets judged by restaurant rules, and gets a grudging recommendation."
+        },
+        {
+          "label": "Punch word",
+          "text": "\"steak\", the biggest possible drop in seriousness from \"reality\"."
+        }
+      ]
+    }
+  ],
+  masters: [
+    {
+      "comedian": "Milton Jones",
+      "title": "A masterclass of one-liners",
+      "url": "https://www.youtube.com/watch?v=zfHM3IKJGgc",
+      "channel": "Live at the Apollo (BBC)",
+      "notice": [
+        "Ten jokes in four minutes. Name the formula of each one as it lands.",
+        "Most are literal readings or wordplay. Spot the connector before the punch."
+      ]
     },
+    {
+      "comedian": "Stewart Francis",
+      "title": "The one-liner king",
+      "url": "https://www.youtube.com/watch?v=viwgYGqN-xQ",
+      "channel": "Live at the Apollo (BBC)",
+      "notice": [
+        "Puns delivered with a straight face; listen for the beat before each pun word.",
+        "Count how many setups are a single sentence."
+      ]
+    },
+    {
+      "comedian": "Rahul Subramanian",
+      "title": "North Indians vs South Indians (Kal Main Udega)",
+      "url": "https://www.youtube.com/watch?v=vWFq2T5j390",
+      "channel": "Rahul Subramanian",
+      "indian": true,
+      "notice": [
+        "A comparison bit: two worlds, with one detail at a time held side by side.",
+        "Notice which details he picks: the ones both halves of the audience recognise."
+      ]
+    }
   ],
   mistakes: [
     { mistake: 'Rule of three where all three items are jokes.', fix: 'Items one and two must be normal. They\'re the pattern. Only the third breaks it.' },
@@ -92,10 +197,10 @@ export const FORMULAS = {
   quiz: [
     {
       kind: 'choice',
-      prompt: '"My bus is so late, the timetable is now classed as historical fiction." Which formula?',
+      prompt: 'Joan Rivers: "I\'m so boring, my answering machine put me on hold." Which formula?',
       options: ['Rule of three', 'Exaggeration', 'Reversal', 'Wordplay'],
       answer: 1,
-      explain: 'A true feeling (lateness) inflated to an impossible, specific consequence.',
+      explain: 'A true feeling (being dull company) inflated to an impossible, specific consequence.',
     },
     {
       kind: 'choice',
@@ -174,41 +279,117 @@ export const ECONOMY = {
   ],
   examples: [
     {
-      setup: 'Before: "So the thing about my dad is that he\'s very, very cheap, and like, he reuses tea bags a lot, so much that it\'s basically water at the end, honestly."',
-      punchline: 'After: "My dad is so cheap, he reuses tea bags until it\'s legally just hot water."',
-      punchWord: 'water',
-      steps: [
-        { label: 'Cut', text: '"So the thing about…" is throat-clearing. Gone.' },
-        { label: 'Cut', text: '"very, very", "like", "a lot", "honestly" are filler that dilutes the rhythm.' },
-        { label: 'Add', text: '"legally": one specific word that makes the exaggeration sound official.' },
-        { label: 'Reorder', text: '"water" moves to the end instead of "honestly".' },
-        { label: 'Result', text: '33 words down to 15. Same idea, twice the laugh.' },
-      ],
+      "setup": "I saw a documentary on how ships are kept together.",
+      "punchline": "Riveting.",
+      "punchWord": "Riveting",
+      "comedian": "Stewart Francis",
+      "source": "Dave Funniest Joke of the Fringe, top 10 2012",
+      "sourceUrl": "https://www.chortle.co.uk/news/2012/08/20/15987/stewart_francis_has_joke_of_the_fringe",
+      "steps": [
+        {
+          "label": "Count",
+          "text": "Twelve words in total, and the punchline is one word."
+        },
+        {
+          "label": "Setup job",
+          "text": "\"how ships are kept together\" plants rivets without saying the word."
+        },
+        {
+          "label": "Cut test",
+          "text": "Try removing \"documentary\": you lose the meaning \"gripping\". Every word is load-bearing."
+        },
+        {
+          "label": "A flabby version (ours)",
+          "text": "\"I watched this documentary about shipbuilding and honestly it was really riveting, if you know what I mean.\" The explanation kills it."
+        },
+        {
+          "label": "Punch word",
+          "text": "\"Riveting\", alone, last."
+        }
+      ]
     },
     {
-      setup: 'Before: "Since March, which was when he lost his job, my dad has basically been sitting on the sofa between the cushions."',
-      punchline: 'After: "My dad says he\'s between jobs. Since March, he\'s been between the sofa cushions."',
-      punchWord: 'cushions',
-      steps: [
-        { label: 'Problem', text: 'The original gives away the connector ("between") without the setup that creates the assumption.' },
-        { label: 'Fix', text: 'Give the polite phrase ("between jobs") its own sentence so the assumption forms.' },
-        { label: 'Reorder', text: '"Since March" goes to the front of the punch so "cushions" is last.' },
-        { label: 'Cut', text: '"basically", "sitting on" are implied by the image.' },
-        { label: 'Result', text: 'Now it\'s a joke, not an anecdote.' },
-      ],
+      "setup": "I'm not a fan of the new pound coin, but then again,",
+      "punchline": "I hate all change.",
+      "punchWord": "change",
+      "comedian": "Ken Cheng",
+      "source": "Dave Funniest Joke of the Fringe, winner 2017",
+      "sourceUrl": "https://www.independent.co.uk/arts-entertainment/comedy/news/edinburgh-fringe-festival-2017-best-jokes-comedy-ken-cheng-frankie-boyle-tim-vine-pound-coin-trump-a7905136.html",
+      "steps": [
+        {
+          "label": "Count",
+          "text": "17 words."
+        },
+        {
+          "label": "Setup job",
+          "text": "\"pound coin\" loads the money meaning of \"change\"."
+        },
+        {
+          "label": "The hinge",
+          "text": "\"but then again,\" sounds like he's widening the point, which hides the pun."
+        },
+        {
+          "label": "Reorder test",
+          "text": "\"I hate all change, like the new pound coin\" puts the reveal in the middle and wastes it."
+        },
+        {
+          "label": "Punch word",
+          "text": "\"change\", the final sound."
+        }
+      ]
     },
     {
-      setup: 'Before: "Self-checkouts are so annoying because you have to scan everything yourself and then they still don\'t trust you, which is so stupid."',
-      punchline: 'After: "Self-checkouts are stupid. I scan my own shopping, I bag my own shopping, and then a guard checks I didn\'t rob myself."',
-      punchWord: 'myself',
-      steps: [
-        { label: 'Attitude first', text: '"are stupid" opens, three words, with the attitude clear.' },
-        { label: 'Rhythm', text: 'Parallel phrases ("I scan…, I bag…") create a pattern.' },
-        { label: 'Specific', text: '"a guard checks" shows instead of "they don\'t trust you".' },
-        { label: 'Punch word', text: '"myself" exposes the absurd logic, last.' },
-        { label: 'Cut', text: '"so annoying", "which is so stupid" are duplicates of the attitude.' },
-      ],
+      "setup": "I've decided to sell my Hoover…",
+      "punchline": "well, it was just collecting dust.",
+      "punchWord": "dust",
+      "comedian": "Tim Vine",
+      "source": "Dave Funniest Joke of the Fringe, winner 2014",
+      "sourceUrl": "https://www.theguardian.com/stage/2014/aug/19/10-funniest-jokes-edinburgh-festival-fringe-2014",
+      "steps": [
+        {
+          "label": "Count",
+          "text": "14 words."
+        },
+        {
+          "label": "Setup job",
+          "text": "\"sell my Hoover\" names the object, nothing else."
+        },
+        {
+          "label": "Specific noun",
+          "text": "\"Hoover\", not \"vacuum cleaner\": shorter and more British."
+        },
+        {
+          "label": "Idiom does the work",
+          "text": "\"collecting dust\" is the everyday reason to sell anything, so nobody sees the pun coming."
+        },
+        {
+          "label": "Punch word",
+          "text": "\"dust\" is last. No \"honestly\", no \"you know?\"."
+        }
+      ]
+    }
+  ],
+  masters: [
+    {
+      "comedian": "Gary Delaney",
+      "title": "Five one-liners in fifty seconds",
+      "url": "https://www.youtube.com/watch?v=BoWV1Ql86QU",
+      "channel": "Gary Delaney",
+      "notice": [
+        "Ten seconds per joke, setup included. Nothing is wasted.",
+        "Try writing out one of the jokes and cutting a word. You can't."
+      ]
     },
+    {
+      "comedian": "Steven Wright",
+      "title": "Room temperature is always room temperature (Letterman, 2009)",
+      "url": "https://www.youtube.com/watch?v=ADIBba82yNM",
+      "channel": "Letterman",
+      "notice": [
+        "Short sentences, no filler, no \"so anyway\".",
+        "Each joke ends the moment the image is complete."
+      ]
+    }
   ],
   mistakes: [
     { mistake: 'Throat-clearing openers ("So, the thing is…").', fix: 'Start on the topic noun. Momentum is free; don\'t waste it.' },
@@ -231,17 +412,17 @@ export const ECONOMY = {
     },
     {
       kind: 'word',
-      prompt: 'This punch has a tail. Tap the real punch word.',
-      joke: { setup: 'My teenager sleeps in so late,', punchline: "the neighbours think he's a rumour, honestly." },
-      answer: 'rumour',
-      explain: 'Cut "honestly". "rumour" is the surprise and should be last.',
+      prompt: 'Groucho Marx left a tail on purpose. Tap the real punch word.',
+      joke: { setup: 'One morning, I shot an elephant in my pajamas.', punchline: "How he got in my pajamas, I don't know." },
+      answer: 'pajamas',
+      explain: '"pajamas" is where the picture flips. "I don\'t know" is a shrug Groucho chose to add for his character. In your own jokes, cut the tail unless you can say why it earns its place.',
     },
     {
       kind: 'choice',
       prompt: '"My phone is really really old and slow." What\'s the best economy fix?',
       options: [
         'Add more adjectives: "really really old and slow and bad".',
-        'Swap adjectives for a specific picture: "My phone is so old, its updates come by post."',
+        'Swap the adjectives for one specific picture of how old it is.',
         'Remove "my".',
         'Say it louder.',
       ],
@@ -298,41 +479,130 @@ export const HEIGHTENING = {
   ],
   examples: [
     {
-      setup: 'If my cat were a landlord: "You can stay, but the sofa is mine and rent is due at 5am."',
-      punchline: 'Tag: "The deposit is one sock." Tag: "Inspections are whenever you\'re in the bath." Tag: "And I\'m evicting you for a cardboard box."',
-      punchWord: 'box',
-      steps: [
-        { label: 'Base joke', text: 'Cat behaviour, phrased as landlord terms.' },
-        { label: 'Yes, and', text: 'Accept the frame. What else do landlords do? Deposits, inspections, evictions.' },
-        { label: 'Tag 1', text: 'A deposit, paid in a stolen sock.' },
-        { label: 'Tag 2', text: 'Inspections, timed to maximum awkwardness.' },
-        { label: 'Tag 3 (top)', text: 'Eviction for a box: the biggest stakes and the most cat-like reason.' },
-      ],
+      "setup": "Hook up a Jamaican with an Italian. They can have little \"pasta-farians\". I'm Indian, I can hook up with a Jewish girl; we could have little \"hin-jews\".",
+      "punchline": "Get a woman from the Philippines, a guy from Holland, you get little \"holla-pinos\". Guy from Cuba, woman from Iceland – little \"ice cubes\".",
+      "punchWord": "cubes",
+      "comedian": "Russell Peters",
+      "source": "stand-up, on mixing ethnicities",
+      "sourceUrl": "https://www.timeout.com/singapore/comedy/all-time-classics-from-russell-peters",
+      "steps": [
+        {
+          "label": "Base joke",
+          "text": "\"pasta-farians\": two nationalities make a funny word."
+        },
+        {
+          "label": "Yes, and",
+          "text": "Accept the game. Which other couples make words?"
+        },
+        {
+          "label": "Tag 1",
+          "text": "\"hin-jews\": he puts himself in the joke, which raises the stakes."
+        },
+        {
+          "label": "Tag 2",
+          "text": "\"holla-pinos\": the audience now knows the pattern and is playing along."
+        },
+        {
+          "label": "Top",
+          "text": "\"ice cubes\": the shortest, most everyday word. Once the pattern is set, the run needs less setup each time."
+        }
+      ]
     },
     {
-      setup: 'Last week I bought a self-cleaning oven. It has never once cleaned itself. … Later: I asked my teenager to tidy his room and he said he\'s on it.',
-      punchline: "Turns out he's also self-cleaning.",
-      punchWord: 'cleaning',
-      steps: [
-        { label: 'Plant', text: 'The oven joke works on its own: "self-cleaning", never cleans.' },
-        { label: 'Gap', text: 'Move to a new topic so the audience forgets.' },
-        { label: 'Setup', text: 'A teenager promising to tidy.' },
-        { label: 'Callback', text: '"self-cleaning" returns with a new target.' },
-        { label: 'Why it works', text: 'Double laugh: the new joke, plus the pleasure of recognition.' },
-      ],
+      "setup": "\"Somebody gonna get hurt real bad\" – that was my dad's threat, right before he beat me.",
+      "punchline": "Every single time. I hated that threat, 'cause he'd always say \"somebody\". He'd never tell you it was you! I mean, you knew it was you, but he'd give you this hope!",
+      "punchWord": "hope",
+      "comedian": "Russell Peters",
+      "source": "stand-up, the \"Somebody gonna get hurt real bad\" bit (Just For Laughs, 2000)",
+      "sourceUrl": "https://www.timeout.com/singapore/comedy/all-time-classics-from-russell-peters",
+      "steps": [
+        {
+          "label": "Base",
+          "text": "The quoted threat, in Dad's voice: funny on its own."
+        },
+        {
+          "label": "Heighten",
+          "text": "\"Every single time\": it's a ritual, not a one-off."
+        },
+        {
+          "label": "Tag 1",
+          "text": "He picks at the wording: \"somebody\", never \"you\"."
+        },
+        {
+          "label": "Tag 2 (top)",
+          "text": "\"he'd give you this hope!\" Same logic, bigger: the vague word becomes a cruel kindness."
+        },
+        {
+          "label": "Stop",
+          "text": "He ends on the biggest beat. A catchphrase like this can also come back later in a set as a callback."
+        }
+      ]
     },
     {
-      setup: "I went back to the hotel breakfast buffet so many times, the omelette chef started calling me son.",
-      punchline: 'Tag: "By Thursday he\'d put me in his will." Tag: "On the last day, he cried at the airport."',
-      punchWord: 'airport',
-      steps: [
-        { label: 'Base joke', text: 'Exaggeration: so many visits it formed a relationship.' },
-        { label: 'Heighten the relationship', text: 'Son → in his will. The stakes rise.' },
-        { label: 'Top it', text: 'A tearful airport farewell: the full emotional cliché, applied to an omelette chef.' },
-        { label: 'Pattern', text: 'Each tag escalates the same idea (family) without new setup.' },
-        { label: 'Stop', text: 'End on the biggest beat. A fourth tag would deflate it.' },
-      ],
+      "setup": "I had this joke: 'I played hide and seek;",
+      "punchline": "they wouldn't even look for me.'",
+      "punchWord": "me",
+      "comedian": "Rodney Dangerfield",
+      "source": "his account of building \"I get no respect\", quoted in his AP obituary (2004)",
+      "sourceUrl": "https://www2.ljworld.com/news/2004/oct/06/comedian_rodney_dangerfield/",
+      "steps": [
+        {
+          "label": "Base joke",
+          "text": "A sad childhood one-liner that worked on its own."
+        },
+        {
+          "label": "Find the frame",
+          "text": "He looked for something to put in front of it: \"I was so poor, I was so dumb…\"."
+        },
+        {
+          "label": "Try options",
+          "text": "\"No one liked me\" was all right. Then: \"I get no respect.\""
+        },
+        {
+          "label": "The runner",
+          "text": "\"I get no respect\" can sit in front of hundreds of jokes, and every new joke heightens the same idea."
+        },
+        {
+          "label": "Why it works",
+          "text": "Each joke tops the last as proof of one attitude, so the act builds instead of resetting."
+        }
+      ]
+    }
+  ],
+  masters: [
+    {
+      "comedian": "John Mulaney",
+      "title": "What's New Pussycat, 21 times (Salt and Pepper Diner)",
+      "url": "https://www.youtube.com/watch?v=Mw7Gryt-rcc",
+      "channel": "Comedy Central Stand-Up",
+      "notice": [
+        "One simple prank, heightened every time the song restarts.",
+        "Notice that each beat escalates the reaction in the diner, not the prank itself.",
+        "Watch how the story builds to its biggest beat and then stops."
+      ]
     },
+    {
+      "comedian": "Eddie Izzard",
+      "title": "Death Star canteen (Circle)",
+      "url": "https://www.youtube.com/watch?v=7p5KpjR93SE",
+      "channel": "Eddie Izzard",
+      "notice": [
+        "A \"yes, and\" bit: accept that Darth Vader queues for lunch, then keep adding.",
+        "Each exchange raises the stakes while keeping the same frame."
+      ]
+    },
+    {
+      "comedian": "Zakir Khan",
+      "title": "Bahut Pighle Hain (Sukha Puri 6)",
+      "url": "https://www.youtube.com/watch?v=MLdXYEWTC1k",
+      "channel": "Zakir Khan",
+      "indian": true,
+      "notice": [
+        "A set of linked stories: his mom, the gym, his first kiss, a gym trainer.",
+        "Listen for lines and phrases that come back from earlier stories. Those are callbacks.",
+        "Notice how the stories build on each other instead of resetting."
+      ]
+    }
   ],
   mistakes: [
     { mistake: 'Moving on after the first laugh.', fix: 'Ask "yes, and what else?" at least three times before leaving a premise.' },
@@ -379,10 +649,10 @@ export const HEIGHTENING = {
     },
     {
       kind: 'word',
-      prompt: 'Tap the callback word in this punch.',
-      joke: { setup: 'Earlier: my "self-cleaning" oven has never cleaned itself. Later: my teenager says he\'s on his room.', punchline: "Turns out he's also self-cleaning." },
-      answer: 'self-cleaning',
-      explain: '"self-cleaning" is the planted phrase coming back with a new target.',
+      prompt: 'Russell Peters\' run: tap the word that tops it.',
+      joke: { setup: 'Jamaican + Italian: little "pasta-farians". Indian + Jewish: little "hin-jews". Philippines + Holland: little "holla-pinos".', punchline: 'Guy from Cuba, woman from Iceland – little "ice cubes".' },
+      answer: 'cubes',
+      explain: '"cubes" completes the last and shortest mash-up. Once the pattern is set, each beat needs less setup, so the run can end on its quickest laugh.',
     },
   ],
   exercise: {

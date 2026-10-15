@@ -71,10 +71,22 @@ test('worked examples reveal one step at a time', async () => {
   renderLesson('/learn/anatomy')
   const [first] = screen.getAllByRole('button', { name: /guess first, then show: setup/i })
   await user.click(first)
-  expect(screen.getByText(/sounds like a wellness brag/i)).toBeInTheDocument()
-  expect(screen.queryByText(/eight hours, every night/i)).not.toBeInTheDocument()
+  expect(screen.getByText(/sounds like a holiday brag/i)).toBeInTheDocument()
+  expect(screen.queryByText(/the trip of a lifetime/i)).not.toBeInTheDocument()
   await user.click(screen.getByRole('button', { name: /next: target assumption/i }))
-  expect(screen.getByText(/eight hours, every night/i)).toBeInTheDocument()
+  expect(screen.getByText(/the trip of a lifetime/i)).toBeInTheDocument()
+})
+
+test('worked examples and master clips are credited and linked', () => {
+  renderLesson('/learn/anatomy')
+  const credit = screen.getByRole('link', { name: /tim vine, dave funniest joke of the fringe, winner 2010/i })
+  expect(credit).toHaveAttribute('href', expect.stringMatching(/^https:\/\//))
+  expect(screen.getByRole('heading', { name: 'Watch the masters' })).toBeInTheDocument()
+  expect(screen.getAllByTestId('master').length).toBeGreaterThanOrEqual(2)
+  expect(screen.getByRole('link', { name: /watch: how indians do timepass/i })).toHaveAttribute(
+    'href',
+    expect.stringMatching(/^https:\/\/www\.youtube\.com\/watch/),
+  )
 })
 
 test('unknown lesson', () => {

@@ -57,5 +57,5 @@ test.each(LESSONS.map((l) => [l.skill, l]))('%s is a real lesson, not filler', (
 test('masters cover several comics, with Indian comedians across the course', () => {
   const masters = LESSONS.flatMap((l) => l.masters)
   expect(new Set(masters.map((m) => m.url)).size).toBe(masters.length)
-  expect(masters.filter((m) => m.indian).length).toBeGreaterThanOrEqual(LESSONS.length)
+  expect(LESSONS.filter((l) => l.masters.some((m) => m.indian)).length).toBeGreaterThanOrEqual(7)
 })

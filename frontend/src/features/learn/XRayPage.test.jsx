@@ -4,30 +4,38 @@ import { http } from '../../test/http.js'
 import { renderWithProviders } from '../../test/render.jsx'
 import XRayPage from './XRayPage.jsx'
 
+const credit = {
+  comedian: 'Tim Vine',
+  source: 'Dave Funniest Joke of the Fringe, winner 2010',
+  sourceUrl: 'https://www.comedy.co.uk/fringe/2010/features/tim_vine_joke_of_the_year/',
+  translation: null,
+}
+
 const handXray = {
-  setup: "I've finally started getting eight hours of sleep a night.",
-  punchline: 'Spread across the week.',
-  targetAssumption: 'Eight hours every night.',
-  connector: 'eight hours … a night',
-  reinterpretation: 'The eight hours are a weekly total.',
-  punchWord: 'week',
+  setup: "I've just been on a once-in-a-lifetime holiday.",
+  punchline: "I'll tell you what, never again.",
+  targetAssumption: 'The trip of a lifetime.',
+  connector: 'once-in-a-lifetime',
+  reinterpretation: 'It was so bad he will never repeat it.',
+  punchWord: 'again',
   punchWordLast: true,
   formula: 'MISDIRECTION',
   formulaLabel: 'Misdirection',
   alsoSpotted: [],
-  whyItWorks: 'The number stays true and only the unit changes.',
+  whyItWorks: 'The phrase is a compliment in the setup and a warning in the punch.',
   cues: [],
   tips: [],
   wordCount: 14,
   source: 'HAND_ANNOTATED',
   confidence: 'high',
+  credit,
 }
 
 beforeEach(() => {
   http.reset()
   http.get('/learn/xray/history', [])
   http.get('/learn/xray/gallery', [
-    { id: 'g01', setup: handXray.setup, punchline: handXray.punchline, difficulty: 'EASY', tags: ['one-liner'], xray: handXray },
+    { id: 'g01', setup: handXray.setup, punchline: handXray.punchline, difficulty: 'EASY', tags: ['one-liner'], credit, xray: handXray },
   ])
 })
 
@@ -81,22 +89,22 @@ test('gallery joke: mark it up yourself, then compare with the hand annotation',
     }
   })
   renderWithProviders(<XRayPage />)
-  await user.click(await screen.findByRole('button', { name: /gallery joke: i've finally started/i }))
+  await user.click(await screen.findByRole('button', { name: /gallery joke: i've just been on/i }))
   await user.click(screen.getByRole('button', { name: /mark it up first/i }))
-  await user.click(screen.getByRole('button', { name: 'Spread' }))
-  await user.click(screen.getByRole('button', { name: 'week.' }))
+  await user.click(screen.getByRole('button', { name: "I'll" }))
+  await user.click(screen.getByRole('button', { name: 'again.' }))
   // The annotator's chips come before the gallery filter chips.
   await user.click(screen.getAllByRole('radio', { name: 'Misdirection' })[0])
-  await user.type(screen.getByLabelText('The target assumption'), 'eight hours every night{Enter}')
+  await user.type(screen.getByLabelText('The target assumption'), 'the trip of a lifetime{Enter}')
 
   expect(await screen.findByText('3/4')).toBeInTheDocument()
   expect(sent).toEqual({
     galleryRef: 'g01',
     text: null,
-    punchline: 'Spread across the week.',
-    punchWord: 'week',
+    punchline: "I'll tell you what, never again.",
+    punchWord: 'again',
     formula: 'MISDIRECTION',
-    assumption: 'eight hours every night',
+    assumption: 'the trip of a lifetime',
   })
   expect(screen.getByText('The hand annotation')).toBeInTheDocument()
   expect(screen.getByText('Compare yours.')).toBeInTheDocument()
@@ -105,9 +113,14 @@ test('gallery joke: mark it up yourself, then compare with the hand annotation',
 test('gallery joke: just show me', async () => {
   const user = userEvent.setup()
   renderWithProviders(<XRayPage />)
-  expect(await screen.findByText(/1 jokes, each hand-annotated/)).toBeInTheDocument()
-  await user.click(screen.getByRole('button', { name: /gallery joke/i }))
+  expect(await screen.findByText(/1 jokes from working comedians, each credited and hand-annotated/)).toBeInTheDocument()
+  expect(screen.getByText(/— Tim Vine, Dave Funniest Joke of the Fringe, winner 2010/)).toBeInTheDocument()
+  await user.click(screen.getByRole('button', { name: /gallery joke.*\(tim vine\)/i }))
   await user.click(screen.getByRole('button', { name: /just show me the x-ray/i }))
   expect(screen.getByText('Hand-annotated')).toBeInTheDocument()
-  expect(screen.getByText('The eight hours are a weekly total.')).toBeInTheDocument()
+  expect(screen.getByText('It was so bad he will never repeat it.')).toBeInTheDocument()
+  expect(screen.getByRole('link', { name: /tim vine, dave funniest joke of the fringe/i })).toHaveAttribute(
+    'href',
+    credit.sourceUrl,
+  )
 })

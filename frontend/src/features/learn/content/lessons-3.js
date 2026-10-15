@@ -31,41 +31,118 @@ export const REAL_TIME_WIT = {
   ],
   examples: [
     {
-      setup: 'Coworker: "This printer hates me."',
-      punchline: 'You: "It\'s not personal. It hates everyone. I\'ve seen its diary."',
-      punchWord: 'diary',
-      steps: [
-        { label: 'What they handed you', text: 'A personification ("hates me").' },
-        { label: 'Move', text: 'Yes, and: accept the printer has feelings, then add detail.' },
-        { label: 'Heighten', text: 'If it has feelings, it has a private life: a diary.' },
-        { label: 'Why it\'s safe', text: 'Teases a machine and builds on their line instead of correcting it.' },
-        { label: 'Punch word', text: '"diary", a specific object proving the absurd premise.' },
-      ],
+      "setup": "One time, I joked about periods, and a guy shouted, 'Excuse me. We don't want to know about this'. I replied back, 'Maybe you should know about it because",
+      "punchline": "a period is how life begins.'",
+      "punchWord": "begins",
+      "comedian": "Aditi Mittal",
+      "source": "her reply to a heckler, told in a 2017 interview about Things They Wouldn't Let Me Say",
+      "sourceUrl": "https://scroll.in/magazine/844417/aditi-mittal-talks-about-the-things-they-wouldnt-let-her-say-and-then-some",
+      "steps": [
+        {
+          "label": "What they handed her",
+          "text": "A heckler: \"We don't want to know about this.\" He has named the topic for her."
+        },
+        {
+          "label": "Move",
+          "text": "Agree with his premise and flip it: he should know about it, and here is why."
+        },
+        {
+          "label": "Connector",
+          "text": "\"period\": the thing he finds gross is also the reason he is alive."
+        },
+        {
+          "label": "Why it's safe",
+          "text": "No insult, no swearing. The logic does the damage, and the room is on her side."
+        },
+        {
+          "label": "Punch word",
+          "text": "\"begins\", the last word, and then she can stop."
+        }
+      ]
     },
     {
-      setup: 'Friend: "Can you keep an eye on my bag?"',
-      punchline: 'You: "Sure. If it tries anything, I\'ll call you."',
-      punchWord: 'call',
-      steps: [
-        { label: 'Connector', text: '"keep an eye on" means guard it, but literally means watch it.' },
-        { label: 'Move', text: 'Literal plus personification: treat the bag as a suspect.' },
-        { label: 'Delivery', text: 'Said straight, as if it\'s a serious promise.' },
-        { label: 'Why it works', text: 'It still says yes, so it\'s funny AND helpful.' },
-        { label: 'Punch word', text: '"call" completes the picture of you reporting the bag.' },
-      ],
+      "setup": "I would say it is an honor to be here,",
+      "punchline": "but that would be an alternative fact - it is not.",
+      "punchWord": "not",
+      "comedian": "Hasan Minhaj",
+      "source": "White House Correspondents' Dinner (2017)",
+      "sourceUrl": "https://www.npr.org/transcripts/528936208",
+      "steps": [
+        {
+          "label": "What the room handed him",
+          "text": "The news of the week: the White House had just defended a false claim as an \"alternative fact\"."
+        },
+        {
+          "label": "Move",
+          "text": "Take the polite opening every speaker uses (\"an honor to be here\") and run it through the phrase everyone in the room knew."
+        },
+        {
+          "label": "Speed",
+          "text": "Topical riffs have a short shelf life, so they are written and used fast."
+        },
+        {
+          "label": "Delivery",
+          "text": "He says the polite half completely straight, so the turn hits the room at full speed."
+        },
+        {
+          "label": "Punch word",
+          "text": "\"not\". A blunt, one-syllable ending."
+        }
+      ]
     },
     {
-      setup: 'Date: "So, are you a morning person?"',
-      punchline: 'You: "I\'m a morning person in the way a bear is a winter person."',
-      punchWord: 'person',
-      steps: [
-        { label: 'What they handed you', text: 'A simple yes/no question.' },
-        { label: 'Move', text: 'Comparison: answer by linking to another world (hibernation).' },
-        { label: 'Structure', text: 'Reuses their phrase ("___ person") so the echo is clean.' },
-        { label: 'Why it works', text: 'It answers the question (no) and shows personality.' },
-        { label: 'Punch word', text: 'The repeated "person" closes the parallel; "winter" carries the surprise.' },
-      ],
+      "setup": "I said, \"It's serious, doctor, I've broken my arm in 20 places.\"",
+      "punchline": "He said, 'Well stop going to those places.'",
+      "punchWord": "places",
+      "comedian": "Tommy Cooper",
+      "source": "stage material",
+      "sourceUrl": "https://www.chortle.co.uk/features/2021/03/16/48029/tommy_coopers_best_jokes_and_tricks",
+      "steps": [
+        {
+          "label": "What the patient handed him",
+          "text": "\"I've broken my arm in 20 places.\""
+        },
+        {
+          "label": "Move",
+          "text": "Literal reading: \"places\" as locations."
+        },
+        {
+          "label": "Response",
+          "text": "Give sensible advice for the wrong meaning: \"stop going to those places\"."
+        },
+        {
+          "label": "Why it works",
+          "text": "It sounds helpful. The best quick replies sound like a real answer."
+        },
+        {
+          "label": "Punch word",
+          "text": "\"places\", the connector itself, handed straight back."
+        }
+      ]
+    }
+  ],
+  masters: [
+    {
+      "comedian": "Kenny Sebastian",
+      "title": "Chai Time Comedy: making chai on stage",
+      "url": "https://www.youtube.com/watch?v=NsBsDYEf4PU",
+      "channel": "Kenny Sebastian",
+      "indian": true,
+      "notice": [
+        "He makes chai live on stage, so the jokes have to work around what is actually happening.",
+        "Watch for the moments where he reacts to the chai or the room, not the script."
+      ]
     },
+    {
+      "comedian": "Dave Chappelle",
+      "title": "An impossible punchline (Equanimity)",
+      "url": "https://www.youtube.com/watch?v=VHkHw-NQ5Wk",
+      "channel": "Netflix Is A Joke",
+      "notice": [
+        "Notice how relaxed he is: no rush to the punch, no matter the topic.",
+        "Watch how long he keeps the audience waiting, and how the payoff still arrives."
+      ]
+    }
   ],
   mistakes: [
     { mistake: 'Waiting for the perfect line.', fix: 'The moment passes in about two seconds. A decent line on time beats a great one late.' },
@@ -156,41 +233,134 @@ export const DELIVERY = {
   ],
   examples: [
     {
-      setup: 'I\'ve been going to the gym religiously. [pause]',
-      punchline: 'Christmas… and Easter.',
-      punchWord: 'Easter',
-      steps: [
-        { label: 'Setup', text: 'Said proudly, as if it\'s a brag. Commit to the assumption.' },
-        { label: 'Pause', text: 'A half-second beat after "religiously" lets the audience picture a gym devotee.' },
-        { label: 'Punch', text: 'Flat and factual. Don\'t wink.' },
-        { label: 'Micro-pause', text: 'A tiny beat between "Christmas" and "Easter" makes the second word land.' },
-        { label: 'After', text: 'Stop. Hold eye contact. Let the silence do the work.' },
-      ],
+      "setup": "A lot of people are afraid of heights.",
+      "punchline": "Not me, I'm afraid of widths",
+      "punchWord": "widths",
+      "comedian": "Steven Wright",
+      "source": "stand-up, quoted in an A.V. Club live review",
+      "sourceUrl": "https://www.avclub.com/steven-wright-s-act-hasn-t-changed-much-in-30-years-an-1798269157",
+      "steps": [
+        {
+          "label": "Setup",
+          "text": "Delivered as a sincere, slightly sleepy observation. No smile."
+        },
+        {
+          "label": "Pause",
+          "text": "A beat after \"heights\" lets everyone picture a fear they know."
+        },
+        {
+          "label": "Punch",
+          "text": "\"Not me\", said almost proudly, then the made-up phobia."
+        },
+        {
+          "label": "Deadpan",
+          "text": "Wright says impossible things as if they're facts. The flatter the voice, the bigger the laugh."
+        },
+        {
+          "label": "After",
+          "text": "He doesn't wait for approval; he moves to the next line. Watch the Letterman clip below."
+        }
+      ]
     },
     {
-      setup: 'It\'s weird that my grandma signs her texts.',
-      punchline: '[act-out, reading phone] "Love, Gran." [beat, to phone] Yes, Gran. Your name\'s at the top.',
-      punchWord: 'top',
-      steps: [
-        { label: 'Setup', text: 'Conversational, observational tone.' },
-        { label: 'Act-out', text: 'Mime holding a phone and read in her voice. The audience sees the text.' },
-        { label: 'Beat', text: 'A pause as you "read" the signature lets the absurdity register.' },
-        { label: 'Reply', text: 'Speak to the phone, patient and loving.' },
-        { label: 'Punch word', text: '"top", gently stressed, then stop.' },
-      ],
+      "setup": "In the middle of the street, my dad's in the middle of the road sweeping glass out of the road",
+      "punchline": "like he works at like a hate crime barbershop",
+      "punchWord": "barbershop",
+      "comedian": "Hasan Minhaj",
+      "source": "Homecoming King (Netflix, 2017)",
+      "sourceUrl": "https://www.npr.org/transcripts/528936208",
+      "steps": [
+        {
+          "label": "Setup",
+          "text": "A frightening true story, told quietly."
+        },
+        {
+          "label": "Picture",
+          "text": "Dad in the road, sweeping up glass."
+        },
+        {
+          "label": "Comparison",
+          "text": "\"like he works at like a hate crime barbershop\": the \"like… like\" is real speech rhythm, not a script."
+        },
+        {
+          "label": "Act-out",
+          "text": "Next he becomes his dad: \"We got customers. We got to clean this up.\" The voice turns a description into a scene."
+        },
+        {
+          "label": "Punch word",
+          "text": "\"barbershop\", stressed, then a beat for the laugh before the act-out."
+        }
+      ]
     },
     {
-      setup: 'My teenager sleeps in so late,',
-      punchline: "the neighbours think he's a rumour.",
-      punchWord: 'rumour',
-      steps: [
-        { label: 'Setup', text: 'Weary parent energy. The attitude is in the voice.' },
-        { label: 'Pause', text: 'A short beat after "so late," builds the "how late?" question.' },
-        { label: 'Punch', text: 'Almost a whisper, as if sharing gossip, which fits "rumour".' },
-        { label: 'Stress', text: '"RUmour", a clear first syllable.' },
-        { label: 'After', text: 'If it gets a laugh, wait, then tag: "Some of them have set up a podcast."' },
-      ],
+      "setup": "I got a king-sized bed. I don't know any kings,",
+      "punchline": "but if one came over, I guess he'll be comfortable.",
+      "punchWord": "comfortable",
+      "comedian": "Mitch Hedberg",
+      "source": "stand-up, quoted in an NPR retrospective (2007)",
+      "sourceUrl": "https://text.npr.org/7484154",
+      "steps": [
+        {
+          "label": "Setup",
+          "text": "\"I got a king-sized bed.\" Said like small talk."
+        },
+        {
+          "label": "Beat",
+          "text": "\"I don't know any kings,\" a tiny pause as he follows the logic."
+        },
+        {
+          "label": "Hedge",
+          "text": "\"I guess\" makes it sound considered and slightly unsure, which is Hedberg's whole persona."
+        },
+        {
+          "label": "Stress",
+          "text": "\"comfortable\", said kindly, as if he's a thoughtful host."
+        },
+        {
+          "label": "After",
+          "text": "No wink. Hedberg barely sold his lines, which made the audience lean in."
+        }
+      ]
+    }
+  ],
+  masters: [
+    {
+      "comedian": "Steven Wright",
+      "title": "Stand-up debut on Late Night (1982)",
+      "url": "https://www.youtube.com/watch?v=mMNvJKQ54Jo",
+      "channel": "Letterman",
+      "notice": [
+        "Deadpan: absurd lines said like facts, with almost no expression.",
+        "Notice the pauses: he waits for the laugh, then moves on without a smile."
+      ]
     },
+    {
+      "comedian": "Russell Peters",
+      "title": "Somebody gonna get hurt real bad (Just For Laughs, 2000)",
+      "url": "https://www.youtube.com/watch?v=Adz4l5qEpD4",
+      "channel": "Just For Laughs",
+      "indian": true,
+      "lines": [
+        {
+          "text": "\"Somebody gonna get hurt real bad\""
+        }
+      ],
+      "notice": [
+        "The act-out: he becomes his dad, voice and posture included.",
+        "Listen for how he keeps returning to one word, \"somebody\".",
+        "Watch the timing of each tag after the laugh."
+      ]
+    },
+    {
+      "comedian": "Nate Bargatze",
+      "title": "How to order artisanal coffee (The Tennessee Kid)",
+      "url": "https://www.youtube.com/watch?v=MOm7Gr-1BUc",
+      "channel": "Netflix Is A Joke",
+      "notice": [
+        "A slow, unbothered pace: he never rushes a punch.",
+        "Notice how he plays confused, so the audience gets there a beat before him."
+      ]
+    }
   ],
   mistakes: [
     { mistake: 'Rushing the punch because you\'re nervous.', fix: 'Breathe before the punch line, every time. The pause feels long to you and normal to them.' },
@@ -221,8 +391,8 @@ export const DELIVERY = {
     {
       kind: 'word',
       prompt: 'Which word should get the extra stress when you say this out loud?',
-      joke: { setup: 'My dad is so cheap, he reuses tea bags', punchline: "until it's legally just hot water." },
-      answer: 'water',
+      joke: { setup: "Tim Vine: I've just been on a once-in-a-lifetime holiday.", punchline: "I'll tell you what, never again." },
+      answer: 'again',
       explain: 'The punch word gets the weight, then you stop.',
     },
     {
@@ -280,41 +450,117 @@ export const FEEDBACK = {
   ],
   examples: [
     {
-      setup: 'Draft 1: "My bus is always really late, it\'s so annoying."',
-      punchline: 'Draft 4: "My bus is so late, the timetable is now classed as historical fiction."',
-      punchWord: 'fiction',
-      steps: [
-        { label: 'Draft 1', text: 'A complaint with no surprise. Feedback: "Yeah, buses."' },
-        { label: 'Draft 2', text: '"My bus is so late I age on it." Better, but vague: an exaggeration with no picture.' },
-        { label: 'Draft 3', text: '"…the timetable is basically fiction." Getting there, but "basically" softens it.' },
-        { label: 'Draft 4', text: '"…classed as historical fiction": official language plus a genre gives a specific image.' },
-        { label: 'Lesson', text: 'The idea was in draft 1. The joke arrived through rewriting.' },
-      ],
+      "setup": "Well, OK, my answering machine - I'm so boring, my answering machine doesn't even pick up. No, that's not good enough.",
+      "punchline": "OK, let's do answering machine - all right, how about - I'm so boring, my answering machine put me on hold.",
+      "punchWord": "hold",
+      "comedian": "Joan Rivers",
+      "source": "her writing sessions with Rodney Dangerfield, described on NPR Fresh Air",
+      "sourceUrl": "https://text.npr.org/345945166",
+      "steps": [
+        {
+          "label": "Topic first",
+          "text": "They picked a topic (\"answering machines\") and just started saying lines out loud."
+        },
+        {
+          "label": "Draft 1",
+          "text": "\"doesn't even pick up\": a fine idea, but the machine just sits there."
+        },
+        {
+          "label": "Judge",
+          "text": "\"No, that's not good enough.\" Write first, judge second, and be honest."
+        },
+        {
+          "label": "Draft 2",
+          "text": "\"put me on hold\": now the machine acts, rudely, which is a picture."
+        },
+        {
+          "label": "Lesson",
+          "text": "Same premise, better punch. Rivers said you bounce lines off each other until you find the one."
+        }
+      ]
     },
     {
-      setup: 'Test: "I\'m in the best shape of my life. A pear."',
-      punchline: 'Fix: "I\'m in the best shape of my life. Admittedly, that shape is a pear."',
-      punchWord: 'pear',
-      steps: [
-        { label: 'Result', text: 'Confused faces. Not a surprise problem, a clarity problem.' },
-        { label: 'Question asked', text: '"What did you think \'a pear\' meant?" Half didn\'t connect it to "shape".' },
-        { label: 'Diagnosis', text: 'The connector "shape" needs repeating so the second meaning is clear.' },
-        { label: 'Fix', text: '"that shape is a pear" re-uses the connector.' },
-        { label: 'Lesson', text: 'No laugh plus confused faces means a clarity fix. No laugh plus nodding means a surprise fix.' },
-      ],
+      "setup": "When they invented the Pop-Tart, the back of my head blew right off.",
+      "punchline": "And they can't go stale 'cause they weren't ever fresh.",
+      "punchWord": "fresh",
+      "comedian": "Jerry Seinfeld",
+      "source": "Jerry Seinfeld: 23 Hours to Kill (Netflix, 2020), played on NPR in 2024",
+      "sourceUrl": "https://www.npr.org/2024/05/02/1248634090/unfrosted-jerry-seinfelds-movie-about-the-fictional-history-of-pop-tarts",
+      "steps": [
+        {
+          "label": "The bit",
+          "text": "A long-running Pop-Tart bit. The New York Times filmed him working on it years earlier (see the clip below)."
+        },
+        {
+          "label": "Audience as editor",
+          "text": "Seinfeld told NPR his jokes \"have been picked by 25 audiences before you got there\"."
+        },
+        {
+          "label": "The rule",
+          "text": "\"They might not be the ones you like, but you do not disagree with them.\""
+        },
+        {
+          "label": "The tag",
+          "text": "\"they weren't ever fresh\": a tag that tops the first line by flipping \"stale\"."
+        },
+        {
+          "label": "Lesson",
+          "text": "Even a famous comedian treats the crowd as the judge."
+        }
+      ]
     },
     {
-      setup: 'Quota: 10 punches for "My dentist told me to brush after every meal."',
-      punchline: 'Pick: "The restaurant asked me to stop doing it at the table."',
-      punchWord: 'table',
-      steps: [
-        { label: '1–3', text: 'Obvious: "I eat a lot", "my toothbrush is tired", "I\'m out of toothpaste". Everyone\'s first ideas.' },
-        { label: '4–6', text: 'Better: literal readings (brushing the meal itself, brushing at a buffet).' },
-        { label: '7–9', text: 'Specific: the waiter, the table, a fancy restaurant.' },
-        { label: 'Pick', text: 'Number 8: social cost, a specific place, punch word last.' },
-        { label: 'Lesson', text: 'Your best line came after you\'d used up the obvious ones. That\'s why quotas work.' },
-      ],
+      "setup": "When I started in show business, I played one club that was so far out",
+      "punchline": "my act was reviewed in Field and Stream",
+      "punchWord": "Stream",
+      "comedian": "Rodney Dangerfield",
+      "source": "stage material and his own account, AP obituary (2004)",
+      "sourceUrl": "https://www2.ljworld.com/news/2004/oct/06/comedian_rodney_dangerfield/",
+      "steps": [
+        {
+          "label": "Test it live",
+          "text": "Dangerfield tried his new framing, \"I get no respect\", at a New York club."
+        },
+        {
+          "label": "Data",
+          "text": "Per his obituary, the joke drew a bigger response than ever, so he kept the phrase."
+        },
+        {
+          "label": "Keep a file",
+          "text": "He built a career of short jokes on one attitude, and the strongest ones survived."
+        },
+        {
+          "label": "This joke",
+          "text": "\"so far out\" means remote, and Field and Stream reviews the outdoors, not comedy."
+        },
+        {
+          "label": "Lesson",
+          "text": "You don't decide what works. The room does, and you keep score."
+        }
+      ]
+    }
+  ],
+  masters: [
+    {
+      "comedian": "Jerry Seinfeld",
+      "title": "How to write a joke (The New York Times, 2012)",
+      "url": "https://www.youtube.com/watch?v=itWxXyCfW5s",
+      "channel": "The New York Times",
+      "notice": [
+        "He takes apart a joke that is still a work in progress, the Pop-Tart bit.",
+        "Watch the longhand rewriting: a joke is drafted and redrafted, not written once."
+      ]
     },
+    {
+      "comedian": "Chris Rock",
+      "title": "His process for writing new material (60 Minutes, 2005)",
+      "url": "https://www.youtube.com/watch?v=rZL3PUInrCw",
+      "channel": "60 Minutes",
+      "notice": [
+        "Rock describes how he writes new material.",
+        "Listen for \"there is a rhythm to comedy\": the feedback is about timing as well as words."
+      ]
+    }
   ],
   mistakes: [
     { mistake: 'Writing one version and polishing it forever.', fix: 'Write ten rough versions, then polish the best one.' },
