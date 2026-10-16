@@ -31,6 +31,7 @@ services:
       DB_PASSWORD: ${DB_PASSWORD:-jokesmith}
       SERVER_PORT: "48200"
       FRONTEND_URL: ${JOKESMITH_URL:-http://localhost:8200}
+      BASE_PATH: ${JOKESMITH_BASE_PATH:-}
       TZ: ${TZ:-UTC}
     depends_on:
       db:
@@ -38,7 +39,10 @@ services:
     restart: unless-stopped
 
   frontend:
-    build: ./frontend
+    build:
+      context: ./frontend
+      args:
+        BASE_PATH: ${JOKESMITH_BASE_PATH:-}
     ports:
       - "${JOKESMITH_BIND:-127.0.0.1}:${JOKESMITH_PORT:-8200}:80"
     depends_on:

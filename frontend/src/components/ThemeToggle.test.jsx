@@ -9,7 +9,7 @@ test('switches the color scheme and remembers it', async () => {
   await user.click(screen.getByRole('button', { name: 'Theme' }))
   await user.click(await screen.findByText('Light'))
   expect(document.documentElement).toHaveAttribute('data-mantine-color-scheme', 'light')
-  expect(localStorage.getItem('mantine-color-scheme-value')).toBe('light')
+  expect(localStorage.getItem('jokesmith.color-scheme')).toBe('light')
 
   await user.click(screen.getByRole('button', { name: 'Theme' }))
   await user.click(await screen.findByText('Dark'))

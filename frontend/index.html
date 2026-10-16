@@ -12,7 +12,10 @@
       // Apply the saved scheme (ThemeToggle, via Mantine's localStorage manager)
       // before first paint, so a light-mode reload never flashes the dark stage.
       try {
-        var s = localStorage.getItem('mantine-color-scheme-value') || 'auto'
+        // Own key, so apps sharing this origin don't clash; carry the old shared one over once.
+        var k = 'jokesmith.color-scheme', old = localStorage.getItem('mantine-color-scheme-value')
+        if (localStorage.getItem(k) === null && old !== null) localStorage.setItem(k, old)
+        var s = localStorage.getItem(k) || 'auto'
         if (s === 'auto') s = matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark'
         document.documentElement.setAttribute('data-mantine-color-scheme', s)
       } catch (e) {}

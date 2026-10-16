@@ -4,6 +4,8 @@ WORKDIR /src
 COPY package.json package-lock.json ./
 RUN npm ci --no-audit --no-fund
 COPY . .
+# Optional sub-path (e.g. /jokesmith.lol); an ARG is in the RUN env, vite.config.js reads it as `base`.
+ARG BASE_PATH=
 RUN npx vite build --outDir dist
 
 FROM nginx:1.27-alpine

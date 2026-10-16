@@ -93,7 +93,7 @@ cp .env.example .env        # then edit: JOKESMITH_URL, DB_PASSWORD (and JOKESMI
 docker compose up -d --build
 ```
 
-`.env.example` documents every setting (`JOKESMITH_URL`, `JOKESMITH_BIND` / `JOKESMITH_PORT`,
+`.env.example` documents every setting (`JOKESMITH_URL`, `JOKESMITH_BASE_PATH`, `JOKESMITH_BIND` / `JOKESMITH_PORT`,
 `DB_*`, `TZ`); with no `.env` at all you get exactly the previous hardcoded defaults, so an
 existing install keeps its data and URL after `git pull`. Only the `frontend` container
 needs to be reachable: it serves the app and proxies `/api` to the backend, so the browser
@@ -113,6 +113,12 @@ only ever talks to one origin (`JOKESMITH_URL`). Postgres is not published to th
   (keep `JOKESMITH_BIND=127.0.0.1` when the proxy runs on the same host) and set `JOKESMITH_URL` to the
   public URL, e.g. `https://jokesmith.example.com`. The proxy should send
   `X-Forwarded-Proto`; on https the `pid` identity cookie is then marked `Secure`.
+- **Under a sub-path** (e.g. `https://example.com/jokesmith.lol/`): set `JOKESMITH_BASE_PATH=/jokesmith.lol`
+  (leading slash, no trailing slash) and `JOKESMITH_URL` to the full URL including it. Serve the app under
+  a sub-path. The reverse proxy in front must strip this prefix before forwarding and send
+  `X-Forwarded-Prefix: <prefix>` (Traefik's StripPrefix middleware does both). Rebuild the frontend after
+  changing it (`docker compose up -d --build`): the prefix is baked into the build. The `pid` cookie is then
+  scoped to the prefix (an existing one set at `/` is still read, so nobody loses their id).
 
 ### Local development
 
@@ -147,7 +153,8 @@ Backend (environment variables, when running it directly):
 | `SERVER_PORT` | `48200` | HTTP port |
 | `DB_URL` | `jdbc:postgresql://localhost:5433/jokesmith` | JDBC URL |
 | `DB_USER` / `DB_PASSWORD` | `jokesmith` / `jokesmith` | Database credentials |
-| `FRONTEND_URL` | `http://localhost:5200` | Allowed CORS origin for `/api/**` (in Docker: `JOKESMITH_URL`) |
+| `FRONTEND_URL` | `http://localhost:5200` | Allowed CORS origin for `/api/**`; a path is ignored (in Docker: `JOKESMITH_URL`) |
+| `BASE_PATH` | *(empty)* | Sub-path the `pid` cookie is scoped to (in Docker: `JOKESMITH_BASE_PATH`) |
 
 Frontend dev server:
 
@@ -155,6 +162,7 @@ Frontend dev server:
 |---|---|---|
 | `VITE_PORT` | `5200` | Dev server port |
 | `VITE_API_PORT` | `48200` | Backend port that `/api` is proxied to |
+| `BASE_PATH` | *(empty)* | Build-time sub-path (`vite build`), e.g. `/jokesmith.lol` |
 
 The dev database container also creates scratch databases (`jokesmith_learn`,
 `jokesmith_practice`, `jokesmith_workshop`, `jokesmith_progress`) so several backends can

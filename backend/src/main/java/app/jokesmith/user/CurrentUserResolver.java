@@ -5,6 +5,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import java.time.Duration;
 import java.util.UUID;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.MethodParameter;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.support.WebDataBinderFactory;
@@ -19,9 +20,23 @@ public class CurrentUserResolver implements HandlerMethodArgumentResolver {
   private static final int MAX_AGE = (int) Duration.ofDays(3650).toSeconds();
 
   private final UserService users;
+  private final String cookiePath;
 
-  public CurrentUserResolver(UserService users) {
+  public CurrentUserResolver(UserService users, @Value("${app.base-path:}") String basePath) {
     this.users = users;
+    this.cookiePath = cookiePath(basePath);
+  }
+
+  /**
+   * The app's own sub-path ({@code /jokesmith.lol}), so apps sharing an origin keep separate
+   * cookies; {@code /} at the host root. A cookie set at {@code /} before a base path was
+   * configured is still sent under it and still read, and we only set one when none came
+   * in, so existing users keep their id and never get a second {@code pid}.
+   */
+  static String cookiePath(String basePath) {
+    String p = basePath == null ? "" : basePath.strip().replaceAll("/+$", "");
+    if (p.isEmpty()) return "/";
+    return p.startsWith("/") ? p : "/" + p;
   }
 
   @Override
@@ -37,7 +52,7 @@ public class CurrentUserResolver implements HandlerMethodArgumentResolver {
     if (id == null) {
       id = UUID.randomUUID();
       Cookie c = new Cookie(COOKIE, id.toString());
-      c.setPath("/");
+      c.setPath(cookiePath);
       c.setHttpOnly(true);
       c.setSecure(req != null && req.isSecure());
       c.setMaxAge(MAX_AGE);

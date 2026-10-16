@@ -9,16 +9,17 @@ import { createRoot } from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
 import App from './App.jsx'
 import { createQueryClient } from './api/queryClient.js'
-import { cssVariablesResolver, theme } from './themes.js'
+import { colorSchemeManager, cssVariablesResolver, theme } from './themes.js'
 
 const queryClient = createQueryClient()
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <QueryClientProvider client={queryClient}>
-      <MantineProvider theme={theme} defaultColorScheme="auto" cssVariablesResolver={cssVariablesResolver}>
+      <MantineProvider theme={theme} defaultColorScheme="auto" colorSchemeManager={colorSchemeManager} cssVariablesResolver={cssVariablesResolver}>
         <Notifications position="top-center" limit={3} />
-        <BrowserRouter>
+        {/* BASE_URL is '/' or the build's sub-path ('/jokesmith.lol/'). */}
+        <BrowserRouter basename={import.meta.env.BASE_URL.replace(/\/$/, '') || '/'}>
           <App />
         </BrowserRouter>
       </MantineProvider>

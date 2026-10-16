@@ -1,6 +1,7 @@
 package app.jokesmith.config;
 
 import app.jokesmith.user.CurrentUserResolver;
+import java.net.URI;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
@@ -18,6 +19,12 @@ public class WebConfig implements WebMvcConfigurer {
     this.frontendUrl = frontendUrl;
   }
 
+  /** {@code http://localhost/jokesmith.lol} -> {@code http://localhost}: a CORS origin has no path. */
+  static String origin(String url) {
+    URI u = URI.create(url);
+    return u.getHost() == null ? url : u.getScheme() + "://" + u.getRawAuthority();
+  }
+
   @Override
   public void addArgumentResolvers(List<HandlerMethodArgumentResolver> resolvers) {
     resolvers.add(currentUser);
@@ -25,6 +32,6 @@ public class WebConfig implements WebMvcConfigurer {
 
   @Override
   public void addCorsMappings(CorsRegistry registry) {
-    registry.addMapping("/api/**").allowedOrigins(frontendUrl).allowedMethods("*").allowCredentials(true);
+    registry.addMapping("/api/**").allowedOrigins(origin(frontendUrl)).allowedMethods("*").allowCredentials(true);
   }
 }

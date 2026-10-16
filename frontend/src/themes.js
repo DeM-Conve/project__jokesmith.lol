@@ -1,4 +1,4 @@
-import { createTheme, defaultVariantColorsResolver, rem } from '@mantine/core'
+import { createTheme, defaultVariantColorsResolver, localStorageColorSchemeManager, rem } from '@mantine/core'
 
 // THE single source of truth for every color, space and font size.
 // Components never hard-code a color: use var(--token) or Mantine color props
@@ -144,3 +144,7 @@ export const cssVariablesResolver = () => ({
   light: { ...SCHEMES.light, ...MANTINE_VARS },
   dark: { ...SCHEMES.dark, ...MANTINE_VARS },
 })
+
+// Our own localStorage key (Mantine's default is shared by every Mantine app on the
+// origin). index.html reads it before first paint and migrates the old key once.
+export const colorSchemeManager = localStorageColorSchemeManager({ key: 'jokesmith.color-scheme' })

@@ -7,7 +7,7 @@ const OPTIONS = [
   { value: 'auto', label: 'System', icon: Monitor },
 ]
 
-/** Light / Dark / System. Per device: Mantine keeps the choice in localStorage. */
+/** Light / Dark / System. Per device: Mantine keeps the choice in localStorage (themes.js colorSchemeManager). */
 export default function ThemeToggle() {
   const { colorScheme, setColorScheme } = useMantineColorScheme()
   const computed = useComputedColorScheme('dark')
