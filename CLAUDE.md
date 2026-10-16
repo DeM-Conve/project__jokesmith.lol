@@ -90,3 +90,10 @@ cd frontend && npm run dev                   # :5200, proxies /api -> :48200
 
 Side-by-side dev backends: `SERVER_PORT`, `DB_URL` (one of the `jokesmith_<feature>`
 scratch databases), and on the frontend `VITE_PORT` / `VITE_API_PORT`.
+
+## Commits
+
+- Author and committer are always `DeM-Conve <154665057+DeM-Conve@users.noreply.github.com>`
+  (this repo's local git config). Never commit under any other name or email.
+- No `Co-Authored-By:` trailer (no Claude co-author line) and no "Generated with Claude" line in
+  commit messages or PR descriptions.
