@@ -1,0 +1,7 @@
+# Local development overlay: publishes Postgres to the host for `mvn spring-boot:run`,
+# psql and the side-by-side feature backends. Self-hosting does not need it.
+#   docker compose -f docker-compose.yml -f docker-compose.dev.yml up -d db
+services:
+  db:
+    ports:
+      - "${DB_BIND:-127.0.0.1}:${DB_PORT:-5433}:5432"

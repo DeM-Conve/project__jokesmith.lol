@@ -83,7 +83,7 @@ API paths are prefixed by feature: `/api/learn/**`, `/api/practice/**`,
 ## Running locally
 
 ```bash
-docker compose up -d db                      # Postgres on 127.0.0.1:5433
+docker compose -f docker-compose.yml -f docker-compose.dev.yml up -d db   # Postgres on 127.0.0.1:5433
 cd backend && mvn spring-boot:run            # :48200
 cd frontend && npm run dev                   # :5200, proxies /api -> :48200
 ```

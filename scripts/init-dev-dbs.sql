@@ -1,6 +1,7 @@
 -- Scratch databases so several dev backends (one per feature workstream) can
 -- run side by side without fighting over one Flyway history.
-CREATE DATABASE jokesmith_learn OWNER jokesmith;
-CREATE DATABASE jokesmith_practice OWNER jokesmith;
-CREATE DATABASE jokesmith_workshop OWNER jokesmith;
-CREATE DATABASE jokesmith_progress OWNER jokesmith;
+-- No OWNER clause: they belong to POSTGRES_USER, whatever DB_USERNAME is set to.
+CREATE DATABASE jokesmith_learn;
+CREATE DATABASE jokesmith_practice;
+CREATE DATABASE jokesmith_workshop;
+CREATE DATABASE jokesmith_progress;

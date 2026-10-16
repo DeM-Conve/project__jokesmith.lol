@@ -1,33 +1,37 @@
-# Full stack: `docker compose up --build` -> http://localhost:8200
-# Dev database only: `docker compose up -d db` (Postgres on 127.0.0.1:5433)
+# Full stack: `docker compose up -d --build` -> http://localhost:8200
+# Dev database only: `docker compose -f docker-compose.yml -f docker-compose.dev.yml up -d db`
+#   (Postgres on 127.0.0.1:5433; see docker-compose.dev.yml)
+# Configuration: copy .env.example to .env; every value below has a working local default.
 name: jokesmith
 
 services:
   db:
     image: postgres:17-alpine
     environment:
-      POSTGRES_DB: jokesmith
-      POSTGRES_USER: jokesmith
-      POSTGRES_PASSWORD: jokesmith
-    ports:
-      - "127.0.0.1:5433:5432"
+      POSTGRES_DB: ${DB_DATABASE_NAME:-jokesmith}
+      POSTGRES_USER: ${DB_USERNAME:-jokesmith}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-jokesmith}
+      TZ: ${TZ:-UTC}
     volumes:
-      - pgdata:/var/lib/postgresql/data
+      # A bare name is the named volume below; a path (./pgdata, /srv/jokesmith/pgdata) is a bind mount.
+      - ${DB_DATA_LOCATION:-pgdata}:/var/lib/postgresql/data
       - ./scripts/init-dev-dbs.sql:/docker-entrypoint-initdb.d/init-dev-dbs.sql:ro
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U jokesmith -d jokesmith"]
+      test: ["CMD-SHELL", "pg_isready -U \"$$POSTGRES_USER\" -d \"$$POSTGRES_DB\""]
       interval: 3s
       timeout: 3s
       retries: 20
+    restart: unless-stopped
 
   backend:
     build: ./backend
     environment:
-      DB_URL: jdbc:postgresql://db:5432/jokesmith
-      DB_USER: jokesmith
-      DB_PASSWORD: jokesmith
+      DB_URL: jdbc:postgresql://db:5432/${DB_DATABASE_NAME:-jokesmith}
+      DB_USER: ${DB_USERNAME:-jokesmith}
+      DB_PASSWORD: ${DB_PASSWORD:-jokesmith}
       SERVER_PORT: "48200"
-      FRONTEND_URL: http://localhost:8200
+      FRONTEND_URL: ${JOKESMITH_URL:-http://localhost:8200}
+      TZ: ${TZ:-UTC}
     depends_on:
       db:
         condition: service_healthy
@@ -36,10 +40,15 @@ services:
   frontend:
     build: ./frontend
     ports:
-      - "127.0.0.1:8200:80"
+      - "${JOKESMITH_BIND:-127.0.0.1}:${JOKESMITH_PORT:-8200}:80"
     depends_on:
       backend:
         condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://127.0.0.1/ >/dev/null || exit 1"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
     restart: unless-stopped
 
 volumes:

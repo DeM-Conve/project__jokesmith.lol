@@ -1,5 +1,8 @@
 server:
   port: ${SERVER_PORT:48200}
+  # Behind nginx (and maybe a TLS proxy in front of it): trust X-Forwarded-Proto/For so
+  # request.isSecure() reflects the browser's scheme (the pid cookie gets Secure on https).
+  forward-headers-strategy: native
   compression:
     enabled: true
     mime-types: application/json,application/problem+json,text/plain

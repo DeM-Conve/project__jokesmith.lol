@@ -77,7 +77,7 @@ heuristics. There are no live AI calls at runtime.
 ### Everything in Docker
 
 ```bash
-docker compose up --build
+docker compose up -d --build
 ```
 
 Then open http://localhost:8200. This starts Postgres (`db`), the Spring Boot API
@@ -85,15 +85,46 @@ Then open http://localhost:8200. This starts Postgres (`db`), the Spring Boot AP
 proxies `/api` to the backend so the identity cookie stays same-origin. Postgres data
 lives in the `pgdata` volume.
 
+### Self-hosting
+
+```bash
+git clone <this repo> jokesmith && cd jokesmith
+cp .env.example .env        # then edit: JOKESMITH_URL, DB_PASSWORD (and JOKESMITH_BIND / JOKESMITH_PORT)
+docker compose up -d --build
+```
+
+`.env.example` documents every setting (`JOKESMITH_URL`, `JOKESMITH_BIND` / `JOKESMITH_PORT`,
+`DB_*`, `TZ`); with no `.env` at all you get exactly the previous hardcoded defaults, so an
+existing install keeps its data and URL after `git pull`. Only the `frontend` container
+needs to be reachable: it serves the app and proxies `/api` to the backend, so the browser
+only ever talks to one origin (`JOKESMITH_URL`). Postgres is not published to the host;
+`docker-compose.dev.yml` does that for local development only.
+
+- **Data**: everything lives in Postgres, in the `pgdata` named volume by default
+  (`DB_DATA_LOCATION=pgdata`). Set `DB_DATA_LOCATION` to a path (e.g. `./data/pgdata`) to
+  use a bind mount instead. Set `DB_PASSWORD` before the first start; it only takes effect
+  when the data directory is created.
+- **Backups**: `docker compose exec -T db pg_dump -U jokesmith jokesmith | gzip > jokesmith-$(date +%F).sql.gz`
+  (restore into a fresh stack with `gunzip -c <file> | docker compose exec -T db psql -U jokesmith jokesmith`;
+  use your `DB_USERNAME` / `DB_DATABASE_NAME` if you changed them).
+- **Updating**: `git pull && docker compose up -d --build`. Flyway migrates the schema
+  on backend start.
+- **Behind a reverse proxy** (Caddy, Traefik, nginx): point it at `JOKESMITH_BIND:JOKESMITH_PORT`
+  (keep `JOKESMITH_BIND=127.0.0.1` when the proxy runs on the same host) and set `JOKESMITH_URL` to the
+  public URL, e.g. `https://jokesmith.example.com`. The proxy should send
+  `X-Forwarded-Proto`; on https the `pid` identity cookie is then marked `Secure`.
+
 ### Local development
 
 Requirements: Java 21, Maven 3.9, Node 22, Docker (for Postgres and the backend tests).
 
 ```bash
-docker compose up -d db                 # Postgres on 127.0.0.1:5433
+docker compose -f docker-compose.yml -f docker-compose.dev.yml up -d db   # Postgres on 127.0.0.1:5433
 cd backend && mvn spring-boot:run       # API on :48200
 cd frontend && npm install && npm run dev   # app on :5200, proxies /api -> :48200
 ```
+
+`docker-compose.dev.yml` publishes Postgres on `DB_BIND:DB_PORT` (default `127.0.0.1:5433`).
 
 Tests and checks:
 
@@ -107,14 +138,16 @@ you get a random stage name (which you can change on the Today page).
 
 ## Configuration
 
-Backend (environment variables):
+Docker Compose: see `.env.example` (self-hosting above).
+
+Backend (environment variables, when running it directly):
 
 | Variable | Default | Purpose |
 |---|---|---|
 | `SERVER_PORT` | `48200` | HTTP port |
 | `DB_URL` | `jdbc:postgresql://localhost:5433/jokesmith` | JDBC URL |
 | `DB_USER` / `DB_PASSWORD` | `jokesmith` / `jokesmith` | Database credentials |
-| `FRONTEND_URL` | `http://localhost:5200` | Allowed CORS origin for `/api/**` |
+| `FRONTEND_URL` | `http://localhost:5200` | Allowed CORS origin for `/api/**` (in Docker: `JOKESMITH_URL`) |
 
 Frontend dev server:
 

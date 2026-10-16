@@ -39,6 +39,7 @@ public class CurrentUserResolver implements HandlerMethodArgumentResolver {
       Cookie c = new Cookie(COOKIE, id.toString());
       c.setPath("/");
       c.setHttpOnly(true);
+      c.setSecure(req != null && req.isSecure());
       c.setMaxAge(MAX_AGE);
       c.setAttribute("SameSite", "Lax");
       web.getNativeResponse(HttpServletResponse.class).addCookie(c);
