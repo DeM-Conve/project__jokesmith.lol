@@ -94,7 +94,7 @@ docker compose up -d --build
 ```
 
 `.env.example` documents every setting (`JOKESMITH_URL`, `JOKESMITH_BASE_PATH`, `JOKESMITH_BIND` / `JOKESMITH_PORT`,
-`DB_*`, `TZ`); with no `.env` at all you get exactly the previous hardcoded defaults, so an
+`DB_*`, `BACKUP_*`, `PUID` / `PGID`, `TZ`); with no `.env` at all you get exactly the previous hardcoded defaults, so an
 existing install keeps its data and URL after `git pull`. Only the `frontend` container
 needs to be reachable: it serves the app and proxies `/api` to the backend, so the browser
 only ever talks to one origin (`JOKESMITH_URL`). Postgres is not published to the host;
@@ -104,9 +104,7 @@ only ever talks to one origin (`JOKESMITH_URL`). Postgres is not published to th
   (`DB_DATA_LOCATION=pgdata`). Set `DB_DATA_LOCATION` to a path (e.g. `./data/pgdata`) to
   use a bind mount instead. Set `DB_PASSWORD` before the first start; it only takes effect
   when the data directory is created.
-- **Backups**: `docker compose exec -T db pg_dump -U jokesmith jokesmith | gzip > jokesmith-$(date +%F).sql.gz`
-  (restore into a fresh stack with `gunzip -c <file> | docker compose exec -T db psql -U jokesmith jokesmith`;
-  use your `DB_USERNAME` / `DB_DATABASE_NAME` if you changed them).
+- **Backups**: nightly, automatic, into `./backups`. See [Backup & restore](#backup--restore).
 - **Updating**: `git pull && docker compose up -d --build`. Flyway migrates the schema
   on backend start.
 - **Behind a reverse proxy** (Caddy, Traefik, nginx): point it at `JOKESMITH_BIND:JOKESMITH_PORT`
@@ -119,6 +117,46 @@ only ever talks to one origin (`JOKESMITH_URL`). Postgres is not published to th
   `X-Forwarded-Prefix: <prefix>` (Traefik's StripPrefix middleware does both). Rebuild the frontend after
   changing it (`docker compose up -d --build`): the prefix is baked into the build. The `pid` cookie is then
   scoped to the prefix (an existing one set at `/` is still read, so nobody loses their id).
+
+### Backup & restore
+
+Everything the app knows lives in one Postgres database: users and their stage names, every
+joke, notebook tags and bits, arena votes, riffs, practice history. There are no uploaded
+files (Delivery Lab audio never leaves the browser). So a backup is **one file**, a gzipped
+plain-SQL `pg_dump`: `jokesmith-YYYYmmdd-HHMMSS.sql.gz`.
+
+- **Automatic**: the `backup` service dumps the database every night (`BACKUP_SCHEDULE`,
+  default `@daily`, in `TZ`) into `BACKUP_LOCATION` (default `./backups`, in `last/`,
+  `daily/`, `weekly/` and `monthly/`), keeping 7 daily, 4 weekly and 6 monthly
+  (`BACKUP_KEEP_DAYS` / `_WEEKS` / `_MONTHS`). It runs as `PUID:PGID`, so the files are yours;
+  the folder must exist and be writable by that user. Point `BACKUP_LOCATION` at another disk
+  (or sync it somewhere) if the backups should survive the machine.
+- **Now**: `scripts/backup.sh` writes `BACKUP_LOCATION/jokesmith-<time>.sql.gz` while the app
+  keeps running and prints its path on the last line.
+- **Restore**: `scripts/restore.sh` restores the newest backup (`latest`, the default), or
+  `scripts/restore.sh backups/daily/jokesmith-20261020.sql.gz` an older one;
+  `scripts/restore.sh --list` lists them. It asks first (`--yes` skips that), takes a safety
+  backup of the current state (`jokesmith-pre-restore-<time>.sql.gz`, so a restore can be
+  undone), loads the file into a scratch database and checks every table's row count against
+  the file, and only then swaps it in for the live one: a damaged file changes nothing. The
+  backend is stopped for the few seconds this takes and started again; Flyway brings an older
+  backup's schema up to date. Everyone's `pid` cookie keeps working.
+- **Not in a backup**: `.env` (your password and settings) - keep a copy of it somewhere
+  safe yourself. The `jokesmith_<feature>` scratch databases are for local development only
+  and are not backed up.
+
+On a new machine:
+
+```bash
+git clone <this repo> jokesmith && cd jokesmith
+cp /safe/place/.env .env                          # the old .env, or a new one from .env.example
+mkdir -p backups && cp /safe/place/jokesmith-20261021-030000.sql.gz backups/
+scripts/restore.sh latest --yes                   # starts the database, restores into it
+docker compose up -d --build
+```
+
+Both scripts run from anywhere and use `docker compose` the usual way, so they follow
+`COMPOSE_PROJECT_NAME`, `COMPOSE_FILE` and `COMPOSE_ENV_FILES` (or `.env`) like Compose does.
 
 ### Local development
 
