@@ -176,5 +176,10 @@ run side by side: point each at one with `DB_URL` and give it its own `SERVER_PO
   problem details.
 - **Database**: PostgreSQL 17 with Flyway migrations, typed columns and native enums.
 
-See `CLAUDE.md` for code conventions and how the four feature workstreams (learn,
-practice, workshop, progress) split the codebase.
+More documentation:
+
+- [PRODUCT.md](PRODUCT.md): who it's for, the product principles and requirements, open questions.
+- [docs/features.md](docs/features.md): every page in detail (flows, rules, XP).
+- [docs/architecture.md](docs/architecture.md): topology, code layout, data model, API, tests, deployment.
+- [CLAUDE.md](CLAUDE.md): code conventions and how the four feature workstreams (learn,
+  practice, workshop, progress) split the codebase.
