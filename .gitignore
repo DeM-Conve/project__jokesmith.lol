@@ -6,3 +6,8 @@ data/
 *.log
 .idea/
 .vscode/
+
+# Database backups (scripts/backup.sh and the compose backup service); the folder
+# itself ships so the backup service (running as PUID:PGID) can write into it.
+backups/*
+!backups/.gitkeep
