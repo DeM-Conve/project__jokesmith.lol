@@ -167,9 +167,9 @@ Grouped by area. Each says what the product must do and why. Exact numbers and f
 - **R20.** Works behind a TLS reverse proxy (the identity cookie becomes `Secure` on https) and
   under a sub-path, without users losing their identity when either is turned on.
 - **R21.** Deploys only after every test passes (`scripts/deploy.sh`).
-- **R22. Backups** *(in progress, not on `main` yet)*: nightly automatic database backups with
-  retention, a one-shot backup script and a safe, verifiable restore. Built on the local
-  branch `feat/backup-restore`; until it is merged, the README documents a manual `pg_dump`.
+- **R22. Backups**: nightly automatic database backups with retention, a one-shot backup
+  script and a safe, verifiable restore (`backup` compose service, `scripts/backup.sh`,
+  `scripts/restore.sh`; see README "Backup & restore"). Merged into `main` 2026-10-23.
 
 ## Non-goals (as built)
 

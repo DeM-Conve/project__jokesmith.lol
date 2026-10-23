@@ -123,18 +123,16 @@ cd frontend && npm test && npx oxlint && npx vite build
 `docker compose up -d --build`, then verifies the served bundle and the API on
 `http://localhost:8200`. Never deploy by hand around a failing test.
 
-## Current state (as of 2026-10-22)
+## Current state (as of 2026-10-23)
 
 - All four workstreams are built and merged on `main`: 12 pages, 9 lessons, full curated
   content (see docs/features.md for counts). Rename from the working title "punchl.in" to
   jokesmith.lol is done (Java package `app.jokesmith`; the comedy word "punchline" stays).
 - Self-hosting is done: `.env.example`, `JOKESMITH_*` / `DB_*` vars, Secure cookie behind
   https, optional `JOKESMITH_BASE_PATH` sub-path.
-- **In progress, not on `main`:** branch `feat/backup-restore` (local only) adds a nightly
-  `backup` service (7 daily / 4 weekly / 6 monthly), `scripts/backup.sh`,
-  `scripts/restore.sh` and README "Backup & restore". Until it is merged, `main`'s README
-  documents a manual `pg_dump`. When merging it, also update the Backups line in
-  docs/architecture.md and R22 in PRODUCT.md.
+- Backups are done (merged into `main` 2026-10-23 from `feat/backup-restore`): a nightly
+  `backup` compose service (7 daily / 4 weekly / 6 monthly), `scripts/backup.sh` and
+  `scripts/restore.sh`. README "Backup & restore" is the source of truth for how they work.
 - **Known issues** and **open questions**: docs/architecture.md "Known issues" and
   PRODUCT.md "Open questions" (Point-of-view drill, Arena defaults/privacy, moderation,
   identity recovery, riff prompts after year one, licence, health-check users).

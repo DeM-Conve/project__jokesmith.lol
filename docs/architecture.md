@@ -15,7 +15,8 @@ browser ──► frontend (nginx :80, published on JOKESMITH_BIND:JOKESMITH_POR
                                    └──► db (Postgres 17, internal only, volume DB_DATA_LOCATION)
 ```
 
-- Compose project `jokesmith` (`docker-compose.yml`): `db`, `backend`, `frontend`.
+- Compose project `jokesmith` (`docker-compose.yml`): `db`, `backend`, `frontend`, plus
+  `backup` (postgres-backup-local: nightly `pg_dump` of `db` into `BACKUP_LOCATION`).
   `docker-compose.dev.yml` only publishes Postgres (default `127.0.0.1:5433`) for local dev.
 - The browser talks to **one origin**; nginx proxies `/api` so the `pid` cookie stays
   first-party. nginx passes `X-Forwarded-Proto` (keeping a TLS proxy's value) and leaves
@@ -65,7 +66,7 @@ frontend/src/
   components/                    PageHeader, ThemeToggle, shared bits
   features/<learn|practice|workshop|progress>/   pages, api.js (TanStack hooks), components, lib, content/data
   test/                          setup.js, http.js (HTTP stub), render.jsx
-scripts/deploy.sh, scripts/init-dev-dbs.sql
+scripts/deploy.sh, scripts/backup.sh, scripts/restore.sh, scripts/init-dev-dbs.sql
 ```
 
 Feature ownership (folders, packages, migration ranges, routes) is the table in CLAUDE.md.
@@ -163,8 +164,9 @@ The controllers are the source of truth for parameters and bodies.
 - Updating an install: `git pull && docker compose up -d --build`; Flyway migrates on start.
 - The owner also runs it in a homelab behind a Traefik reverse proxy under a sub-path
   (`JOKESMITH_BASE_PATH`); that configuration lives outside this repo.
-- Backups: see README. Automated backups (`backup` service, `scripts/backup.sh`,
-  `scripts/restore.sh`) exist only on the unmerged `feat/backup-restore` branch.
+- Backups: a `backup` service (postgres-backup-local) dumps the database nightly into
+  `BACKUP_LOCATION`; `scripts/backup.sh` takes one now and `scripts/restore.sh` restores one
+  safely. Details in the README, "Backup & restore".
 
 ## Known issues
 
